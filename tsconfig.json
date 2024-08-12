@@ -23,6 +23,6 @@
       "@/assets/*": ["./public/assets/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/hero-banner/hero-banner-2.jsx", "src/components/hero-banner/hero-banner.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/hero-banner/hero-banner-2.jsx", "src/components/hero-banner/hero-banner.jsx", "src/layouts/header/menus.jsx", "src/layouts/header/mobile-menus.jsx", "src/data/menu-data.js"],
   "exclude": ["node_modules"]
 }

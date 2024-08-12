@@ -23,7 +23,7 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
         >
           Close<i className="fal fa-times ml-10"></i>
         </button>
-        <div className="tpsideinfo__search text-center pt-35">
+        {/* <div className="tpsideinfo__search text-center pt-35">
           <span className="tpsideinfo__search-title mb-20">
             What Are You Looking For?
           </span>
@@ -33,9 +33,9 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
               <i className="icon-search"></i>
             </button>
           </form>
-        </div>
+        </div> */}
         <div className="tpsideinfo__nabtab">
-          <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          {/* <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
             <li className="nav-item" role="presentation">
               <button
                 className="nav-link active"
@@ -66,8 +66,8 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
                 Categories
               </button>
             </li>
-          </ul>
-          <div className="tab-content" id="pills-tabContent">
+          </ul> */}
+          <div className="tab-content pt-40" id="pills-tabContent">
             <div
               className="tab-pane fade show active"
               id="pills-home"
@@ -108,14 +108,14 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
           </div>
         </div>
         <div className="tpsideinfo__account-link">
-          <Link href="/login">
+          {/* <Link href="/login">
             <i className="icon-user icons"></i> Login / Register
-          </Link>
+          </Link> */}
         </div>
         <div className="tpsideinfo__wishlist-link">
-          <Link href="/wishlist">
+          {/* <Link href="/wishlist">
             <i className="icon-heart"></i> Wishlist
-          </Link>
+          </Link> */}
         </div>
       </div>
 

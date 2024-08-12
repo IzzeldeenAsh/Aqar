@@ -43,7 +43,7 @@ export default function HomePageTwo() {
         {/* all products end */}
 
         {/* blogs start */}
-        <BlogItems spacing="pb-30" bottom_show={false} />
+        {/* <BlogItems spacing="pb-30" bottom_show={false} /> */}
         {/* blogs end */}
 
         {/* feature area start */}

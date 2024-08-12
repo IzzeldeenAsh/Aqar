@@ -9,6 +9,7 @@
     background-color: var(--tp-common-white);
     border-radius: 10px;
     border: 1px solid var(--tp-common-white);
+    min-height: 317px;
     &:hover {
         & .tpproduct__shopping {
             & a {
@@ -350,6 +351,7 @@
     }
     & .tpproduct__content {
         background-color: var(--tp-common-white);
+    
     }
     & .tpproduct:hover .tpproduct__hover-text {
         border: 1px solid #EBEFF4;
@@ -615,4 +617,10 @@
     @media #{$sm} {
         max-width: 480px !important;
     }
+}
+.tpproduct__content{
+    min-height: 100px;
+}
+.swiper-wrapper{
+    justify-content: center !important;
 }

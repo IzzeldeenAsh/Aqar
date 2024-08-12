@@ -12,7 +12,7 @@ const Footer = ({style_2=false}:IProps) => {
   return (
     <footer>
        <div className={`tpfooter__area theme-bg-2 ${style_2 ? "pt-55 footer-border" : ""}`}>
-       <div className="tpfooter__top pb-15">
+       {/* <div className="tpfooter__top pb-15">
           <div className="container">
              <div className="row">
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
@@ -83,7 +83,7 @@ const Footer = ({style_2=false}:IProps) => {
                 </div>
              </div>
           </div>
-       </div>
+       </div> */}
        <div className="tpfooter___bottom pt-40 pb-40">
           <div className="container">
              <div className="row">

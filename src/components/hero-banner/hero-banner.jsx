@@ -68,14 +68,15 @@ const HeroBanner = () => {
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-xxl-5 col-lg-6 col-md-6 col-12 col-sm-6">
-                      <div className="tpslider__content pt-20">
-                        <span className="tpslider__sub-title mb-35">
-                          {item.subtitle[activeLocale]}
-                        </span>
+                      <div className="tpslider__content pt-20 text-center">
+                      
                         <h2
-                          className="tpslider__title mb-30"
+                          className="tpslider__title "
                           dangerouslySetInnerHTML={{ __html: item.title[activeLocale] }}
                         ></h2>
+                          <span className="tpslider__sub-title mb-20">
+                          {item.subtitle[activeLocale]}
+                        </span>
                         <p dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
                         <div className="tpslider__btn">
                           <Link className="tp-btn" href="/shop">

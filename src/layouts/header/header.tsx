@@ -27,7 +27,7 @@ const Header = () => {
     <>
      <header>
          {/* header top start */}
-         <HeaderTop/>
+         {/* <HeaderTop/> */}
          {/* header top end */}
          <div id="header-sticky" className={`header__main-area d-none d-xl-block ${sticky ? 'header-sticky' : ''}`}>
             <div className="container">
@@ -47,8 +47,8 @@ const Header = () => {
                            {/* menus end */}
                         </div>
                      </div>
-                     <div className="col-xl-3">
-                        <LanguageChanger/>
+                     <div className="col-xl-3 justify-content-end d-flex">
+                     <LanguageChanger/>
                         {/* <div className="header__info d-flex align-items-center">
                            <div className="header__info-search tpcolor__purple ml-10">
                               <button onClick={() => setIsSearchOpen(true)} className="tp-search-toggle"><i className="icon-search"></i></button>
@@ -91,7 +91,7 @@ const Header = () => {
                      </div>
                   </div>
                   <div className="col-lg-4 col-md-4 col-3 col-sm-5">
-                     <div className="header__info d-flex align-items-center">
+                     {/* <div className="header__info d-flex align-items-center">
                         <div className="header__info-search tpcolor__purple ml-10 d-none d-sm-block">
                            <button onClick={() => setIsSearchOpen(true)} className="tp-search-toggle"><i className="icon-search"></i></button>
                         </div>
@@ -107,7 +107,7 @@ const Header = () => {
                               <span>{quantity}</span>
                            </button>
                         </div>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>

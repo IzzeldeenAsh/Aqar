@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import ProductSingle from '../product-single/product-single';
-import product_data from '@/data/product-data';
+import product_data from '@/data/other-products-data';
 import { IProductData } from '@/types/product-d-t';
 
 // slider setting 
@@ -69,7 +69,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
             <div className="col-lg-12 text-center">
                 <div className="tpsection mb-20">
                   <h4 className="tpsection__sub-title">~ Special Products ~</h4>
-                  <h4 className="tpsection__title">Weekly Food Offers</h4>
+                  <h4 className="tpsection__title">Dehanso</h4>
                 </div>
             </div>
           </div>

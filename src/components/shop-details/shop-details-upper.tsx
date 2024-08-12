@@ -15,7 +15,7 @@ const ShopDetailsUpper = ({ product, navStyle, topThumb }: IProps) => {
     <div className="tpdetails__product mb-30">
       <div className="tpdetails__title-box">
         <h3 className="tpdetails__title">{product.title}</h3>
-        <ul className="tpdetails__brand">
+        {/* <ul className="tpdetails__brand">
           <li>
             Brands: <a href="#">{product.brand}</a>
           </li>
@@ -30,7 +30,7 @@ const ShopDetailsUpper = ({ product, navStyle, topThumb }: IProps) => {
           <li>
             SKU: <span>{product.sku}</span>
           </li>
-        </ul>
+        </ul> */}
       </div>
       {/* shop details box start */}
       <ShopDetailsBox

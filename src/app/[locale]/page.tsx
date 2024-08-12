@@ -29,11 +29,11 @@ export default function HomePage() {
         {/* hero end */}
 
         {/* category start */}
-        <section className="category-area grey-bg pb-40">
+        {/* <section className="category-area grey-bg pb-40">
           <div className="container">
             <CategoryArea cls="category-active"/>
           </div>
-        </section>
+        </section> */}
         {/* category end */}
 
         {/* weekly product start */}
@@ -45,7 +45,7 @@ export default function HomePage() {
         {/* product feature end */}
 
         {/* product banner start */}
-        <ProductBannerArea />
+        {/* <ProductBannerArea /> */}
         {/* product banner end */}
 
         {/* all products start */}
@@ -57,11 +57,11 @@ export default function HomePage() {
         {/* deal offer end */}
 
         {/* blogs start */}
-        <BlogItems />
+        {/* <BlogItems /> */}
         {/* blogs end */}
 
         {/* feature area start */}
-        <FeatureArea />
+        {/* <FeatureArea /> */}
         {/* feature area end */}
       </main>
 

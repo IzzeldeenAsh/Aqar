@@ -1,36 +1,24 @@
 import type { Metadata } from "next";
-import { Jost, Quicksand,Schoolbell } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { Providers } from "@/redux/provider";
 import "./global.scss";
 
-const body = Jost({
+const body = Poppins({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--tp-ff-body",
 });
 
-const jost_p = Jost({
+const poppins_p = Poppins({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
   variable: "--tp-ff-p",
 });
 
-const jost_ff = Jost({
+const poppins_ff = Poppins({
   weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
-  variable: "--tp-ff-jost",
-});
-
-const quicksand = Quicksand({
-  weight: ["300", "400", "500", "600", "700"],
-  subsets: ["latin"],
-  variable: "--tp-ff-heading",
-});
-
-const schoolbell = Schoolbell({
-  weight: ["400"],
-  subsets: ["latin"],
-  variable: "--tp-schoolbell",
+  variable: "--tp-ff-poppins",
 });
 
 export const metadata: Metadata = {
@@ -46,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${body.variable} ${jost_p.variable} ${jost_ff.variable} ${quicksand.variable} ${schoolbell.variable}`}
+        className={`${body.variable} ${poppins_p.variable} ${poppins_ff.variable}`}
       >
         <Providers>{children}</Providers>
       </body>

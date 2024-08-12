@@ -3,48 +3,48 @@ export const hero_slider_data = [
   {
     id: 1,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Choose Your Healthy Lifestyle.",
-      "ar": "اختر نمط حياتك الصحي."
+      "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+      "en": "DeHanso Ultra hyaluron 8% eye cream  <br> 30 ml cream",
+      "ar": "كريم العين دي هانسو ألترا هيالورون 8% <br> 30 ml cream",
     },
     bg_img: '/assets/img/slider/slider-bg-1.png',
   },
   {
     id: 2,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Fresh Bread <br/> Oatmeal Crumble.",
-      "ar": "خبز طازج <br/> فتات الشوفان."
+     "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+      "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
     bg_img: '/assets/img/slider/slider-bg-2.png',
   },
   {
     id: 3,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "The Best <br/> Health Fresh.",
-      "ar": "أفضل <br/> طازج صحي."
-    },
+      "en": "DeHanso",
+       "ar": "DeHanso"
+     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+      "en": "DeHanso B tox cream <br> 40 ml cream",
+      "ar": "DeHanso B tox cream <br> 40 ml cream"
     },
     bg_img: '/assets/img/slider/slider-bg-3.png',
   }
@@ -55,50 +55,50 @@ export const hero_slider_two_data = [
   {
     id: 1,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "The Best <br/> Health Fresh.",
-      "ar": "أفضل <br/> طازج صحي."
+      "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+      "en": "DeHanso Ultra hyaluron 8% eye cream  <br> 30 ml cream",
+      "ar": "كريم العين دي هانسو ألترا هيالورون 8% <br> 30 ml cream",
     },
-    bg_img: '/assets/img/slider/slider-bg-4.png',
+    bg_img: '/assets/img/slider/slider-bg-1.png',
   },
   {
     id: 2,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Fresh Bread <br/> Oatmeal Crumble.",
-      "ar": "خبز طازج <br/> فتات الشوفان."
+     "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+      "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
-    bg_img: '/assets/img/slider/slider-bg-5.png',
+    bg_img: '/assets/img/slider/slider-bg-2.png',
   },
   {
     id: 3,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "The Best <br/> Health Fresh.",
-      "ar": "أفضل <br/> طازج صحي."
-    },
+      "en": "DeHanso",
+       "ar": "DeHanso"
+     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+      "en": "DeHanso B tox cream <br> 40 ml cream",
+      "ar": "DeHanso B tox cream <br> 40 ml cream"
     },
-    bg_img: '/assets/img/slider/slider-bg-2.png',
+    bg_img: '/assets/img/slider/slider-bg-3.png',
   }
 ]
 
@@ -107,34 +107,50 @@ export const hero_slider_three_data = [
   {
     id: 1,
     subtitle: {
-      "en": "Special Offer",
-      "ar": "عرض خاص"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Vegetable <br/> Good For Health",
-      "ar": "الخضروات <br/> مفيدة للصحة"
+      "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+      "en": "DeHanso Ultra hyaluron 8% eye cream  <br> 30 ml cream",
+      "ar": "كريم العين دي هانسو ألترا هيالورون 8% <br> 30 ml cream",
     },
-    bg_img: '/assets/img/slider/slider-bg-6.png',
+    bg_img: '/assets/img/slider/slider-bg-1.png',
   },
   {
     id: 2,
     subtitle: {
-      "en": "Top Deals",
-      "ar": "أفضل الصفقات"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Hot Deals <br/> Recovery For Health",
-      "ar": "صفقات ساخنة <br/> التعافي من أجل الصحة"
+     "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+      "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
-    bg_img: '/assets/img/slider/slider-bg-7.png',
+    bg_img: '/assets/img/slider/slider-bg-2.png',
+  },
+  {
+    id: 3,
+    subtitle: {
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
+    },
+    title: {
+      "en": "DeHanso",
+       "ar": "DeHanso"
+     },
+    sm_desc: {
+      "en": "DeHanso B tox cream <br> 40 ml cream",
+      "ar": "DeHanso B tox cream <br> 40 ml cream"
+    },
+    bg_img: '/assets/img/slider/slider-bg-3.png',
   }
 ]
 
@@ -143,34 +159,50 @@ export const hero_slider_five_data = [
   {
     id: 1,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "The Best <br/> Health Fresh.",
-      "ar": "أفضل <br/> طازج صحي."
+      "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+      "en": "DeHanso Ultra hyaluron 8% eye cream  <br> 30 ml cream",
+      "ar": "كريم العين دي هانسو ألترا هيالورون 8% <br> 30 ml cream",
     },
-    bg_img: '/assets/img/slider/slider-bg-8.png',
+    bg_img: '/assets/img/slider/slider-bg-1.png',
   },
   {
     id: 2,
     subtitle: {
-      "en": "Top Seller In The Week",
-      "ar": "الأكثر مبيعاً في الأسبوع"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "The Best <br/> Health Fresh.",
-      "ar": "أفضل <br/> طازج صحي."
+     "en": "DeHanso",
+      "ar": "DeHanso"
     },
     sm_desc: {
-      "en": "Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better",
-      "ar": "التقديم مهم. لفائف الخضار الفيتنامية الطازجة لدينا <br/> تبدو جيدة وتذوق أفضل"
+       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+      "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
     bg_img: '/assets/img/slider/slider-bg-2.png',
+  },
+  {
+    id: 3,
+    subtitle: {
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
+    },
+    title: {
+      "en": "DeHanso",
+       "ar": "DeHanso"
+     },
+    sm_desc: {
+      "en": "DeHanso B tox cream <br> 40 ml cream",
+      "ar": "DeHanso B tox cream <br> 40 ml cream"
+    },
+    bg_img: '/assets/img/slider/slider-bg-3.png',
   }
 ]
 
@@ -178,41 +210,50 @@ export const hero_slider_five_data = [
 export const hero_slider_six_data = [
   {
     id: 1,
-    logo: '/assets/img/slider/slider-logo-1.png',
     subtitle: {
-      "en": "Top Quality",
-      "ar": "جودة عالية"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Our fresh Vietnamese vegetable rolls look taste even better.",
-      "ar": "لفائف الخضار الفيتنامية الطازجة لدينا تبدو وتذوق أفضل."
+      "en": "DeHanso",
+      "ar": "DeHanso"
     },
-    bg_img: '/assets/img/slider/slider-bg-9.jpg',
+    sm_desc: {
+      "en": "DeHanso Ultra hyaluron 8% eye cream  <br> 30 ml cream",
+      "ar": "كريم العين دي هانسو ألترا هيالورون 8% <br> 30 ml cream",
+    },
+    bg_img: '/assets/img/slider/slider-bg-1.png',
   },
   {
     id: 2,
-    logo: '/assets/img/slider/slider-logo-2.png',
     subtitle: {
-      "en": "High Quality",
-      "ar": "جودة عالية"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Our fresh Vietnamese vegetable rolls look taste even better.",
-      "ar": "لفائف الخضار الفيتنامية الطازجة لدينا تبدو وتذوق أفضل."
+     "en": "DeHanso",
+      "ar": "DeHanso"
     },
-    bg_img: '/assets/img/slider/slider-bg-10.jpg',
+    sm_desc: {
+       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+      "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
+    },
+    bg_img: '/assets/img/slider/slider-bg-2.png',
   },
   {
     id: 3,
-    logo: '/assets/img/slider/slider-logo-3.png',
     subtitle: {
-      "en": "Fresh Beef",
-      "ar": "لحم بقري طازج"
+      "en": "Distenation of Korean charm",
+      "ar": "Distenation of Korean charm",
     },
     title: {
-      "en": "Our fresh Vietnamese vegetable rolls look taste even better.",
-      "ar": "لفائف الخضار الفيتنامية الطازجة لدينا تبدو وتذوق أفضل."
+      "en": "DeHanso",
+       "ar": "DeHanso"
+     },
+    sm_desc: {
+      "en": "DeHanso B tox cream <br> 40 ml cream",
+      "ar": "DeHanso B tox cream <br> 40 ml cream"
     },
-    bg_img: '/assets/img/slider/slider-bg-11.jpg',
-  },
+    bg_img: '/assets/img/slider/slider-bg-3.png',
+  }
 ]

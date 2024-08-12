@@ -22,7 +22,7 @@ const HeaderTwo = () => {
     <>
        <header>
          {/* header top start */}
-          <HeaderTop/>
+          {/* <HeaderTop/> */}
          {/* header top end */}
          <div className="header__main-area secondary-header d-none d-xl-block">
             <div className="container">

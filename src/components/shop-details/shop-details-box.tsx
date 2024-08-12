@@ -4,6 +4,7 @@ import Image from "next/image";
 import { IProductData } from "@/types/product-d-t";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import { add_cart_product, decrement, increment } from "@/redux/features/cart";
+import { usePathname } from "next/navigation";
 
 // prop type
 type IProps = {
@@ -22,6 +23,8 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
   const handleActiveImg = (img: string) => {
     setActiveImg(img);
   };
+  const pathname = usePathname(); // Get the current locale
+  const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
   return (
     <>
       <div className="tpdetails__box">
@@ -58,9 +61,9 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                       height={500}
                       style={{ height: "auto" }}
                     />
-                    <div className="tpproduct__info bage">
+                    {/* <div className="tpproduct__info bage">
                       <span className="tpproduct__info-hot bage__hot">HOT</span>
-                    </div>
+                    </div> */}
                   </div>
                 )}
 
@@ -95,9 +98,9 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                       height={500}
                       style={{ height: "auto" }}
                     />
-                    <div className="tpproduct__info bage">
+                    {/* <div className="tpproduct__info bage">
                       <span className="tpproduct__info-hot bage__hot">HOT</span>
-                    </div>
+                    </div> */}
                   </div>
                 )}
               </div>
@@ -106,16 +109,25 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
           <div className="col-lg-6">
             <div className="product__details product__sticky">
               <div className="product__details-price-box">
-                <h5 className="product__details-price">${price.toFixed(2)}</h5>
+                {/* <h5 className="product__details-price">${price.toFixed(2)}</h5> */}
                 {productInfoList && (
-                  <ul className="product__details-info-list">
-                    {productInfoList.map((item, index) => (
-                      <li key={index}>{item}</li>
-                    ))}
-                  </ul>
+               <div className="product__details-info-list">
+               {productInfoList.map((item, index) => (
+                 <div key={index}>
+                   <strong>
+                     {activeLocale === "ar" ? item.title.ar : item.title.en}
+                   </strong>
+                   <ul>
+                     {(activeLocale === "ar" ? item.infoArray.ar : item.infoArray.en).map((info, idx) => (
+                       <li key={idx}>{info}</li>
+                     ))}
+                   </ul>
+                 </div>
+               ))}
+             </div>
                 )}
               </div>
-              <div className="product__color-switch mb-25">
+              {/* <div className="product__color-switch mb-25">
                 <h4 className="product__color-title">Color: Select a color</h4>
                 <div className="tpshop__widget-color-box d-flex align-items-center">
                   {color &&
@@ -134,8 +146,8 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                       </div>
                     ))}
                 </div>
-              </div>
-              <div className="product__details-cart">
+              </div> */}
+              {/* <div className="product__details-cart">
                 <div className="product__details-quantity d-flex align-items-center mb-15">
                   <b>Qty:</b>
                   <div className="product__details-count mr-10">
@@ -173,8 +185,8 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                     </a>
                   </li>
                 </ul>
-              </div>
-              <div className="product__details-stock mb-25">
+              </div> */}
+              {/* <div className="product__details-stock mb-25">
                 <ul>
                   <li>
                     Availability: <i>{quantity} In stock</i>
@@ -186,8 +198,8 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                     Tags: <span>{tags.join(", ")}</span>
                   </li>
                 </ul>
-              </div>
-              <div className="product__details-payment text-center">
+              </div> */}
+              {/* <div className="product__details-payment text-center">
                 <Image
                   src="/assets/img/shape/payment-2.png"
                   alt="payment"
@@ -196,7 +208,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }: IProps) => {
                   style={{ height: "auto" }}
                 />
                 <span>Guarantee safe & Secure checkout</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
