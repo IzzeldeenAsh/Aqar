@@ -157,11 +157,15 @@
                     content: '';
                     height: 5px;
                     width: 5px;
-                    left: 0;
                     top: 50%;
                     transform: translateY(-50%);
                     background-color: var(--tp-text-body);
                     border-radius: 50%;
+                    right: unset;
+opacity: 0;
+                    // Conditional logic based on direction
+                    
+                   
                 }
             }
         }
@@ -306,6 +310,7 @@
         top: 100px;
     }
 }
+
 .tpdescription {
     &__box {
         background-color: var(--tp-common-white);

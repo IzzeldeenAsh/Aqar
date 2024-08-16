@@ -8,9 +8,9 @@ import ProductFeatureArea from "@/components/product/feature/product-feature-are
 import OfferCountdownBanner from "@/components/product/countdown-banner/offer-countdown-banner";
 import ProductBannerArea from "@/components/banner/product-banner-area";
 import AllProducts from "@/components/product/home/all-products";
-import BlogItems from "@/components/blogs/blog-items";
 import FeatureArea from "@/components/feature/feature-area";
-import Footer from "@/layouts/footer/footer";
+import HeroSlider from "@/components/NewSliderForMe/HeroSlider";
+import AboutAreaFour from "@/components/about/about-area-4";
 
 export const metadata: Metadata = {
   title: "Orfarm - Multipurpose eCommerce Next js Template"
@@ -27,7 +27,6 @@ export default function HomePage() {
         {/* hero start */}
         <HeroBanner />
         {/* hero end */}
-
         {/* category start */}
         {/* <section className="category-area grey-bg pb-40">
           <div className="container">
@@ -35,38 +34,36 @@ export default function HomePage() {
           </div>
         </section> */}
         {/* category end */}
-
         {/* weekly product start */}
+        <ProductFeatureArea />
         <ProductArea />
         {/* weekly product end */}
-
         {/* product feature start */}
-        <ProductFeatureArea />
+     
         {/* product feature end */}
-
         {/* product banner start */}
         {/* <ProductBannerArea /> */}
         {/* product banner end */}
-
         {/* all products start */}
         <AllProducts />
         {/* all products end */}
-
         {/* deal offer start */}
-        <OfferCountdownBanner />
+        {/* <OfferCountdownBanner /> */}
         {/* deal offer end */}
-
         {/* blogs start */}
         {/* <BlogItems /> */}
         {/* blogs end */}
-
         {/* feature area start */}
         {/* <FeatureArea /> */}
         {/* feature area end */}
       </main>
-
+      <a id="about">
+      <AboutAreaFour/>
+      </a>
       {/* footer start */}
-      <Footer />
+      <a id="contact">
+      <FeatureArea style_2={true} />
+      </a>
       {/* footer end */}
     </Wrapper>
   );

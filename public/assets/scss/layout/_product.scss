@@ -10,6 +10,8 @@
     border-radius: 10px;
     border: 1px solid var(--tp-common-white);
     min-height: 317px;
+    display: flex;
+    flex-direction: column;
     &:hover {
         & .tpproduct__shopping {
             & a {
@@ -619,7 +621,7 @@
     }
 }
 .tpproduct__content{
-    min-height: 100px;
+    flex: 1;
 }
 .swiper-wrapper{
     justify-content: center !important;

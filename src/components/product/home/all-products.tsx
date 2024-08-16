@@ -68,8 +68,8 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
           <div className="row">
             <div className="col-lg-12 text-center">
                 <div className="tpsection mb-20">
-                  <h4 className="tpsection__sub-title">~ Special Products ~</h4>
-                  <h4 className="tpsection__title">Dehanso</h4>
+                  <h4 className="tpsection__sub-title">~ Other Products ~</h4>
+                  {/* <h4 className="tpsection__title">DeHanso</h4> */}
                 </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
             <div className="col-lg-12">
                 <div className="tpnavtab__area pb-40">
                   <nav>
-                      <div className="nav nav-tabs" id="nav-tab">
+                      {/* <div className="nav nav-tabs" id="nav-tab">
                       {tabs.map((tab, index) => (
                         <button
                           key={index}
@@ -88,7 +88,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
                           {tab}
                         </button>
                       ))}
-                      </div>
+                      </div> */}
                   </nav>
 
                     <div className="tpproduct__arrow p-relative">
@@ -108,7 +108,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
                 </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12">
                 <div className="tpproduct__all-item text-center">
                   <span>Discover thousands of other quality products. 
@@ -116,7 +116,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
                   </span>
                 </div>
             </div>
-          </div>
+          </div> */}
       </div>
     </section>   
     </>

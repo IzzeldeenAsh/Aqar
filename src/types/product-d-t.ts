@@ -28,16 +28,7 @@ export interface IProductData {
   description: string;
   videoId: string | null;
   orderQuantity?: number;
-  productInfoList?: {
-    title: {
-      en: string;
-      ar: string;
-    };
-    infoArray: {
-      en: string[];
-      ar: string[];
-    };
-  }[];
+  productInfoList?: any;
   additionalInfo?: {
     key: string;
     value: string;
