@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { mobile_menus } from "@/data/menu-data";
+import LanguageSwitcher from "@/components/LanguageChanger";
 
 const MobileMenus = () => {
   const params = usePathname(); // Get the current locale
@@ -96,6 +97,7 @@ const MobileMenus = () => {
           ) : null}
         </li>
       ))}
+      <li className="pt-4 pb-2"><LanguageSwitcher/></li>
     </ul>
   );
 };

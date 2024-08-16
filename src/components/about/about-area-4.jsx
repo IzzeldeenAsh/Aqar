@@ -38,9 +38,9 @@ const AboutAreaFour = () => {
       <section className="about-area pt-100 pb-60" style={activeLocale ==='ar' ? {direction:"rtl"} : {direction:"ltr"}}>
          <div className="container">
             <div className="row align-items-center">
-               <div className="col-lg-6">
+               <div className="col-xl-6">
              <div className="rounded">
-             <Image src={about_inner} alt="about-img" style={{ height: 'auto' }} />
+             <Image src={about_inner} alt="about-img" style={{ height: 'auto' } } />
              </div>
                   <div className="tpabout__inner-thumb-2 p-relative mb-30">
               
@@ -54,7 +54,7 @@ const AboutAreaFour = () => {
                      </div> */}
                   </div>
                </div>
-               <div className="col-lg-6">
+               <div className="col-xl-6">
                   <div className="tpabout__inner-2 mb-30">
                      <h3 className="tpabout__inner-title-2 mb-25">{localeContent.h3}</h3>
                      <div className="tpabout__inner-list">
