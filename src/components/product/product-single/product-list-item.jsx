@@ -17,11 +17,9 @@ const imgStyle = {
 };
 
 // prop type
-type IProps = {
-  product: IProductData;
-};
 
-const ProductListItem = ({ product }: IProps) => {
+
+const ProductListItem = ({ product }) => {
   const {image,price,sale_price,title,updated_at,quantity,sold,category,unit,reviews,productInfoList} = product || {};
   let discount = 0;
   if (sale_price) {
