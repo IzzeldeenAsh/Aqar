@@ -78,7 +78,7 @@ a.meanmenu-reveal {
 	margin: 0;
 	text-align: left;
 	color: #fff;
-	border-bottom: 1px #4D49A1 dotted;
+	/* border-bottom: 1px #757575 dotted; */
 	text-decoration: none;
 	text-transform: uppercase;
 }

@@ -710,7 +710,7 @@
 
 // tpsideinfo
 .tpsideinfo {
-    background: #2D2A6E;
+    background: #00344c;
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -828,7 +828,7 @@
     }
     &__account-link,
     &__wishlist-link {
-        border-bottom: 1px #4D49A1 dotted;
+        // border-bottom: 1px #757575 dotted;
         padding-top: 5px;
         padding-bottom: 5px;
         & a {
@@ -859,7 +859,7 @@
             list-style: none;
             text-transform: capitalize;
             padding: 5px 0px 10px 0;
-            border-bottom: 1px #4D49A1 dotted;
+            border-bottom: 1px #757575 dotted;
             font-family: var(--tp-ff-jost);
             & a {
                 color: var(--tp-common-white);

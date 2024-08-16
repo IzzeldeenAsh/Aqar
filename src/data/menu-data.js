@@ -126,8 +126,8 @@ export const mobile_menus = [
       en: 'About Us'
     },
     link: {
-      ar: '/ar/about',
-      en: '/about'
+      ar: '/ar/#about',
+      en: '/#about'
     },
   },
   {
@@ -137,8 +137,8 @@ export const mobile_menus = [
       en: 'Contact Us'
     },
     link: {
-      ar: '/ar/contact',
-      en: '/contact'
+      ar: '/ar/#contact',
+      en: '/#contact'
     },
   },
 ]
