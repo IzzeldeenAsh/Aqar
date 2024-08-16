@@ -13,7 +13,7 @@ import HeroSlider from "@/components/NewSliderForMe/HeroSlider";
 import AboutAreaFour from "@/components/about/about-area-4";
 
 export const metadata: Metadata = {
-  title: "Orfarm - Multipurpose eCommerce Next js Template"
+  title: "Aqar - Drugs Store"
 };
 
 export default function HomePage() {
@@ -36,7 +36,11 @@ export default function HomePage() {
         {/* category end */}
         {/* weekly product start */}
         <ProductFeatureArea />
+        <div id="products">
         <ProductArea />
+        <AllProducts />
+        </div>
+        
         {/* weekly product end */}
         {/* product feature start */}
      
@@ -45,7 +49,7 @@ export default function HomePage() {
         {/* <ProductBannerArea /> */}
         {/* product banner end */}
         {/* all products start */}
-        <AllProducts />
+   
         {/* all products end */}
         {/* deal offer start */}
         {/* <OfferCountdownBanner /> */}
@@ -57,13 +61,14 @@ export default function HomePage() {
         {/* <FeatureArea /> */}
         {/* feature area end */}
       </main>
-      <a id="about">
-      <AboutAreaFour/>
-      </a>
-      {/* footer start */}
-      <a id="contact">
-      <FeatureArea style_2={true} />
-      </a>
+
+      <div id="about">
+        <AboutAreaFour />
+      </div>
+      
+      <div id="contact">
+        <FeatureArea style_2={true} />
+      </div>
       {/* footer end */}
     </Wrapper>
   );

@@ -41,7 +41,7 @@ const Header = () => {
                         </div>
                      </div>
                      <div className="col-xl-6">
-                        <div className="header__menu main-menu text-center">
+                        <div className="header__menu main-menu text-center" style={activeLocale ==='ar' ? {direction : "rtl"} : {direction : "ltr"}}>
                            {/* menus start */}
                            <Menus />
                            {/* menus end */}

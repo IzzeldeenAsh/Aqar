@@ -11,7 +11,8 @@ import shape_3 from "@/assets/img/slider/slider-shape-3.png";
 import shape_4 from "@/assets/img/slider/slider-shape-4.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { useAppDispatch, useAppSelector } from "@/redux/hook";
+import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
 // slider setting
 const slider_setting = {
   slidesPerView: 1,
@@ -55,6 +56,11 @@ const HeroBanner = () => {
     backgroundPosition: "center",
     backgroundSize: "cover",
   }
+  const dispatch = useAppDispatch();
+  const handleProductModal = (prd) => {
+    dispatch(handleModalProduct({ product: prd }))
+    dispatch(handleOpenModal())
+  }
   return (
     <>
       <section className="slider-area tpslider-delay">
@@ -83,8 +89,8 @@ const HeroBanner = () => {
                         </span>
                         <p className="ibx-font" dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
                         <div className="tpslider__btn">
-                          <Link className="tp-btn" href="/shop">
-                            Shop Nows
+                        <Link href={"/#products"}  className="tp-btn" >
+                            {activeLocale ==='ar' ? "التفاصيل" : "VIEW"}
                           </Link> 
                         </div>
                       </div>

@@ -439,111 +439,52 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Features and Benefits",
-          ar: "المميزات والفوائد",
+          en: "Uses",
+          ar: "الإستعمالات",
         },
         infoArray: {
           en: [
-            "Liquid capsule technology and quick onset of relief",
-            "Antispasmodic: Relieves abdominal cramps by gastrointestinal smooth muscle relaxation through calcium channels blocking",
-            "Analgesic: Relieves abdominal cramps pain",
-            "Carminative: Relieves abdominal distension and flatulence"
+            "Get fairer skin in the intimate areas safely",
+            "Improve skin texture and a moisturizer"
           ],
           ar: [
-            "تقنية الكبسولات السائلة وبداية سريعة للتخفيف",
-            "مضاد للتشنج: يخفف من تقلصات البطن عن طريق استرخاء العضلات الملساء في الجهاز الهضمي من خلال حجب قنوات الكالسيوم",
-            "مسكن: يخفف من آلام تقلصات البطن",
-            "طارد للريح: يخفف من الانتفاخ والغازات"
+            "تفتيح سواد بشرة المناطق الحساسة",
+            "ترطيب و تحسين نوعية الجلد في المناطق الحساسة"
           ],
         }
       },
       {
         title: {
-          en: "Indication",
-          ar: "المؤشرات",
+          en: "Ingredients and concentrations",
+          ar: "المكونات",
         },
         infoArray: {
           en: [
-            "IBS patients",
-            "Bloating problems",
-            "Indigestion problems",
-            "Bad breath odor from the gastrointestinal system",
-            "Gassiness after a period of recovering from gastrointestinal surgeries"
+            "Beta Arbutin ........ 0.1% - Whitening",
+            "Niacinamide (b3) ...... 1% - Promotes skin regeneration and fades pigmentation",
+            "Rosemary Extract",
+            "Vitamin C and Vitamin E"
           ],
           ar: [
-            "مرضى القولون العصبي",
-            "مشاكل الانتفاخ",
-            "مشاكل عسر الهضم",
-            "رائحة الفم الكريهة من الجهاز الهضمي",
-            "الغازات بعد فترة من التعافي من جراحات الجهاز الهضمي"
+            "B-Arbutin - وقف عملية التصبغ و العمل على تفتيح البشرة",
+            "Niacinamide (b3) - مضاد أكسدة و المساعدة على تجديد خلايا البشرة و تفتيحها",
+            "خلاصة اكليل الجبل - و يعمل كمضاد للالتهابات و لبشرة ناعمة",
+            "Vitamin C and E - ترطيب البشرة و إشراقها و تفتيحها و مضادات أكسدة"
           ],
         }
       },
       {
         title: {
-          en: "Dosage and Administration",
-          ar: "الجرعة وطريقة الاستعمال",
+          en: "Dosage and how to take",
+          ar: "طريقة الاستعمال",
         },
         infoArray: {
           en: [
-            "One liquid capsule for mild chronic cases",
-            "Two liquid capsules for severe chronic cases. Do not exceed 3 caps/day",
-            "Or one liquid capsule PRN in occasional cases"
+            "Apply two to three drops on the desired area"
           ],
           ar: [
-            "كبسولة سائلة واحدة لحالات الأمراض المزمنة الخفيفة",
-            "كبسولتان سائلتان للحالات المزمنة الشديدة. لا تتجاوز 3 كبسولات في اليوم",
-            "أو كبسولة سائلة واحدة حسب الحاجة في الحالات العرضية"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Contraindications",
-          ar: "موانع الاستعمال",
-        },
-        infoArray: {
-          en: [
-            "Patients with GI reflux",
-            "Patients with gastric ulcers",
-            "Use with caution when concomitantly taking one of the major CNS medicine groups, some Calcium channel blockers, and NSAIDs. Refer to the pharmacist to check for possible interactions.",
-            "Pregnant and lactating women"
-          ],
-          ar: [
-            "مرضى الارتجاع المعدي المريئي",
-            "مرضى القرحة المعدية",
-            "استخدام بحذر عند تناول أدوية الجهاز العصبي المركزي الرئيسية بالتزامن مع بعض حاصرات قنوات الكالسيوم ومضادات الالتهاب غير الستيرويدية. يرجى الرجوع إلى الصيدلي للتحقق من التفاعلات الممكنة.",
-            "النساء الحوامل والمرضعات"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Adverse reactions",
-          ar: "الآثار الجانبية",
-        },
-        infoArray: {
-          en: [
-            "GI reflux",
-            "Burning sensation"
-          ],
-          ar: [
-            "الارتجاع المعدي المريئي",
-            "إحساس بالحرقان"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Presentation",
-          ar: "التقديم",
-        },
-        infoArray: {
-          en: [
-            "30 liquid capsules in a bottle"
-          ],
-          ar: [
-            "30 كبسولة سائلة في زجاجة"
+            "ضعي كمية مناسبة و دلكيها على البشرة",
+            "مناسب للمناطق الحساسة جميعها و الأكواع و الركب"
           ],
         }
       }

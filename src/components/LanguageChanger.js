@@ -30,7 +30,7 @@ export default function LanguageSwitcher() {
   const currentLocale = currentPathname.startsWith('/en') ? 'en' : 'ar';
 
   return (
-    <select onChange={handleChange} value={currentLocale}>
+    <select style={{border:"none"}} onChange={handleChange} value={currentLocale}>
       <option value="en">English</option>
       <option value="ar">عربي</option>
     </select>

@@ -122,6 +122,16 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }) => {
         </div>
       )}
     </div>
+    <div className="product__details-payment text-center">
+    <span className="text-primary">Order Now!</span>
+               <div>
+               +962 77 523 00 11
+               </div>
+               <div>
+               +962 6 523 00 11
+               </div>
+               
+              </div>
     {/* Other parts of your component */}
   </div>
 </div>

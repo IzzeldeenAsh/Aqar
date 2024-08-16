@@ -22,6 +22,7 @@ const product_data: IProductData[] = [
     gallery: [
       "/assets/img/product/new/product-img-1.jpg",
       "/assets/img/product/new/product-img-1-thumb.jpg",
+      "/assets/img/product/new/product-img-1-thumb-2.jpg",
     ],
     description: "Onion Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
@@ -68,7 +69,7 @@ const product_data: IProductData[] = [
           ar: [
             "Beautiful Herb Complex™: مركب عشبي مسجل (براءة الإختراع رقم: 10-0971655)",
             "نياسيناميد (b3) و الأدينوسين: مضادات أكسدة و محفزة لصناعة الكولاجين في البشرة و بناء طبقة السيراميد",
-            "حمض الهيالورونيك: يجذب الماء للبشرة و يعمل على ترطيبها و إمتلائها",
+            "هايلارونيك أسيد: يجذب الماء للبشرة و يعمل على ترطيبها و امتلائها",
             "خلاصة الجينسينج: يحسن من الدورة الدموية في البشرة و يعمل كمضاد للإلتهابات",
             "بانثينول (b5)"
           ],
@@ -85,7 +86,7 @@ const product_data: IProductData[] = [
             "Apply sunscreen if you will be exposed to sun"
           ],
           ar: [
-            "ضع كمية مناسبة من الكريم على البشرة",
+            "ضعي كمية مناسبة ودلكيها على البشرة",
             "غير مناسب للتعرض للشمس خلال وضعه"
           ],
         }
@@ -138,6 +139,7 @@ const product_data: IProductData[] = [
     gallery:[
     "/assets/img/product/DeHanso/DeHanso-img-2.jpg",
        "/assets/img/product/DeHanso/DeHanso-img-2-thumb.jpg",
+       "/assets/img/product/DeHanso/DeHanso-img-2-thumb-2.jpg",
     ],
     brand: "Super Market",
     quantity: 30,
@@ -181,7 +183,7 @@ const product_data: IProductData[] = [
             "Niacinamide (b3) plus Adenosine - Promotes collagen synthesis and improves blood circulation"
           ],
           ar: [
-            "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و إمتلائها",
+            "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و امتلائها",
             "Niacinamide (b3) و الأدينوسين - مضادات أكسدة و محفزة لصناعة الكولاجين في البشرة و بناء طبقة السيراميد وتحسين الدورة الدموية"
           ],
         }
@@ -193,7 +195,7 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Apply an appropriate amount under the eyes using circular movements",
+            "Apply two to three drops on your face",
             "Apply sunscreen if you will be exposed to the sun"
           ],
           ar: [
@@ -242,6 +244,7 @@ const product_data: IProductData[] = [
     quantity: 45,
     unit: '8pc(s)',
     gallery: [
+      "/assets/img/product/DeHanso/DeHanso-img-3-thumb-2.jpg",
     "/assets/img/product/DeHanso/DeHanso-img-3.jpg",
     "/assets/img/product/DeHanso/DeHanso-img-3-thumb.jpg",
     ],
@@ -295,7 +298,7 @@ const product_data: IProductData[] = [
             "Marine collagen 3%",
             "Acacia Senegal extract 3% - تكمن أهمية الصمغ العربي في شد البشرة و تحفيز تصنيع الكولاجين",
             "Ceramide 3 and Hydrolyzed pea - تجديد البشرة و الحفاظ على مرونتها",
-            "Ginseng root extract, Licorice root extract - مضادات أكسدة و المساعدة على تجديد خلايا البشرة"
+            "Ginseng root extract, Licorice root extract  - مضادات أكسدة و المساعدة على تجديد خلايا البشرة"
           ],
         }
       },
@@ -306,6 +309,7 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
+            "Apply two to three drops on your face, use circular movement",
             "Apply an appropriate amount on the face"
           ],
           ar: [
@@ -353,7 +357,7 @@ const product_data: IProductData[] = [
     brand: "Super Market",
     gallery:[
       "/assets/img/product/DeHanso/DeHanso-img-4.jpg",
-      "/assets/img/product/DeHanso/DeHanso-img-4-thumb.jpg"
+      "/assets/img/product/DeHanso/DeHanso-img-4-thumb.jpg",
     ],
     quantity: 30,
     unit: '250gm',
@@ -396,9 +400,9 @@ const product_data: IProductData[] = [
           ],
           ar: [
             "Glycolic acid 5% and Grapefruit extract",
-            "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و إمتلائها",
+            "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و امتلائها",
             "Peptides - تعمل على بناء جدار البشرة و تحفيز الكولاجين",
-            "Vitamin E - ترطيب البشرة و يعمل لك مضاد أكسدة"
+            "Vitamin E - ترطيب البشرة و يعمل كمضاد أكسدة"
           ],
         }
       },
@@ -458,7 +462,8 @@ const product_data: IProductData[] = [
     unit: '1lb',
     gallery: [
       "/assets/img/product/DeHanso/DeHanso-img-6.jpg",
-      "/assets/img/product/DeHanso/DeHanso-img-6-thumb.jpg"
+      "/assets/img/product/DeHanso/DeHanso-img-6-thumb.jpg",
+       "/assets/img/product/DeHanso/DeHanso-img-6-thumb-2.jpg"
     ],
     description: "Apricots Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
@@ -501,9 +506,9 @@ const product_data: IProductData[] = [
           ],
           ar: [
             "Phyto Calming Complex™: patented complex innovation (PATENT NO. 10-0887294)",
-            "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و إمتلائها",
-            "Ginseng root extract and Aloe Vera plus Rosemary - يهدئ البشرة و يعمل كمضاد للالتهابات",
-            "Yeast extract - يعمل على بناء جدار البشرة"
+            "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و امتلائها",
+            "Ginseng root extract and Aloe Vera plus Rosemary (خلاصة الجنسينغ و الألو فيرا و اكليل الجبل) - يهدئ البشرة و يعمل كمضاد للالتهابات",
+            "Yeast extract (خمائر)- يعمل على بناء جدار البشرة"
           ],
         }
       },
@@ -568,7 +573,8 @@ const product_data: IProductData[] = [
     unit: '1lb',
     gallery: [
       "/assets/img/product/DeHanso/DeHanso-img-5.jpg",
-      "/assets/img/product/DeHanso/DeHanso-img-5-thumb.jpg"
+      "/assets/img/product/DeHanso/DeHanso-img-5-thumb.jpg",
+        "/assets/img/product/DeHanso/DeHanso-img-5-thumb-2.jpg"
     ],
     description: "Apricots Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
@@ -610,7 +616,7 @@ const product_data: IProductData[] = [
           ],
           ar: [
             "Oriental Beauty Fruits Newplex™: patented complex innovation (PATENT NO.10-0899502)",
-            "B-Arbutin and Licorice root - وقف عملية التصنيع الجديد و توزيع الميلانين الموجود أصلا في النمش الداكنة و مسار البشرة",
+            "B-Arbutin and Licorice root - وقف عملية التصبغ الجديد و توزيع الميلانين الموجود أصلا في البقع الداكنة و سائر البشرة",
             "Niacinamide (b3) plus Adenosine - مضادات أكسدة و المساعدة على تجديد خلايا البشرة و تفتيحها",
             "Titanium dioxide and Ethylhexyl Methoxycinnamate - واقي شمس فيزيائي و كيميائي",
             "خلاصة الجينكغو - ينشط الدورة الدموية في البشرة و يعمل كمضاد للإلتهابات",
@@ -630,7 +636,7 @@ const product_data: IProductData[] = [
           ],
           ar: [
             "ضعي كمية مناسبة و دلكيها على البشرة",
-            "مثالي للتعرض للشمس"
+            "مناسب للتعرض للشمس"
           ],
         }
       }

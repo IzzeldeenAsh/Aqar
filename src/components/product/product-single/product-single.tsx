@@ -106,7 +106,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
         <span
           className={`tpproduct__content-weight ${offer_style ? "mb-10" : ""}`}
         >
-          <Link href={`/shop-details/${product.id}`}>{category.parent}</Link>,
+        {category.parent &&  <Link href={`/shop-details/${product.id}`}>{category.parent} ,</Link> } 
           <Link href={`/shop-details/${product.id}`}>{category.child}</Link>
         </span>
         <h4 className="tpproduct__title">
