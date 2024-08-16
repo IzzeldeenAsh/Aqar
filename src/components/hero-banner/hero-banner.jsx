@@ -11,7 +11,8 @@ import shape_3 from "@/assets/img/slider/slider-shape-3.png";
 import shape_4 from "@/assets/img/slider/slider-shape-4.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { useAppDispatch, useAppSelector } from "@/redux/hook";
+import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
 // slider setting
 const slider_setting = {
   slidesPerView: 1,
@@ -50,7 +51,16 @@ function ShapeImg({ img, cls }) {
 const HeroBanner = () => {
   const pathname = usePathname();
   const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
-
+  const style = {
+    backgroundImage: 'url("https://res.cloudinary.com/dsiku9ipv/image/upload/v1723788240/bg-1_zufdyt.jpg")',
+    backgroundPosition: "center",
+    backgroundSize: "cover",
+  }
+  const dispatch = useAppDispatch();
+  const handleProductModal = (prd) => {
+    dispatch(handleModalProduct({ product: prd }))
+    dispatch(handleOpenModal())
+  }
   return (
     <>
       <section className="slider-area tpslider-delay">
@@ -63,24 +73,25 @@ const HeroBanner = () => {
             <SwiperSlide key={item.id}>
               <div
                 className="tpslider pt-90 pb-0 grey-bg"
-                style={{backgroundImage: `url(/assets/img/slider/shape-bg.jpg)`}}
+                style={style}
               >
                 <div className="container">
                   <div className="row align-items-center">
                     <div className="col-xxl-5 col-lg-6 col-md-6 col-12 col-sm-6">
-                      <div className="tpslider__content pt-20">
-                        <span className="tpslider__sub-title mb-35">
+                      <div className="tpslider__content pt-20 text-center">
+                      
+                        <h1
+                          className="tpslider__title "
+                          dangerouslySetInnerHTML={{ __html: item.title[activeLocale] }}
+                        ></h1>
+                          <span className="tpslider__sub-title mb-20" style={item.color ? {color:item.colot} : {}}>
                           {item.subtitle[activeLocale]}
                         </span>
-                        <h2
-                          className="tpslider__title mb-30"
-                          dangerouslySetInnerHTML={{ __html: item.title[activeLocale] }}
-                        ></h2>
-                        <p dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
+                        <p className="ibx-font" dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
                         <div className="tpslider__btn">
-                          <Link className="tp-btn" href="/shop">
-                            Shop Now
-                          </Link>
+                        <Link href={"/#products"}  className="tp-btn" >
+                            {activeLocale ==='ar' ? "التفاصيل" : "VIEW"}
+                          </Link> 
                         </div>
                       </div>
                     </div>
@@ -89,17 +100,17 @@ const HeroBanner = () => {
                         <Image
                           className="tpslider__thumb-img"
                           src={item.bg_img}
-                          width={746}
-                          height={485}
+                          width={1000}
+                        height={715}
                           alt="slider-bg"
                           style={img_style}
                         />
-                        <div className="tpslider__shape d-none d-md-block">
+                        {/* <div className="tpslider__shape d-none d-md-block">
                           <ShapeImg img={shape_1} cls="tpslider__shape-one" />
                           <ShapeImg img={shape_2} cls="tpslider__shape-two" />
                           <ShapeImg img={shape_3} cls="tpslider__shape-three" />
                           <ShapeImg img={shape_4} cls="tpslider__shape-four" />
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

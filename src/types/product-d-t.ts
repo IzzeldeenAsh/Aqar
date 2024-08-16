@@ -27,13 +27,13 @@ export interface IProductData {
   gallery?: string[];
   description: string;
   videoId: string | null;
-  orderQuantity?:number;
-  productInfoList?:string[],
+  orderQuantity?: number;
+  productInfoList?: any;
   additionalInfo?: {
     key: string;
     value: string;
-  }[],
-  reviews:IReview[];
+  }[];
+  reviews: IReview[];
   tags: string[];
   status: string;
   brand: string;
@@ -41,8 +41,8 @@ export interface IProductData {
   created_at: string;
   updated_at: string;
   color?: string[];
-  offerDate?:{
-    startDate:string;
-    endDate:string;
+  offerDate?: {
+    startDate: string;
+    endDate: string;
   }
 }

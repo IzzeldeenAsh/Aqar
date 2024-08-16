@@ -11,7 +11,7 @@ import FeatureArea from "@/components/feature/feature-area";
 import Footer from "@/layouts/footer/footer";
 
 export const metadata: Metadata = {
-  title: "Home Two - Orfarm",
+  title: "Home Two - Aqar",
 };
 
 export default function HomePageTwo() {
@@ -43,7 +43,7 @@ export default function HomePageTwo() {
         {/* all products end */}
 
         {/* blogs start */}
-        <BlogItems spacing="pb-30" bottom_show={false} />
+        {/* <BlogItems spacing="pb-30" bottom_show={false} /> */}
         {/* blogs end */}
 
         {/* feature area start */}

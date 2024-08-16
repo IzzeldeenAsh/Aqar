@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-2";
 
 export const metadata: Metadata = {
-  title: "Contact - Orfarm",
+  title: "Contact - Aqar",
 };
 
 export default function ContactPage() {

@@ -66,31 +66,31 @@ export default function HeroBannerTwo() {
                       <span className="tpslider__sub-title mb-35">
                         {item.subtitle[activeLocale]}
                       </span>
-                      <h2 className="tpslider__title mb-30" 
+                      <h1 className="tpslider__title mb-30" 
                         dangerouslySetInnerHTML={{ __html: item.title[activeLocale] }}>
-                      </h2>
+                      </h1>
                       <p dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
                       <div className="tpslider__btn">
                         <Link className="tp-btn" href="/shop">Shop Now</Link>
                       </div>
                     </div>
                   </div>
-                  <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-6 col-sm-5">
+                  <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-5">
                     <div className="tpslider__thumb p-relative pt-70">
                       <Image
                         className="tpslider__thumb-img"
                         src={item.bg_img}
-                        width={740}
-                        height={529}
+                        width={1000}
+                        height={715}
                         alt="slider-bg"
                         style={img_style}
                       />
-                      <div className="tpslider__shape d-none d-md-block">
+                      {/* <div className="tpslider__shape d-none d-md-block">
                         <ShapeImg img={shape_1} cls="tpslider__shape-one" />
                         <ShapeImg img={shape_2} cls="tpslider__shape-two" />
                         <ShapeImg img={shape_3} cls="tpslider__shape-three" />
                         <ShapeImg img={shape_4} cls="tpslider__shape-four" />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

@@ -7,6 +7,7 @@ import { hero_slider_three_data } from "@/data/hero-slider-data";
 import shape_1 from '@/assets/img/slider/slider-shape-5.png';
 import shape_2 from '@/assets/img/slider/slider-shape-6.png';
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 // slider setting 
 const slider_setting = {
@@ -33,6 +34,8 @@ const img_style = {
 };
 
 const HeroBannerThree = () => {
+  const pathname = usePathname();
+  const activeLocale = pathname.split('/')[1] || "en";
   return (
     <>
      <section className="slider-area tpslider__home-3 tpslider-delay grey-bg slider-three">
@@ -42,19 +45,20 @@ const HeroBannerThree = () => {
                 <div className="tpslider grey-bg">
                   <div className="container">
                       <div className="row align-items-center">
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-7">
+                        <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-6 col-sm-7">
                             <div className="tpslider__content slider-three-content text-center">
-                              <span className="tpslider__sub-title mb-15">{item.subtitle}</span>
-                              <h2 className="tpslider__title mb-25" dangerouslySetInnerHTML={{ __html: item.title }}></h2>
-                              <p dangerouslySetInnerHTML={{ __html: item.sm_desc }}></p>
+                              <span className="tpslider__sub-title mb-15">    {item.subtitle[activeLocale]}</span>
+                              <h1 className="tpslider__title mb-25" dangerouslySetInnerHTML={{ __html: item.title[activeLocale] }}></h1>
+                              <p ddangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
                               <div className="tpslider__btn">
                                   <Link className="tp-btn" href="/shop">Shop Now</Link>
                               </div>
                             </div>
                         </div>
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-5">
+                        <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-6 col-sm-5">
                             <div className="tpslider__thumb p-relative">
-                              <Image className="tpslider__thumb-img tpslider__three" src={item.bg_img} alt="slider-bg" width={654} height={713} style={img_style}/>
+                              <Image className="tpslider__thumb-img tpslider__three" src={item.bg_img} alt="slider-bg"  width={1000}
+                        height={715} style={img_style}/>
                               <div className="tpslider__shape d-none d-lg-block">
                                   <Image className="tpslider__shape-three three-shap-one" src={shape_1} alt="shape" style={{height: "auto"}}/>
                                   <Image className=" three-shap-two" src={shape_2} alt="shape" style={{height: "auto"}}/>

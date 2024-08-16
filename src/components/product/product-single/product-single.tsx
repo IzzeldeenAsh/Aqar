@@ -58,7 +58,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
       className={`tpproduct p-relative ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
     >
       <div className="tpproduct__thumb p-relative text-center">
-        <Link href={`/shop-details/${product.id}`}>
+        <a onClick={() =>handleProductModal(product)}>
           <Image
             src={image.original}
             alt="product-img"
@@ -66,9 +66,9 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
             height={217}
             style={imgStyle}
           />
-        </Link>
+        </a>
         {image.thumbnail && (
-          <Link href={`/shop-details/${product.id}`} className="tpproduct__thumb-img">
+          <a onClick={() =>handleProductModal(product)} className="tpproduct__thumb-img">
             <Image
               src={image.thumbnail}
               alt="product-img"
@@ -76,9 +76,9 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
               height={217}
               style={imgStyle}
             />
-          </Link>
+          </a>
         )}
-        <div className="tpproduct__info bage">
+        {/* <div className="tpproduct__info bage">
           {discount > 0 && (
             <span className="tpproduct__info-discount bage__discount">
               -{discount.toFixed(0)}%
@@ -87,16 +87,16 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
           {isHot(updated_at) && (
             <span className="tpproduct__info-hot bage__hot">HOT</span>
           )}
-        </div>
+        </div> */}
         <div className="tpproduct__shopping">
-          <a className="tpproduct__shopping-wishlist pointer"
+          {/* <a className="tpproduct__shopping-wishlist pointer"
            onClick={() => dispatch(add_to_wishlist(product))}>
             <i className={"icon-heart icons" + (isWishlistAdd ? " active" : "")}></i>
           </a>
           <a className="tpproduct__shopping-wishlist pointer"
            onClick={() => dispatch(add_to_compare(product))}>
             <i className={"icon-layers" + (isCompareAdd ? " active" : "")}></i>
-          </a>
+          </a> */}
           <a className="tpproduct__shopping-cart pointer" onClick={() =>handleProductModal(product)}>
             <i className="icon-eye"></i>
           </a>
@@ -106,21 +106,21 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
         <span
           className={`tpproduct__content-weight ${offer_style ? "mb-10" : ""}`}
         >
-          <Link href={`/shop-details/${product.id}`}>{category.parent}</Link>,
+        {category.parent &&  <Link href={`/shop-details/${product.id}`}>{category.parent} ,</Link> } 
           <Link href={`/shop-details/${product.id}`}>{category.child}</Link>
         </span>
         <h4 className="tpproduct__title">
           <Link href={`/shop-details/${product.id}`}>{title}</Link>
         </h4>
-        <div className="tpproduct__rating mb-5">
+        {/* <div className="tpproduct__rating mb-5">
           <Rating allowFraction size={16} initialValue={averageRating(reviews)} readonly={true} />
-        </div>
-        <div
+        </div> */}
+        {/* <div
           className={`tpproduct__price ${offer_style ? "tpproduct__big-price" : ""} ${price_space}`}
         >
           <span>${sale_price ? sale_price.toFixed(2) : price.toFixed(2)} </span>
           {sale_price && <del>${price.toFixed(2)}</del>}
-        </div>
+        </div> */}
         {offer_style && (
           <>
             <div className="deals-label">Harry Up! Offer end in:</div>
@@ -147,7 +147,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
           </div>
         )}
       </div>
-      <div className="tpproduct__hover-text">
+      {/* <div className="tpproduct__hover-text">
         <div className="tpproduct__hover-btn d-flex justify-content-center mb-10">
            {isItemAddToCart ? (
             <Link href="/cart" className="tp-btn-2 pointer">
@@ -169,7 +169,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
             <li>LIFE: 60 days</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

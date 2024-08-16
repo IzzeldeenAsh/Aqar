@@ -8,3 +8,23 @@
 @import '../../../public/assets/css/nice-select.css';
 @import '../../../public/assets/css/animate.css';
 @import '../../../public/assets/scss/main.scss';
+
+body {
+  font-family: var(--tp-ff-body), sans-serif;
+}
+
+html[lang="ar"] body {
+  font-family: var(--tp-ff-ibm-arabic), sans-serif;
+  font-weight: 500 !important;
+}
+html[lang="ar"] .tpslider__sub-title {
+    font-family: var(--tp-ff-ibm-arabic), sans-serif !important;
+    font-weight: 500 !important;
+  }
+.ibx-font {
+    font-family: var(--tp-ff-ibm-arabic), sans-serif !important;
+    font-weight: 500 !important;
+}
+.rounded img{
+    border-radius: 15px;
+}

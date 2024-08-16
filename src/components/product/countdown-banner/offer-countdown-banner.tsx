@@ -26,7 +26,7 @@ type IProps = {
 export default function OfferCountdownBanner({bgClr}:IProps) {
   return (
     <section
-      className={`product-coundown-area tpcoundown__bg ${bgClr?bgClr:'grey-bg'} pb-25`}
+      className={`product-coundown-area tpcoundown__bg ${bgClr?bgClr:'grey-bg'} pb-25 mb-100`}
       style={{ backgroundImage: "url(/assets/img/banner/coundpwn-bg-1.png)" }}
     >
       <div className="container">

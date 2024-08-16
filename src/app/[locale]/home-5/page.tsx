@@ -13,7 +13,7 @@ import Footer from "@/layouts/footer/footer";
 
 
 export const metadata: Metadata = {
-  title: "Home Three - Orfarm",
+  title: "Home Three - Aqar",
 };
 
 export default function HomePageFive() {
@@ -49,11 +49,11 @@ export default function HomePageFive() {
         {/* best products end */}
 
         {/* blogs start */}
-        <BlogItemsTwo />
+        {/* <BlogItemsTwo /> */}
         {/* blogs end */}
 
         {/* feature area start */}
-        <FeatureArea style_2={true} bg_img={false} />
+        {/* <FeatureArea style_2={true} bg_img={false} /> */}
         {/* feature area end */}
       </main>
 

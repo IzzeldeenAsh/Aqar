@@ -1,9 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import menu_data from "@/data/menu-data";
 
 const Menus = () => {
+  const params = usePathname(); // Get the current locale
+  const activeLocale = params.split('/')[1];
+
   return (
     <nav id="mobile-menu">
       <ul>
@@ -14,12 +18,14 @@ const Menus = () => {
               menu.home_menus ? "has-homemenu" : ""
             } ${menu.shop_menus ? "has-megamenu" : ""}`}
           >
-            <Link href={menu.link}>{menu.name}</Link>
+            <Link href={menu.link[activeLocale]}>
+              {menu.name[activeLocale]}
+            </Link>
             {menu.home_menus ? (
               <ul className="sub-menu home-menu-style">
                 {menu.home_menus.map((home_menu, i) => (
                   <li key={i}>
-                    <Link href={home_menu.link}>
+                    <Link href={home_menu.link[activeLocale]}>
                       <Image
                         src={home_menu.img}
                         alt="home-img"
@@ -27,7 +33,7 @@ const Menus = () => {
                         height={219}
                         style={{width:'100%',height:'100%'}}
                       />
-                      {home_menu.title}
+                      {home_menu.title[activeLocale]}
                     </Link>
                   </li>
                 ))}
@@ -39,11 +45,15 @@ const Menus = () => {
               >
                 {menu.shop_menus.map((shop_menu, i) => (
                   <li key={i}>
-                    <a className="mega-menu-title">{shop_menu.title}</a>
+                    <a className="mega-menu-title">
+                      {shop_menu.title[activeLocale]}
+                    </a>
                     <ul>
-                      {shop_menu.menus.map((menu, i) => (
+                      {shop_menu.menus.map((submenu, i) => (
                         <li key={i}>
-                          <Link href={menu.link}>{menu.title}</Link>
+                          <Link href={submenu.link[activeLocale]}>
+                            {submenu.title[activeLocale]}
+                          </Link>
                         </li>
                       ))}
                     </ul>
@@ -54,7 +64,9 @@ const Menus = () => {
               <ul className="sub-menu">
                 {menu.dropdown_menus.map((dropdown_menu, i) => (
                   <li key={i}>
-                    <Link href={dropdown_menu.link}>{dropdown_menu.title}</Link>
+                    <Link href={dropdown_menu.link[activeLocale]}>
+                      {dropdown_menu.title[activeLocale]}
+                    </Link>
                   </li>
                 ))}
               </ul>

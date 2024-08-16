@@ -12,7 +12,7 @@ const ProductBannerAreaFour = () => {
                       <div className="tpbanner__main-content">
                           <h5 className="tpbanner__main__sub-title mb-15">Weekend Deals</h5>
                           <h5 className="tpbanner__main__title mb-40">Fresh Food <br/> Restore Health</h5>
-                          <Link className="tp-btn banner-btn" href="/shop">Shop Now</Link>
+                          <Link className="tp-btn banner-btn" href="/shop">VIEW</Link>
                       </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const ProductBannerAreaFour = () => {
                       <div className="tpbanner__main-content">
                           <h5 className="tpbanner__main__sub-title tpbanner__yellow mb-15">Weekend Deals</h5>
                           <h5 className="tpbanner__main__title tpbanner__white mb-40">Fresh Food <br/> Restore Health</h5>
-                          <Link className="tp-btn banner-btn" href="/shop">Shop Now</Link>
+                          <Link className="tp-btn banner-btn" href="/shop">VIEW</Link>
                       </div>
                     </div>
                 </div>

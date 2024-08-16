@@ -60,7 +60,7 @@ const HeroBannerFive = () => {
                         <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-6 col-sm-7">
                             <div className="tpslider__content p-relative">
                               <span className="tpslider__sub-title mb-35">Top Seller In The Week</span>
-                              <h2 className="tpslider__title mb-30">Perfect <br/> Your Healthy Life.</h2>
+                              <h1 className="tpslider__title mb-30">Perfect <br/> Your Healthy Life.</h1>
                               <p>Presentation matters. Our fresh Vietnamese vegetable rolls <br/> look good and taste even better</p>
                               <div className="tpslider__btn">
                                   <Link className="tp-btn" href="/shop">Shop Now</Link>
@@ -70,13 +70,14 @@ const HeroBannerFive = () => {
                         </div>
                         <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-6 col-sm-5">
                             <div className="tpslider__thumb p-relative pt-100">
-                              <Image className="tpslider__thumb-img" src={item.bg_img} alt="slider-bg" width={746} height={645} style={img_style}/>
-                              <div className="tpslider__shape">
+                              <Image className="tpslider__thumb-img" src={item.bg_img} alt="slider-bg"   width={1000}
+                        height={715} style={img_style}/>
+                              {/* <div className="tpslider__shape">
                                   <ShapeImg img={shape_1} cls="tpslider__shape-one" />
                                   <ShapeImg img={shape_3} cls="tpslider__shape-three" />
                                   <ShapeImg img={shape_4} cls="tpslider__shape-four" />
                                   <Image className="tpslider__shape-five" src={fruit_2} alt="fruit-img"/>
-                              </div>
+                              </div> */}
                             </div>
                         </div>
                       </div>
