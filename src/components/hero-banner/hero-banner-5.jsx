@@ -37,7 +37,7 @@ const img_style = {
   height: "auto",
 };
 
-function ShapeImg({ img, cls }: { img: StaticImageData; cls: string }) {
+function ShapeImg({ img, cls }) {
   return (
     <Image
       className={cls}
