@@ -9,7 +9,7 @@ const product_data: IProductData[] = [
     sale_price: 18,
     image: {
       id: 1,
-      original: "/assets/img/product/DeHanso/DeHanso-img-1.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-1_zzoam1.jpg",
       thumbnail: "/assets/img/product/DeHanso/DeHanso-img-1-thumb.jpg",
     },
     category: {
@@ -129,7 +129,7 @@ const product_data: IProductData[] = [
     sale_price: 22,
     image: {
       id: 1, 
-      original: "/assets/img/product/DeHanso/DeHanso-img-2.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-2_bm9cam.jpg",
       thumbnail: "/assets/img/product/DeHanso/DeHanso-img-2-thumb.jpg",
     },
     category: {
@@ -137,7 +137,7 @@ const product_data: IProductData[] = [
       child: '',
     },
     gallery:[
-    "/assets/img/product/DeHanso/DeHanso-img-2.jpg",
+    "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-2_bm9cam.jpg",
        "/assets/img/product/DeHanso/DeHanso-img-2-thumb.jpg",
        "/assets/img/product/DeHanso/DeHanso-img-2-thumb-2.jpg",
     ],
@@ -233,7 +233,7 @@ const product_data: IProductData[] = [
     sale_price: 24,
     image: {
       id: 1,
-      original: "/assets/img/product/DeHanso/DeHanso-img-3.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-3_fuayaj.jpg",
       thumbnail: "/assets/img/product/DeHanso/DeHanso-img-3-thumb.jpg",
     },
     category: {
@@ -245,7 +245,7 @@ const product_data: IProductData[] = [
     unit: '8pc(s)',
     gallery: [
       "/assets/img/product/DeHanso/DeHanso-img-3-thumb-2.jpg",
-    "/assets/img/product/DeHanso/DeHanso-img-3.jpg",
+    "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-3_fuayaj.jpg",
     "/assets/img/product/DeHanso/DeHanso-img-3-thumb.jpg",
     ],
     description: "Kiwi Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
@@ -347,7 +347,7 @@ const product_data: IProductData[] = [
     sale_price: 27,
     image: {
       id: 1,
-      original: "/assets/img/product/DeHanso/DeHanso-img-4.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
       thumbnail: "/assets/img/product/DeHanso/DeHanso-img-4-thumb.jpg",
     },
     category: {
@@ -356,7 +356,7 @@ const product_data: IProductData[] = [
     },
     brand: "Super Market",
     gallery:[
-      "/assets/img/product/DeHanso/DeHanso-img-4.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
       "/assets/img/product/DeHanso/DeHanso-img-4-thumb.jpg",
     ],
     quantity: 30,
@@ -450,7 +450,7 @@ const product_data: IProductData[] = [
     sale_price: 30,
     image: {
       id: 1,
-      original: "/assets/img/product/DeHanso/DeHanso-img-6.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-6_kb9dic.jpg",
       thumbnail: "/assets/img/product/DeHanso/DeHanso-img-6-thumb.jpg",
     },
     category: {
@@ -461,7 +461,7 @@ const product_data: IProductData[] = [
     quantity: 50,
     unit: '1lb',
     gallery: [
-      "/assets/img/product/DeHanso/DeHanso-img-6.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-6_kb9dic.jpg",
       "/assets/img/product/DeHanso/DeHanso-img-6-thumb.jpg",
        "/assets/img/product/DeHanso/DeHanso-img-6-thumb-2.jpg"
     ],
@@ -561,7 +561,7 @@ const product_data: IProductData[] = [
     sale_price: 30,
     image: {
       id: 1,
-      original: "/assets/img/product/DeHanso/DeHanso-img-5.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-5_a6n8km.jpg",
       thumbnail: "/assets/img/product/DeHanso/DeHanso-img-5-thumb.jpg",
     },
     category: {
@@ -572,7 +572,7 @@ const product_data: IProductData[] = [
     quantity: 50,
     unit: '1lb',
     gallery: [
-      "/assets/img/product/DeHanso/DeHanso-img-5.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-5_a6n8km.jpg",
       "/assets/img/product/DeHanso/DeHanso-img-5-thumb.jpg",
         "/assets/img/product/DeHanso/DeHanso-img-5-thumb-2.jpg"
     ],
