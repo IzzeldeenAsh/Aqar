@@ -10,7 +10,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-1_zzoam1.jpg",
-      thumbnail: "/assets/img/product/DeHanso/DeHanso-img-1-thumb.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824620/dehanso-img-1-thumb_lhpikd.jpg",
     },
     category: {
       parent: 'DeHanso',
@@ -20,9 +20,9 @@ const product_data: IProductData[] = [
     quantity: 20,
     unit: '1lb',
     gallery: [
-      "/assets/img/product/new/product-img-1.jpg",
-      "/assets/img/product/new/product-img-1-thumb.jpg",
-      "/assets/img/product/new/product-img-1-thumb-2.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-1_zzoam1.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824620/dehanso-img-1-thumb_lhpikd.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824707/product-img-1-thumb-2_nnr8tg.jpg",
     ],
     description: "Onion Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
@@ -130,7 +130,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1, 
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-2_bm9cam.jpg",
-      thumbnail: "/assets/img/product/DeHanso/DeHanso-img-2-thumb.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824625/dehanso-img-2-thumb-2_bkyw5s.jpg",
     },
     category: {
       parent: 'DeHanso',
@@ -138,8 +138,8 @@ const product_data: IProductData[] = [
     },
     gallery:[
     "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-2_bm9cam.jpg",
-       "/assets/img/product/DeHanso/DeHanso-img-2-thumb.jpg",
-       "/assets/img/product/DeHanso/DeHanso-img-2-thumb-2.jpg",
+       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824625/dehanso-img-2-thumb-2_bkyw5s.jpg",
+       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824615/dehanso-img-2-thumb_wz1tcw.jpg",
     ],
     brand: "Super Market",
     quantity: 30,
@@ -234,7 +234,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-3_fuayaj.jpg",
-      thumbnail: "/assets/img/product/DeHanso/DeHanso-img-3-thumb.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
     },
     category: {
       parent: 'DeHanso',
@@ -246,7 +246,7 @@ const product_data: IProductData[] = [
     gallery: [
       "/assets/img/product/DeHanso/DeHanso-img-3-thumb-2.jpg",
     "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-3_fuayaj.jpg",
-    "/assets/img/product/DeHanso/DeHanso-img-3-thumb.jpg",
+    "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
     ],
     description: "Kiwi Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
@@ -348,7 +348,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
-      thumbnail: "/assets/img/product/DeHanso/DeHanso-img-4-thumb.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
     },
     category: {
       parent: 'DeHanso',
@@ -357,7 +357,7 @@ const product_data: IProductData[] = [
     brand: "Super Market",
     gallery:[
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
-      "/assets/img/product/DeHanso/DeHanso-img-4-thumb.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
     ],
     quantity: 30,
     unit: '250gm',
@@ -451,7 +451,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-6_kb9dic.jpg",
-      thumbnail: "/assets/img/product/DeHanso/DeHanso-img-6-thumb.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824626/dehanso-img-6-thumb-2_f4uagi.jpg",
     },
     category: {
       parent: 'DeHanso',
@@ -462,8 +462,8 @@ const product_data: IProductData[] = [
     unit: '1lb',
     gallery: [
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-6_kb9dic.jpg",
-      "/assets/img/product/DeHanso/DeHanso-img-6-thumb.jpg",
-       "/assets/img/product/DeHanso/DeHanso-img-6-thumb-2.jpg"
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824626/dehanso-img-6-thumb-2_f4uagi.jpg",
+       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824618/dehanso-img-6-thumb_g0li06.jpg"
     ],
     description: "Apricots Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
@@ -562,7 +562,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-5_a6n8km.jpg",
-      thumbnail: "/assets/img/product/DeHanso/DeHanso-img-5-thumb.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824902/dehanso-img-5-thumb_eifylc.jpg",
     },
     category: {
       parent: 'DeHanso',
@@ -573,8 +573,7 @@ const product_data: IProductData[] = [
     unit: '1lb',
     gallery: [
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-5_a6n8km.jpg",
-      "/assets/img/product/DeHanso/DeHanso-img-5-thumb.jpg",
-        "/assets/img/product/DeHanso/DeHanso-img-5-thumb-2.jpg"
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824902/dehanso-img-5-thumb_eifylc.jpg"
     ],
     description: "Apricots Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
     videoId: "rLrV5Tel7zw",
