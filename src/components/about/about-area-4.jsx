@@ -22,7 +22,7 @@ const AboutAreaFour = () => {
          ]
       },
       ar: {
-         h3: "مستودع ادويه العقار",
+         h3: "مستودع أدويه العقار",
          li: [
             "موزعو منتجات الرعاية الصحية ومستحضرات التجميل منذ عام 2021.",
             "نحن نهتم حقًا بصحتك ونجعل الجمال سهلًا.",
@@ -60,11 +60,11 @@ const AboutAreaFour = () => {
                </div>
                <div className="col-xl-6">
                   <div className="tpabout__inner-2 mb-30">
-                     <h3 className="tpabout__inner-title-2 mb-25">{localeContent.h3}</h3>
+                     <h3 className="tpabout__inner-title-2 mb-25 ibx-font">{localeContent.h3}</h3>
                      <div className="tpabout__inner-list">
-                        <ul>
+                        <ul >
                            {localeContent.li.map((item, index) => (
-                              <li key={index}><i  style={activeLocale ==='ar' ? {right:"0"} : {left:"0"}} className="icon-check"></i> {item}</li>
+                              <li key={index}><i  style={activeLocale ==='ar' ? {right:"0"} : {left:"0"}} className="icon-check"></i> <span className=' ibx-font'>{item}</span></li>
                            ))}
                         </ul>
                      </div>
