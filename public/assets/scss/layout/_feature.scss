@@ -147,6 +147,7 @@
         &:hover {
             & .mainfeature__icon{
                 & img {
+                    width: 40px;
                     animation: animation-plus 1s infinite linear alternate;
                 }
             }

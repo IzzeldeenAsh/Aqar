@@ -11,7 +11,7 @@ import AllProducts from "@/components/product/home/all-products";
 import FeatureArea from "@/components/feature/feature-area";
 import HeroSlider from "@/components/NewSliderForMe/HeroSlider";
 import AboutAreaFour from "@/components/about/about-area-4";
-
+import ContactUs from "@/components/contactUs/ContactUs"
 export const metadata: Metadata = {
   title: "Aqar - Drugs Store"
 };
@@ -68,8 +68,10 @@ export default function HomePage() {
       </div>
       
       <div id="contact">
-        <FeatureArea style_2={true} />
+      <ContactUs/>
+        
       </div>
+      <FeatureArea style_2={true} />
       {/* footer end */}
     </Wrapper>
   );

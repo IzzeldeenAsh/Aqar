@@ -29,24 +29,11 @@ type IProps = {
 
 const FeatureArea = ({style_2=false,bg_img=true}:IProps) => {
   return (
-    <section className={`feature-area mainfeature__bg ${style_2?'':'grey-bg'} ${bg_img?'':'theme-bg-2'} pt-50 pb-40`} style={{backgroundColor:"#00344c"}}
+    <section className={`feature-area mainfeature__bg ${style_2?'':'grey-bg'} ${bg_img?'':'theme-bg-2'} pt-20 pb-20`} style={{backgroundColor:"#00344c"}}
     >
-      <div className="container">
-          <div className="mainfeature__border pb-15">
-            <div className="d-flex flex-md-row flex-column">
-              <FeatureItem img="1" title="EMIAL" subtitle="gm@aqardrug.com" />
-              <div></div>
-              <FeatureItem img="2"  title="TEL/MOBILE" subtitle="+962 77 523 00 11 <br> +962 6 523 00 11" />
-             
-              {/* <FeatureItem img="3" title="Online Discount" subtitle="Add Multi-buy Discounts" /> */}
-              {/* <FeatureItem img="4" title="Help Center" subtitle="Dedicated 24/7 Support" />
-              <FeatureItem img="5" title="Curated items" subtitle="From Handpicked Sellers" /> */}
-            </div>
-           
-          </div>
-      </div>
+   
     <div className="container mt-20">
-    <div className='d-flex justify-content-between flex-column flex-sm-row align-items-center'>
+    <div className='d-flex justify-content-between flex-column flex-sm-row align-items-center' style={{maxWidth:"70%", margin:"auto"}}>
     <h4 className="mainfeature__title">All rights reserved © 2024, Aqar Drugs Store.</h4>
 
     <div className='d-flex gap-10 '>
