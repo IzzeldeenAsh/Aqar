@@ -35,7 +35,7 @@ const Header = () => {
                   <div className="row align-items-center">
                      <div className="col-xl-3">
                         <div className="header__logo">
-                           <Link href="/">
+                           <Link  href={activeLocale ==='ar' ? "/ar" :"/en"}>
                               <Image src={logo} alt="logo" style={{height: 'auto'}}/>
                            </Link>
                         </div>
@@ -85,7 +85,7 @@ const Header = () => {
                   </div>
                   <div className="col-lg-4 col-md-4 col-6 col-sm-4">
                      <div className="header__logo text-center">
-                        <Link href="/">
+                        <Link  href={activeLocale ==='ar' ? "/ar" :"/en"}>
                            <Image src={logo} alt="logo" style={{height: 'auto'}}/>
                         </Link>
                      </div>
