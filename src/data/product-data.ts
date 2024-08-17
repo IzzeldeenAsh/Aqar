@@ -244,7 +244,7 @@ const product_data: IProductData[] = [
     quantity: 45,
     unit: '8pc(s)',
     gallery: [
-      "/assets/img/product/DeHanso/DeHanso-img-3-thumb-2.jpg",
+    "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723880274/dehanso-img-3-thumb-2_kmwokf.jpg",
     "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-3_fuayaj.jpg",
     "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
     ],
