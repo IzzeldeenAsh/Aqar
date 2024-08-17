@@ -35,10 +35,10 @@ export default function HomePage() {
         </section> */}
         {/* category end */}
         {/* weekly product start */}
-        <div id="products" style={{overflow:"hidden" , maxWidth:"100%"}}>
+        {/* <div id="products" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea />
         <AllProducts />
-        </div>
+        </div> */}
         <ProductFeatureArea />
       
         
@@ -53,7 +53,7 @@ export default function HomePage() {
    
         {/* all products end */}
         {/* deal offer start */}
-        {/* <OfferCountdownBanner /> */}
+        <OfferCountdownBanner />
         {/* deal offer end */}
         {/* blogs start */}
         {/* <BlogItems /> */}
