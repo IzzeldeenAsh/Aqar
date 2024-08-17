@@ -39,9 +39,13 @@ const AboutAreaFour = () => {
          <div className="container">
             <div className="row align-items-center">
                <div className="col-xl-6">
-             <div className="rounded">
-             <Image src={about_inner} alt="about-img" style={{ height: 'auto' } } />
-             </div>
+               <div className="rounded">
+  <Image
+    src={about_inner}
+    alt="about-img"
+    style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+  />
+</div>
                   <div className="tpabout__inner-thumb-2 p-relative mb-30">
               
                      {/* <div className="tpabout__inner-thumb-shape d-none d-md-block">

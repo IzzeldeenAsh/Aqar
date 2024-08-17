@@ -26,11 +26,11 @@ const slider_setting = {
          slidesPerView: 3,
       },
       '576': {
-         slidesPerView: 2, // Show 1 full card + part of the next one
+         slidesPerView: 1.2, // Show 1 full card + part of the next one
          spaceBetween: 10,  // Adjust space between slides
       },
       '0': {
-         slidesPerView: 2, // Show 1 full card + part of the next one
+         slidesPerView: 1.2, // Show 1 full card + part of the next one
          spaceBetween: 10,  // Adjust space between slides
       },
    },
@@ -57,17 +57,24 @@ const ProductArea = () => {
                   </div>
                </div>
                <div className="tpproduct__arrow p-relative">
-                  <Swiper {...slider_setting} modules={[Navigation]} className="swiper-container tpproduct-active tpslider-bottom p-relative">
+               <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center">
+                      {products.map((product, index) => (
+                       <div className='mt-2 mb-2' style={{maxWidth:"200px", maxHeight:"300px"}} key={index}>
+                             <ProductSingle  product={product}  />
+                       </div>
+                        ))}
+                        </div>
+                  {/* <Swiper {...slider_setting} modules={[Navigation]} className="swiper-container tpproduct-active tpslider-bottom p-relative">
                      {products.map((product, index) => (
                         <SwiperSlide key={index}>
                            <ProductSingle product={product} />
                         </SwiperSlide>
                      ))}
-                  </Swiper>
-                  <div className="tpproduct-btn">
+                  </Swiper> */}
+                  {/* <div className="tpproduct-btn">
                      <div className="tpprduct-arrow tpproduct-btn__prv"><a href="#"><i className="icon-chevron-left"></i></a></div>
                      <div className="tpprduct-arrow tpproduct-btn__nxt"><a href="#"><i className="icon-chevron-right"></i></a></div>
-                  </div>
+                  </div> */}
                </div>
             </div>
          </section>
