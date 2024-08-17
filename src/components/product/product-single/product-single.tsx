@@ -103,15 +103,16 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
         </div>
       </div>
       <div className="tpproduct__content">
+      <h4 className="tpproduct__title fw-bold text-center">
+          <Link href={`/shop-details/${product.id}`}>{title}</Link>
+        </h4>
         <span
           className={`tpproduct__content-weight ${offer_style ? "mb-10" : ""}`}
         >
-        {category.parent &&  <Link href={`/shop-details/${product.id}`}>{category.parent} ,</Link> } 
-          <Link href={`/shop-details/${product.id}`}>{category.child}</Link>
+        {category.parent &&  <div className="text-center" >{category.parent}</div> } 
+          {/* <div className="text-center">{category.child}</div> */}
         </span>
-        <h4 className="tpproduct__title">
-          <Link href={`/shop-details/${product.id}`}>{title}</Link>
-        </h4>
+      
         {/* <div className="tpproduct__rating mb-5">
           <Rating allowFraction size={16} initialValue={averageRating(reviews)} readonly={true} />
         </div> */}

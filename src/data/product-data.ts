@@ -13,7 +13,7 @@ const product_data: IProductData[] = [
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824620/dehanso-img-1-thumb_lhpikd.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '40 ml cream',
       child: '',
     },
     brand: "Super Market",
@@ -133,7 +133,7 @@ const product_data: IProductData[] = [
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824625/dehanso-img-2-thumb-2_bkyw5s.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '30 ml cream',
       child: '',
     },
     gallery:[
@@ -237,7 +237,7 @@ const product_data: IProductData[] = [
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '40 ml serum',
       child: '',
     },
     brand: "Super Market",
@@ -351,7 +351,7 @@ const product_data: IProductData[] = [
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '40 ml gel',
       child: '',
     },
     brand: "Super Market",
@@ -454,7 +454,7 @@ const product_data: IProductData[] = [
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824626/dehanso-img-6-thumb-2_f4uagi.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '40 ml gel',
       child: '',
     },
     brand: "Super Market",
@@ -565,7 +565,7 @@ const product_data: IProductData[] = [
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824902/dehanso-img-5-thumb_eifylc.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '40 ml cream',
       child: '',
     },
     brand: "Super Market",

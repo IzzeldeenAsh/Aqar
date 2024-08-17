@@ -6,6 +6,7 @@ import { Navigation } from 'swiper/modules';
 import ProductSingle from '../product-single/product-single';
 import product_data from '@/data/other-products-data';
 import { IProductData } from '@/types/product-d-t';
+import { usePathname } from 'next/navigation';
 
 // slider setting 
 const slider_setting = {
@@ -53,7 +54,8 @@ type IProps = {
 const AllProducts = ({style_2=false,style_3=false}:IProps) => {
   const [activeTab, setActiveTab] = React.useState(tabs[0]);
   const [products, setProducts] = React.useState<IProductData[]>([...product_data]);
-
+  const pathname = usePathname(); // Get the current locale
+  const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
   const handleFilter = (tab: string) => {
     setActiveTab(tab);
     if (tab === 'All Products') {
@@ -68,11 +70,11 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
     <section className={`weekly-product-area ${style_2 ? 'whight-product pt-75 pb-75' : style_3 ? 'whight-product tpproduct__padding pt-75 pb-75 pl-65 pr-65 fix' : 'grey-bg pb-70'}`}>
       <div className={`${style_3 ? 'container-fluid' : 'container'}`}>
           <div className="row">
-            <div className="col-lg-12 text-center">
-                <div className="tpsection mb-20">
-                  <h4 className="tpsection__sub-title">~ Other Products ~</h4>
-                  {/* <h4 className="tpsection__title">DeHanso</h4> */}
-                </div>
+            <div className="col-lg-12 ">
+            <div className="tpsection mb-35">
+                        <h4 style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? " مكملات غدائية ومواد تجميلية" : "Supplements and Cosmetics"}</h4>
+                        {/* <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p> */}
+                     </div>
             </div>
           </div>
           <div className="row">
@@ -94,7 +96,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
                   </nav>
 
                     <div className="tpproduct__arrow p-relative">
-                    <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center">
+                    <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-start align-items-center" style={activeLocale ==='ar' ? {direction:"rtl" } : {direction:"ltr"}}>
                       {products.map((product, index) => (
                        <div className='mt-2 mb-2' style={{maxWidth:"200px", maxHeight:"300px"}} key={index}>
                              <ProductSingle  product={product}  />

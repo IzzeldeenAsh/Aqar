@@ -35,11 +35,12 @@ export default function HomePage() {
         </section> */}
         {/* category end */}
         {/* weekly product start */}
-        <ProductFeatureArea />
         <div id="products" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea />
         <AllProducts />
         </div>
+        <ProductFeatureArea />
+      
         
         {/* weekly product end */}
         {/* product feature start */}

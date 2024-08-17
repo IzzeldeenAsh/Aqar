@@ -15,6 +15,13 @@ const ShopDetailsUpper = ({ product, navStyle, topThumb }: IProps) => {
     <div className="tpdetails__product mb-30">
       <div className="tpdetails__title-box">
         <h3 className="tpdetails__title">{product.title}</h3>
+        <span
+          className={`tpproduct__content-weight`}
+        >
+        {product.category.parent &&  <div>{product.category.parent}</div> } 
+          {/* <div className="text-center">{product.child}</div> */}
+        </span>
+      
         {/* <ul className="tpdetails__brand">
           <li>
             Brands: <a href="#">{product.brand}</a>
