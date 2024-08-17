@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import product_data from '@/data/product-data';
 import ProductSingle from '../product-single/product-single';
+import { usePathname } from 'next/navigation';
 
 // slider setting
 const slider_setting = {
@@ -43,21 +44,22 @@ const slider_setting = {
 
 const ProductArea = () => {
    const products = [...product_data].slice(-10);
+   const pathname = usePathname(); // Get the current locale
+   const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
   return (
     <>
-     <section className="product-area grey-bg  pb-100">
+     <section className="product-area grey-bg  pb-80">
             <div className="container">
                <div className="row">
-                  <div className="col-lg-12 text-center">
+                  <div className="col-lg-12">
                      <div className="tpsection mb-35">
-                        <h4 className="tpsection__sub-title">~ Special Products ~</h4>
-                        <h4 className="tpsection__title">DeHanso</h4>
+                        <h4 style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? "منتجات ديهانسو" : "DeHanso Products"}</h4>
                         {/* <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p> */}
                      </div>
                   </div>
                </div>
                <div className="tpproduct__arrow p-relative">
-               <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center">
+               <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-start align-items-center" style={activeLocale ==='ar' ? {direction:"rtl" } : {direction:"ltr"}}>
                       {products.map((product, index) => (
                        <div className='mt-2 mb-2' style={{maxWidth:"200px", maxHeight:"300px"}} key={index}>
                              <ProductSingle  product={product}  />

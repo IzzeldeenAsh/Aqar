@@ -13,7 +13,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/others/other-img-1-thumb.jpg",
     },
     category: {
-      parent: 'IBS symptoms soother formula',
+      parent: '30 liquid capsules',
       child: '',
     },
     brand: "Super Market",
@@ -187,7 +187,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/others/other-img-2-thumb.jpg",
     },
     category: {
-      parent: '',
+      parent: '100 + 10 Softgels',
       child: '',
     },
     brand: "Super Market",
@@ -243,7 +243,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/others/other-img-3-thumb.jpg",
     },
     category: {
-      parent: 'Prenatal and lactating formula',
+      parent: '30 Opadry red tablets',
       child: '',
     },
     brand: "Super Market",
@@ -416,7 +416,7 @@ const product_data: IProductData[] = [
       thumbnail: "/assets/img/product/others/other-img-4-thumb.jpg",
     },
     category: {
-      parent: 'DeHanso',
+      parent: '40 ml cream',
       child: '',
     },
     brand: "Super Market",
