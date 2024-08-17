@@ -14,32 +14,33 @@ const slider_setting = {
   observer: true,
   observeParents: true,
   autoplay: {
-    delay: 5000,
-    disableOnInteraction: true,
+     delay: 5000,
+     disableOnInteraction: true,
   },
   breakpoints: {
-    '1200': {
-      slidesPerView: 6,
-    },
-    '992': {
-      slidesPerView: 4,
-    },
-    '768': {
-      slidesPerView: 3,
-    },
-    '576': {
-      slidesPerView: 1,
-    },
-    '0': {
-      slidesPerView: 1,
-    },
+     '1200': {
+        slidesPerView: 6,
+     },
+     '992': {
+        slidesPerView: 4,
+     },
+     '768': {
+        slidesPerView: 3,
+     },
+     '576': {
+        slidesPerView: 2, // Show 1 full card + part of the next one
+        spaceBetween: 10,  // Adjust space between slides
+     },
+     '0': {
+        slidesPerView: 2, // Show 1 full card + part of the next one
+        spaceBetween: 10,  // Adjust space between slides
+     },
   },
   navigation: {
-    nextEl: '.tpproduct-btn__nxt',
-    prevEl: '.tpproduct-btn__prv',
+     nextEl: '.tpproduct-btn__nxt',
+     prevEl: '.tpproduct-btn__prv',
   }
 }
-
 // tabs
 const tabs = ['All Products','Fruit Drink','Fresh Fruits','Vegetables'];
 // weekly-product-area whight-product tpproduct__padding pt-75 pb-75 pl-65 pr-65 fix

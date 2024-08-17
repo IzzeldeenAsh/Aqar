@@ -26,10 +26,12 @@ const slider_setting = {
          slidesPerView: 3,
       },
       '576': {
-         slidesPerView: 1,
+         slidesPerView: 2, // Show 1 full card + part of the next one
+         spaceBetween: 10,  // Adjust space between slides
       },
       '0': {
-         slidesPerView: 1,
+         slidesPerView: 2, // Show 1 full card + part of the next one
+         spaceBetween: 10,  // Adjust space between slides
       },
    },
    navigation: {
@@ -37,6 +39,7 @@ const slider_setting = {
       prevEl: '.tpproduct-btn__prv',
    }
 }
+
 
 const ProductArea = () => {
    const products = [...product_data].slice(-10);
