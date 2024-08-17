@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 // internal
 import Menus from './menus';
-import logo from '@/assets/img/logo/logo.png';
+import logo from '@/assets/img/logo/logoSVG.svg';
 import cart_icon from '@/assets/img/icon/cart-1.svg';
 import useSticky from '@/hooks/use-sticky';
 import HeaderTop from './header-top';
