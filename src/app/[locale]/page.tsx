@@ -36,7 +36,7 @@ export default function HomePage() {
         {/* category end */}
         {/* weekly product start */}
         <ProductFeatureArea />
-        <div id="products">
+        <div id="products" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea />
         <AllProducts />
         </div>
@@ -62,7 +62,7 @@ export default function HomePage() {
         {/* feature area end */}
       </main>
 
-      <div id="about">
+      <div id="about" >
         <AboutAreaFour />
       </div>
       
