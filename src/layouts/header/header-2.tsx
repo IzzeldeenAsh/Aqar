@@ -11,6 +11,7 @@ import SearchPopup from '@/components/common/modal/search-popup';
 import CartSidebar from '@/components/sidebar/cart-sidebar';
 import useCartInfo from '@/hooks/use-cart-info';
 import MobileSidebar from '@/components/sidebar/mobile-sidebar';
+import { usePathname } from 'next/navigation';
 
 const HeaderTwo = () => {
    const {sticky} = useSticky();
@@ -18,6 +19,10 @@ const HeaderTwo = () => {
    const [isSearchOpen, setIsSearchOpen] = React.useState(false);
    const [isCartOpen, setIsCartOpen] = React.useState(false);
    const [isMobileSidebarOpen,setIsMobileSidebarOpen] = React.useState(false);
+   const pathname = usePathname(); // Get the current locale
+   const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
+   console.log("locale", activeLocale);
+ 
   return (
     <>
        <header>
@@ -38,7 +43,7 @@ const HeaderTwo = () => {
                      </div>
                      <div className="col-xl-4">
                         <div className="header__logo text-center">
-                           <Link href="/"><Image src={logo} alt="logo"/></Link>
+                           <Link href={activeLocale ==='ar' ? "/ar" :"/en"}><Image src={logo} alt="logo"/></Link>
                         </div>
                      </div>
                      <div className="col-xl-4">
@@ -89,7 +94,7 @@ const HeaderTwo = () => {
                   </div>
                   <div className="col-lg-4 col-md-4 col-6 col-sm-4">
                      <div className="header__logo text-center">
-                        <Link href="/"><Image src={logo} alt="logo"/></Link>|
+                        <Link  href={activeLocale ==='ar' ? "/ar" :"/en"}><Image src={logo} alt="logo"/></Link>|
                   
                      </div>
                   </div>
