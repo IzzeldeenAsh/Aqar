@@ -134,7 +134,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }) => {
               </div>
     {/* Other parts of your component */}
   </div>
-</div>
+        </div>
 
         </div>
       </div>
