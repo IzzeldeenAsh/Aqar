@@ -15,7 +15,6 @@ import ContactUs from "@/components/contactUs/ContactUs"
 export const metadata: Metadata = {
   title: "Aqar - Drugs Store"
 };
-
 export default function HomePage() {
   return (
     <Wrapper>
@@ -53,7 +52,7 @@ export default function HomePage() {
    
         {/* all products end */}
         {/* deal offer start */}
-        <OfferCountdownBanner />
+        <OfferCountdownBanner bgClr=""/>
         {/* deal offer end */}
         {/* blogs start */}
         {/* <BlogItems /> */}

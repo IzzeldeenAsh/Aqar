@@ -67,7 +67,9 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                               <span className="tpfeature__product-info">{activeLocale==='ar' ? "يملىء ويرطب البشرة ويحسن الدورة الدموية" : "Anti-aging and treat and prevent wrinkles"}</span>
                             </div>
                             <div className="tpfeature__btn">
-                              <Link className="tp-btn-4" href="/shop">View More</Link>
+                              <Link className="tp-btn-4" href={activeLocale ==="ar" ? "/ar/products#dehanso" : "/en/products#dehanso"}>
+                             {activeLocale ==='ar' ? "المزيد": " View More"}
+                              </Link>
                             </div>
                         </div>
                       </div>

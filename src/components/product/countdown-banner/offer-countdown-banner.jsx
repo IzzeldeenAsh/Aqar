@@ -22,7 +22,7 @@ function Shape({ cls, img }) {
 // prop type 
 
 
-export default function OfferCountdownBanner({bgClr}) {
+export default function OfferCountdownBanner({bgClr} ) {
   const pathname = usePathname(); // Get the current locale
   const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
 
@@ -39,7 +39,7 @@ export default function OfferCountdownBanner({bgClr}) {
 
   return (
     <section
-      className={`product-coundown-area tpcoundown__bg ${bgClr?bgClr:'grey-bg'} pb-25 mb-100`}
+      className={`product-coundown-area pt-50 pb-20 tpcoundown__bg ${bgClr?bgClr:'grey-bg'} pb-25 mb-100`}
       style={{ backgroundImage: "url(/assets/img/banner/coundpwn-bg-1.png)" }}
     >
       <div className="container">
@@ -56,7 +56,7 @@ export default function OfferCountdownBanner({bgClr}) {
               </div>
               <div className="tpcoundown__count">
                 <div className="tpcoundown__btn mt-50">
-                  <Link className="whight-btn" href="/shop">
+                  <Link className="whight-btn" href={activeLocale ==="ar" ? "/ar/products#suppliments" : "/en/products#suppliments"}>
                     {activeLocale === 'ar' ? 'تسوق الآن' : 'Shop Now'}
                   </Link>
                 </div>

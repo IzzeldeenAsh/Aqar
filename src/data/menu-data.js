@@ -12,6 +12,18 @@ const menu_data = [
     },
     has_dropdown: false,
   },
+  {
+    id: 2,
+    name: {
+      ar: 'المنتجات',
+      en: 'Products'
+    },
+    link: {
+      ar: '/ar/products',
+      en: '/en/products'
+    },
+    has_dropdown: false,
+  },
   // {
   //   id: 2,
   //   name: {
@@ -104,6 +116,18 @@ export const mobile_menus = [
     link: {
       ar: '/ar',
       en: '/'
+    },
+    has_dropdown: false,
+  },
+  {
+    id: 2,
+    name: {
+      ar: 'المنتجات',
+      en: 'Products'
+    },
+    link: {
+      ar: '/ar/products',
+      en: '/en/products'
     },
     has_dropdown: false,
   },

@@ -39,7 +39,7 @@
 	}
     &:hover {
 		color: var(--tp-common-white);
-        background-color: #859A00;
+        background-color: #6ACAF3;
     }
 }
 .tp-btn-3,
@@ -61,14 +61,14 @@
 	}
     &:hover {
 		color: var(--tp-common-white);
-        background-color: #859A00;
+        background-color: #6ACAF3;
     }
 }
 .tp-btn-4 {
 	background-color: var(--tp-heading-primary);
 	&:hover {
 		color: var(--tp-common-white);pointer-events: auto;
-		background-color:#859A00;
+		background-color:#6ACAF3;
 	}
 }
 .whight-btn {
@@ -109,18 +109,18 @@
 	padding: 14px;
 	font-weight: 600;
 	&:hover {
-		background-color: #859A00;
+		background-color: #6ACAF3;
 		color: var(--tp-common-white);
-		border: 2px solid #859A00;
+		border: 2px solid #6ACAF3;
 	}
 }
 .tpcart-btn {
 	background-color: transparent;
 	color: var(--tp-heading-secondary);
 	&:hover {
-		background-color: #859A00;
+		background-color: #6ACAF3;
 		color: var(--tp-common-white);
-		border: 2px solid #859A00;
+		border: 2px solid #6ACAF3;
 	}
 }
 .banner-btn {
