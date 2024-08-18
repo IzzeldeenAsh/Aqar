@@ -1,12 +1,13 @@
 'use client';
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
 import shape_1 from "@/assets/img/shape/tree-leaf-1.svg";
 import shape_2 from "@/assets/img/shape/tree-leaf-2.svg";
 import shape_3 from "@/assets/img/shape/tree-leaf-3.svg";
-import shape_4 from "@/assets/img/shape/fresh-shape-1.svg";
+import smallScreenImage from "@/assets/img/banner/small-screen-banner.png.png";
 import CountdownTimer from "@/components/common/countdown-timer";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 function Shape({ cls, img }) {
   return (
@@ -19,10 +20,7 @@ function Shape({ cls, img }) {
   );
 }
 
-// prop type 
-
-
-export default function OfferCountdownBanner({bgClr} ) {
+export default function OfferCountdownBanner({bgClr}) {
   const pathname = usePathname(); // Get the current locale
   const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
 
@@ -37,20 +35,49 @@ export default function OfferCountdownBanner({bgClr} ) {
     }
   };
 
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 816);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Initial check
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section
-    className={`product-coundown-area pt-50 pb-20 tpcoundown__bg ${bgClr ? bgClr : 'grey-bg'} pb-25 mb-100 countdown-section`}
-    style={{ backgroundImage: "url(/assets/img/banner/coundpwn-bg-1.png)" }}
-  >
+      className={`product-coundown-area pt-50 pb-20 tpcoundown__bg ${bgClr ? bgClr : 'grey-bg'} pb-25 mb-100 countdown-section`}
+      style={{ backgroundImage: "url(/assets/img/banner/coundpwn-bg-1.png)" }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="tpcoundown p-relative ml-175">
+              {/* Conditionally render the image above content on small screens */}
+              {isSmallScreen && (
+                <div className="small-screen-image mb-25">
+                  <Image 
+                    src={smallScreenImage} 
+                    alt="Small Screen Banner" 
+                    layout="responsive" 
+                    width={700} 
+                    height={400} 
+                  />
+                </div>
+              )}
               <div className="section__content mb-35">
-                <h2 className="section__title mb-25 ibx-font" style={{maxWidth:"550px"}}>
+                <h2 className="section__title mb-25 ibx-font" style={{ maxWidth: "550px" }}>
                   {content[activeLocale].title}
                 </h2>
-                <p className="ibx-font" style={{maxWidth:"550px"}}>
+                <p className="ibx-font" style={{ maxWidth: "550px" }}>
                   {content[activeLocale].description}
                 </p>
               </div>
