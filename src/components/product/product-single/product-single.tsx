@@ -104,7 +104,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
       </div>
       <div className="tpproduct__content">
       <h4 className="tpproduct__title fw-bold text-center">
-          <Link href={`/shop-details/${product.id}`}>{title}</Link>
+          <a onClick={() =>handleProductModal(product)}>{title}</a>
         </h4>
         <span
           className={`tpproduct__content-weight ${offer_style ? "mb-10" : ""}`}
