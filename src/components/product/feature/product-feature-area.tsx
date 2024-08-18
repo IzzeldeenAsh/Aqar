@@ -47,7 +47,7 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                         <div className="tpfeature__box">
                             <div className="tpfeature__product-item mb-25">
                               <h4 className="tpfeature__product-title">DeHanso B-Tox Cream:</h4>
-                              <span className="tpfeature__product-info">{activeLocale==='ar' ? "يملىء ويرطب البشرة ويحسن الدورة الدموية" : "Anti-aging and treat and prevent wrinkles"}</span>
+                              <span className="tpfeature__product-info">{activeLocale==='ar' ? "شد وترطيب البشرة ، ضد التجاعيد" : "Anti-aging and treat and prevent wrinkles"}</span>
                             </div>
                             <div className="tpfeature__product-item mb-25">
                               <h4 className="tpfeature__product-title"> DeHanso Collagen gel:</h4>
@@ -64,7 +64,7 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                             </div>
                             <div className="tpfeature__product-item mb-25">
                               <h4 className="tpfeature__product-title">DeHanso Glycolic acid gel:</h4>
-                              <span className="tpfeature__product-info">{activeLocale==='ar' ? "يملىء ويرطب البشرة ويحسن الدورة الدموية" : "Anti-aging and treat and prevent wrinkles"}</span>
+                              <span className="tpfeature__product-info">{activeLocale==='ar' ? "تقشير البشرة وإعادة تجديدها" : "Improve skin regeneration"}</span>
                             </div>
                             <div className="tpfeature__btn">
                               <Link className="tp-btn-4" href={activeLocale ==="ar" ? "/ar/products#dehanso" : "/en/products#dehanso"}>
