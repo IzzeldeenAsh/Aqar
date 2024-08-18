@@ -11,7 +11,7 @@
         }
     }
     &__sub-title {
-        color: var(--tp-heading-secondary);
+        color: #000;
         font-family: var(--tp-schoolbell);
         font-style: normal;
         font-weight: 400;
@@ -33,7 +33,7 @@
 .section {
     &__content {
         & p {
-            color: var(--tp-common-white);
+            color: var(--tp-text-bod);
             & br {
                 @media #{$xs} {
                     display: none;
@@ -54,7 +54,7 @@
         font-weight: 700;
         line-height: 43px;
         letter-spacing: -0.5px;
-        color: var(--tp-common-white);
+        color: var(--tp-heading-primary);
         @media #{$xs} {
             font-size: 28px;
         }

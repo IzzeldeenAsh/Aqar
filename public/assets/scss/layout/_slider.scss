@@ -51,11 +51,13 @@
         }
     }
     &__sub-title {
-        font-size: 16px;
+        font-size: 20px;
         color: var(--tp-heading-secondary);
         text-transform: uppercase;
-        font-weight: 500;
+        font-weight: 600;
+        padding: 10px 0;
         display: block;
+
         @media #{$xs,$sm} {
             margin-bottom: 20px;
         }

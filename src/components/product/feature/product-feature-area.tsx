@@ -53,9 +53,7 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                               <h4 className="tpfeature__product-title"> DeHanso Collagen gel:</h4>
                               <span className="tpfeature__product-">{activeLocale==='ar' ? "التقليل من التجاعيد و الحصول على وجه ممتلئ" : "Glowing skin noted since the first two weeks"}</span>
                             </div>
-                            {/* <div className="tpfeature__btn">
-                              <Link className="tp-btn-4" href="/shop">View More</Link>
-                            </div> */}
+                        
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
@@ -68,7 +66,11 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                               <h4 className="tpfeature__product-title">DeHanso Glycolic acid gel:</h4>
                               <span className="tpfeature__product-info">{activeLocale==='ar' ? "يملىء ويرطب البشرة ويحسن الدورة الدموية" : "Anti-aging and treat and prevent wrinkles"}</span>
                             </div>
-                        
+                            <div className="tpfeature__btn">
+                              <Link className="tp-btn-4" href={activeLocale ==="ar" ? "/ar/products#dehanso" : "/en/products#dehanso"}>
+                             {activeLocale ==='ar' ? "المزيد": " View More"}
+                              </Link>
+                            </div>
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6">
@@ -79,6 +81,7 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                             </div>
                         </div>
                       </div>
+                      
                   </div>
         
                   <div className="tpfeature__shape d-none d-md-block">

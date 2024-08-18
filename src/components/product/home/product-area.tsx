@@ -48,7 +48,7 @@ const ProductArea = () => {
    const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
   return (
     <>
-     <section className="product-area grey-bg  pb-80">
+     <section className="product-area grey-bg pt-100  pb-80">
             <div className="container">
                <div className="row">
                   <div className="col-lg-12">

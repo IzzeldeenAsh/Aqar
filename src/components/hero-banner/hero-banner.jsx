@@ -87,7 +87,7 @@ const HeroBanner = () => {
                           <span className="tpslider__sub-title mb-20" style={item.color ? {color:item.colot} : {}}>
                           {item.subtitle[activeLocale]}
                         </span>
-                        <p className="ibx-font" dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p>
+                        {/* <p className="ibx-font" dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p> */}
                         <div className="tpslider__btn">
                         <Link href={activeLocale ==='ar' ? "/ar/#products" : "/en/#products"}  className="tp-btn" >
                             {activeLocale ==='ar' ? "التفاصيل" : "VIEW"}
