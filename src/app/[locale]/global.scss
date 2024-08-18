@@ -28,3 +28,8 @@ html[lang="ar"] .tpslider__sub-title {
 .rounded img{
     border-radius: 15px;
 }
+@media screen and (max-width: 816px) {
+  .countdown-section {
+    background-image: none !important;
+  }
+}

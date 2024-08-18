@@ -39,9 +39,9 @@ export default function OfferCountdownBanner({bgClr} ) {
 
   return (
     <section
-      className={`product-coundown-area pt-50 pb-20 tpcoundown__bg ${bgClr?bgClr:'grey-bg'} pb-25 mb-100`}
-      style={{ backgroundImage: "url(/assets/img/banner/coundpwn-bg-1.png)" }}
-    >
+    className={`product-coundown-area pt-50 pb-20 tpcoundown__bg ${bgClr ? bgClr : 'grey-bg'} pb-25 mb-100 countdown-section`}
+    style={{ backgroundImage: "url(/assets/img/banner/coundpwn-bg-1.png)" }}
+  >
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
