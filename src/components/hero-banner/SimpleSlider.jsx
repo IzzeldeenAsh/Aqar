@@ -50,7 +50,7 @@ const SimpleSlider = () => {
     <section className="slider-area" style={style}>
       <div className="container">
         <div className="row align-items-center justify-content-center">
-          <div className="col-xxl-1 col-lg-1 col-md-6 col-12 col-sm-6"></div>
+          <div className="col-xxl-1 col-lg-1 col-md-6 col-12 col-sm-6 d-lg-block d-none"></div>
           <div className="col-xxl-5 col-lg-5 col-md-6 col-12 col-sm-6">
             <div className="slider-content pt-20 text-center" style={{ position: 'relative', height: '300px', zIndex: 200, overflow: 'hidden' }}>
               {hero_slider_data.map((item, index) => (
