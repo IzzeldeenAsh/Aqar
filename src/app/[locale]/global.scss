@@ -33,3 +33,15 @@ html[lang="ar"] .tpslider__sub-title {
     background-image: none !important;
   }
 }
+.category-list{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.category__item{
+  width: 250px;
+  height: 300px;
+}
+.pointer{
+  cursor: pointer !important;
+}

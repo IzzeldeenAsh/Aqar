@@ -3,59 +3,46 @@ export const hero_slider_data = [
   {
     id: 1,
     subtitle: {
-      "en": "Distenation of Korean charm",
-      "ar": "Distenation of Korean charm",
+      "en": "Cosmetics",
+      "ar": "مستحضرات التجميل",
     },
     title: {
-      "en": "DeHanso",
-       "ar": "DeHanso"
-     },
+      "en": "Elevate Your Beauty Routine <br> with Luxurious Skincare Essentials",
+      "ar": "ارتقِ بروتين جمالك مع مستلزمات  <br> العناية بالبشرة الفاخرة"
+    },
     sm_desc: {
       "en":   "",
       "ar":  ""
     },
-    bg_img: '/assets/img/slider/slider-bg-2.png',
-   
+    bg_img: '/assets/img/slider/slider-bg-4-dehanso.png',
+    link:{
+      en:"/en/products#dehanso",
+      ar:"/ar/products#dehanso",
+    }
   },
   {
     id: 2,
     subtitle: {
-      "en": "Distenation of Korean charm",
-      "ar": "Distenation of Korean charm",
+      "en": "Supplements",
+      "ar": "المكملات الغذائية"
     },
     title: {
-      "en": "DeHanso",
-      "ar": "DeHanso"
+      "en": "Support Your Health with <br> Trusted Supplements",
+      "ar": "ادعم صحتك مع المكملات الموثوقة"
     },
     sm_desc: {
-      "en":"",
-      "ar":""
-    },
-    bg_img: '/assets/img/slider/slider-bg-4-dehanso.png',
-    color:"#9973b6",
-   
-  },
-  {
-    id: 3,
-    subtitle: {
-      "en": "Distenation of Korean charm",
-      "ar": "Distenation of Korean charm",
-    },
-    title: {
-     "en": "DeHanso",
-      "ar": "DeHanso"
-    },
-    sm_desc: {
-       "en":"",
+      "en": "",
       "ar": ""
     },
-    bg_img: '/assets/img/slider/slider-bg-1.png',
-      color:"#9973b6",
-   
+    bg_img: '/assets/img/slider/slider-bg-4-suppliments.png',
+    color:"#9973b6",
+    link:{
+      en:"/en/products#suppliments",
+      ar:"/ar/products#suppliments",
+    }
   }
- 
-  
-]
+];
+
 
 // home two
 export const hero_slider_two_data = [

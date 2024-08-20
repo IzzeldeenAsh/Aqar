@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Wrapper from "@/layouts/wrapper";
 import Header from "@/layouts/header/header";
-import HeroBanner from "@/components/hero-banner/hero-banner";
+import SimpleSlider from "@/components/hero-banner/SimpleSlider";
 import ProductArea from "@/components/product/home/product-area";
 import ProductFeatureArea from "@/components/product/feature/product-feature-area";
 import OfferCountdownBanner from "@/components/product/countdown-banner/offer-countdown-banner";
@@ -24,7 +24,7 @@ export default function HomePage() {
 
       <main>
         {/* hero start */}
-        <HeroBanner />
+        <SimpleSlider />
         {/* hero end */}
         {/* category start */}
         {/* <section className="category-area grey-bg pb-40">

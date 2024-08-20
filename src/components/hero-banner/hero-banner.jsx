@@ -11,14 +11,15 @@ import shape_3 from "@/assets/img/slider/slider-shape-3.png";
 import shape_4 from "@/assets/img/slider/slider-shape-4.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useAppDispatch, useAppSelector } from "@/redux/hook";
+import { useAppDispatch } from "@/redux/hook";
 import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
-// slider setting
+
+// Slider settings
 const slider_setting = {
   slidesPerView: 1,
   effect: "fade",
   autoplay: {
-    delay: 3500,
+    delay: 2000, // 2 seconds delay between slides
     disableOnInteraction: true,
   },
   navigation: {
@@ -31,7 +32,7 @@ const slider_setting = {
   },
 };
 
-// img style
+// Image style
 const img_style = {
   width: "100%",
   height: "100%",
@@ -79,19 +80,17 @@ const HeroBanner = () => {
                   <div className="row align-items-center">
                     <div className="col-xxl-5 col-lg-6 col-md-6 col-12 col-sm-6">
                       <div className="tpslider__content pt-20 text-center">
-                      
                         <h1
-                          className="tpslider__title "
+                          className="tpslider__title"
                           dangerouslySetInnerHTML={{ __html: item.title[activeLocale] }}
                         ></h1>
-                          <span className="tpslider__sub-title mb-20" style={item.color ? {color:item.colot} : {}}>
+                        <span className="tpslider__sub-title mb-20" style={item.color ? { color: item.color } : {}}>
                           {item.subtitle[activeLocale]}
                         </span>
-                        {/* <p className="ibx-font" dangerouslySetInnerHTML={{ __html: item.sm_desc[activeLocale] }}></p> */}
                         <div className="tpslider__btn">
-                        <Link href={activeLocale ==='ar' ? "/ar/products" : "/en/products"}  className="tp-btn" >
-                            {activeLocale ==='ar' ? "التفاصيل" : "VIEW"}
-                          </Link> 
+                          <Link href={activeLocale === 'ar' ? "/ar/products" : "/en/products"} className="tp-btn">
+                            {activeLocale === 'ar' ? "التفاصيل" : "VIEW"}
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -101,16 +100,10 @@ const HeroBanner = () => {
                           className="tpslider__thumb-img"
                           src={item.bg_img}
                           width={1000}
-                        height={715}
+                          height={715}
                           alt="slider-bg"
                           style={img_style}
                         />
-                        {/* <div className="tpslider__shape d-none d-md-block">
-                          <ShapeImg img={shape_1} cls="tpslider__shape-one" />
-                          <ShapeImg img={shape_2} cls="tpslider__shape-two" />
-                          <ShapeImg img={shape_3} cls="tpslider__shape-three" />
-                          <ShapeImg img={shape_4} cls="tpslider__shape-four" />
-                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -119,7 +112,7 @@ const HeroBanner = () => {
             </SwiperSlide>
           ))}
 
-          <div className="tpslider__arrow d-none  d-xxl-block">
+          <div className="tpslider__arrow d-none d-xxl-block">
             <button className="tpsliderarrow tpslider__arrow-prv">
               <i className="icon-chevron-left"></i>
             </button>
