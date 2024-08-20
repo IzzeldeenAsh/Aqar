@@ -41,6 +41,8 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
 
   const pathname = usePathname(); 
   const activeLocale = pathname.split('/')[1] || "en";
+  const suppLink =activeLocale === 'ar' ? "/ar/products#suppliments" : "/en/products#suppliments";
+  const cosmeticsLink =activeLocale === 'ar' ? "/ar/products#dehanso" : "/en/products#dehanso";
 
   // Handle search 
   const handleCategorySearch = (title) => {
@@ -59,7 +61,7 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
           <SwiperSlide key={item.id}>
             <div className="category__item mb-30">
               <div className="category__thumb fix mb-15">
-                <Link href={activeLocale === 'ar' ? "/ar/products#dehanso" : "/en/products#suppliments"} className="pointer">
+                <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink } className="pointer">
                   <Image
                     src={item.img}
                     width={80}
@@ -70,7 +72,7 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
               </div>
               <div className="category__content">
                 <h5 className="category__title">
-                  <Link href={activeLocale === 'ar' ? "/ar/products#dehanso" : "/en/products#suppliments"}>
+                  <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink }>
                     {activeLocale === 'ar' ? item.name.ar : item.name.en}
                   </Link>
                 </h5>

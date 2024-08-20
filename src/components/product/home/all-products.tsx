@@ -72,7 +72,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
           <div className="row">
             <div className="col-lg-12 ">
             <div className="tpsection mb-35 text-center">
-                        <h4 className='ibx-font' style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? " مكملات غدائية ومواد تجميلية" : "Supplements and Cosmetics"}</h4>
+                        <h4 className='ibx-font' style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? "المكملات الغذائية" : "Supplements"}</h4>
                         {/* <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p> */}
                      </div>
             </div>
