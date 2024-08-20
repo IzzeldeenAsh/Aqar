@@ -51,15 +51,10 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
 
   return (
     <>
-      <div className="tpsection text-center pt-10 pb-10">
-        <h4 className="tpsection__sub-title">
-          {activeLocale === 'ar' ? "~ التصنيفات ~" : "~ Categories ~"}
-        </h4>
-      </div>
-      <Swiper {...slider_setting} className={`swiper-container d-flex gap-1 ${cls}`} >
-        {category_data.map((item) => (
-          <SwiperSlide key={item.id}>
-            <div className="category__item mb-30">
+     
+      <div className="category-list flex-wrap">
+      {category_data.map((item) => (
+            <div key={item.id} className="category__item mb-30 ">
               <div className="category__thumb fix mb-15">
                 <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink } className="pointer">
                   <Image
@@ -72,7 +67,7 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
               </div>
               <div className="category__content">
                 <h5 className="category__title">
-                  <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink }>
+                  <Link className="ibx-font" href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink }>
                     {activeLocale === 'ar' ? item.name.ar : item.name.en}
                   </Link>
                 </h5>
@@ -86,9 +81,9 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
                 )}
               </div>
             </div>
-          </SwiperSlide>
         ))}
-      </Swiper>
+      </div>
+      
     </>
   );
 };
