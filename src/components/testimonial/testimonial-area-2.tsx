@@ -133,7 +133,7 @@ const TestimonialAreaTwo = () => {
                             <i className="icon-star_outline1"></i>
                           </a>
                         </div>
-                        <h4 className="tptestimonial__title">{item.name}</h4>
+                        {/* <h4 className="tptestimonial__title">{item.name}</h4> */}
                         <span className="tptestimonial__avata-position">
                           {item.position}
                         </span>
