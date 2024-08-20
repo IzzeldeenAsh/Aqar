@@ -1,21 +1,15 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react";
 import category_data from "@/data/category-data";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
-// prop type
-type IProps = {
-  cls?: string;
-  perView?: number;
-  showCount?: boolean;
-};
-
-const CategoryArea = ({cls,perView=8,showCount=true}:IProps) => {
+const CategoryArea = ({cls,perView=8,showCount=true}) => {
   const router = useRouter();
-  // slider setting
+  
+  // Slider settings
   const slider_setting = {
     slidesPerView: perView,
     spaceBetween: 20,
@@ -45,29 +39,42 @@ const CategoryArea = ({cls,perView=8,showCount=true}:IProps) => {
     },
   };
 
-  // handle search 
-  const handleCategorySearch = (title:string) => {
+  const pathname = usePathname(); 
+  const activeLocale = pathname.split('/')[1] || "en";
+  const suppLink =activeLocale === 'ar' ? "/ar/products#suppliments" : "/en/products#suppliments";
+  const cosmeticsLink =activeLocale === 'ar' ? "/ar/products#dehanso" : "/en/products#dehanso";
+
+  // Handle search 
+  const handleCategorySearch = (title) => {
     router.push(`/search?category=${title.split(" ").join("-").toLowerCase()}`);
-  }
+  };
+
   return (
     <>
-      <Swiper {...slider_setting} className={`swiper-container ${cls}`}>
+      <div className="tpsection text-center pt-10 pb-10">
+        <h4 className="tpsection__sub-title">
+          {activeLocale === 'ar' ? "~ التصنيفات ~" : "~ Categories ~"}
+        </h4>
+      </div>
+      <Swiper {...slider_setting} className={`swiper-container d-flex gap-1 ${cls}`} >
         {category_data.map((item) => (
           <SwiperSlide key={item.id}>
             <div className="category__item mb-30">
               <div className="category__thumb fix mb-15">
-                <a onClick={() => handleCategorySearch(item.name)} className="pointer">
+                <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink } className="pointer">
                   <Image
                     src={item.img}
                     width={80}
                     height={80}
                     alt="category-thumb"
                   />
-                </a>
+                </Link>
               </div>
               <div className="category__content">
                 <h5 className="category__title">
-                  <Link href="/shop">{item.name}</Link>
+                  <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink }>
+                    {activeLocale === 'ar' ? item.name.ar : item.name.en}
+                  </Link>
                 </h5>
                 {showCount && (
                   <span className="category__count">

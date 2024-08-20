@@ -664,6 +664,111 @@ const product_data: IProductData[] = [
       endDate: "2024-07-19T18:00:00.000Z",
     },
   },
+  {
+    id: 4,
+    sku: "004",
+    title: "Arbutex intimate cream ",
+    price: 30,
+    sale_price: 27,
+    image: {
+      id: 1,
+      original: "/assets/img/product/others/other-img-4.jpg",
+      thumbnail: "/assets/img/product/others/other-img-4-thumb.jpg",
+    },
+    category: {
+      parent: '40 ml cream',
+      child: '',
+    },
+    brand: "Super Market",
+    quantity: 30,
+    unit: '250gm',
+    description: "Ginger Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Material", value: "Plastic, Wood" },
+      { key: "Legs", value: "Lacquered oak and black painted oak" },
+      { key: "Length", value: "48cm" },
+      { key: "Depth", value: "52cm" },
+      { key: "Weight", value: "250gm" },
+      { key: "Color", value: "Yellow" },
+    ],
+    gallery:[
+      "/assets/img/product/new/other-img-4.jpg",
+      "/assets/img/product/new/other-img-4-thumb.jpg",
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Uses",
+          ar: "الإستعمالات",
+        },
+        infoArray: {
+          en: [
+            "Get fairer skin in the intimate areas safely",
+            "Improve skin texture and a moisturizer"
+          ],
+          ar: [
+            "تفتيح سواد بشرة المناطق الحساسة",
+            "ترطيب و تحسين نوعية الجلد في المناطق الحساسة"
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Ingredients and concentrations",
+          ar: "المكونات",
+        },
+        infoArray: {
+          en: [
+            "Beta Arbutin ........ 0.1% - Whitening",
+            "Niacinamide (b3) ...... 1% - Promotes skin regeneration and fades pigmentation",
+            "Rosemary Extract",
+            "Vitamin C and Vitamin E"
+          ],
+          ar: [
+            "B-Arbutin - وقف عملية التصبغ و العمل على تفتيح البشرة",
+            "Niacinamide (b3) - مضاد أكسدة و المساعدة على تجديد خلايا البشرة و تفتيحها",
+            "خلاصة اكليل الجبل - و يعمل كمضاد للالتهابات و لبشرة ناعمة",
+            "Vitamin C and E - ترطيب البشرة و إشراقها و تفتيحها و مضادات أكسدة"
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Dosage and how to take",
+          ar: "طريقة الاستعمال",
+        },
+        infoArray: {
+          en: [
+            "Apply two to three drops on the desired area"
+          ],
+          ar: [
+            "ضعي كمية مناسبة و دلكيها على البشرة",
+            "مناسب للمناطق الحساسة جميعها و الأكواع و الركب"
+          ],
+        }
+      }
+    ],
+    reviews: [
+      {
+        id: 1,
+        name: "John",
+        comment: "Good",
+        rating: 4,
+        user: "/assets/img/testimonial/test-avata-1.png",
+        date: "06 March, 2023",
+      }
+    ],
+    tags: [
+      "Ginger",
+      "Vegetables",
+    ],
+    color: ['Yellow'],
+    status: "publish",
+    sold: 25,
+    created_at: "2023-09-08T07:18:25.000000Z",
+    updated_at: "2023-12-26T15:23:32.000000Z",
+  },
  
 ]
 

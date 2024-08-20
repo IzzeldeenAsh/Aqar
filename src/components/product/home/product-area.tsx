@@ -53,7 +53,7 @@ const ProductArea = () => {
                <div className="row">
                   <div className="col-lg-12">
                      <div className="tpsection mb-35 text-center">
-                        <h4  className='ibx-font' style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? "منتجات ديهانسو" : "DeHanso Products"}</h4>
+                        <h4  className='ibx-font' style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? "مستحضرات التجميل " : "Cosmetics"}</h4>
                         {/* <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p> */}
                      </div>
                   </div>

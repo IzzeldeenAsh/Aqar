@@ -69,20 +69,13 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                            
                         </div>
                       </div>
-                      <div className="col-lg-6 col-md-6">
-                        <div className="tpfeature__box">
-                            <div className="tpfeature__product-item mb-25">
-                              <h4 className="tpfeature__product-title">DeHanso 1 minute white cream:</h4>
-                              <span className="tpfeature__product-info">{activeLocale === 'ar' ?          "تفتيح و توحيد لون البشرة على المدى الطويل" : "Long term treatment for skin pigmentation"}</span>
-                            </div>
-                        </div>
-                      </div>
+                     
                       
                   </div>
                   <div className="col-12">
               <div className="tpfeature__btn">
                               <Link className="tp-btn-4" href={activeLocale ==="ar" ? "/ar/products#dehanso" : "/en/products#dehanso"}>
-                             {activeLocale ==='ar' ? "المزيد": " View More"}
+                             {activeLocale ==='ar' ? "اعرض الكل": " View All"}
                               </Link>
                             </div>
               </div>

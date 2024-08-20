@@ -97,8 +97,8 @@ const MobileSidebar = ({ isSidebarOpen, setIsSidebarOpen }: IProps) => {
                   {categories.map((category) => (
                     <li key={category.id}>
                       <a className="text-white pointer" 
-                        onClick={() => router.push(`/search?category=${category.name.split(" ").join("-").toLowerCase()}`) }>
-                        {category.name}
+                        onClick={() => router.push(`/search?category=${category.name.en.split(" ").join("-").toLowerCase()}`) }>
+                        {category.name.en}
                       </a>
                     </li>
                   ))}

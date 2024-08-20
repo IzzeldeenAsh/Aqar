@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Wrapper from "@/layouts/wrapper";
 import Header from "@/layouts/header/header";
 import HeroBanner from "@/components/hero-banner/hero-banner";
-import CategoryArea from "@/components/category/category-area";
 import ProductArea from "@/components/product/home/product-area";
 import ProductFeatureArea from "@/components/product/feature/product-feature-area";
 import OfferCountdownBanner from "@/components/product/countdown-banner/offer-countdown-banner";
@@ -12,6 +11,7 @@ import FeatureArea from "@/components/feature/feature-area";
 import HeroSlider from "@/components/NewSliderForMe/HeroSlider";
 import AboutAreaFour from "@/components/about/about-area-4";
 import ContactUs from "@/components/contactUs/ContactUs"
+import CategoryArea from "@/components/category/category-area"
 export const metadata: Metadata = {
   title: "Aqar - Drugs Store"
 };
@@ -38,6 +38,13 @@ export default function HomePage() {
         <ProductArea />
         <AllProducts />
         </div> */}
+         <section className="category-area grey-bg pb-40">
+          <div className="container">
+          
+           
+            <CategoryArea cls="category-active"/>
+          </div>
+        </section>
         <ProductFeatureArea />
       
         
