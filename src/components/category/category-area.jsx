@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Swiper, SwiperSlide } from "swiper/react";
 import category_data from "@/data/category-data";
 import { usePathname, useRouter } from "next/navigation";
+import { auto } from "@popperjs/core";
 
 const CategoryArea = ({cls,perView=8,showCount=true}) => {
   const router = useRouter();
@@ -57,10 +58,9 @@ const CategoryArea = ({cls,perView=8,showCount=true}) => {
             <div key={item.id} className="category__item mb-30 ">
               <div className="category__thumb fix mb-15">
                 <Link href={item.name.en ==='Supplements' ?suppLink :cosmeticsLink } className="pointer">
-                  <Image
+                  <img
                     src={item.img}
-                    width={80}
-                    height={80}
+                   
                     alt="category-thumb"
                   />
                 </Link>
