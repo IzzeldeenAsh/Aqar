@@ -17,7 +17,7 @@ const category_data = [
   },
   {
     id: 2,
-    img: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1724007653/2151344837_jn9mmi.jpg",
+    img: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1724227044/view-healthy-food-incased-pill-shaped-container_nmveuy.webp",
     name: {
       ar : "المكملات الغذائية ", 
       en :"Supplements"
