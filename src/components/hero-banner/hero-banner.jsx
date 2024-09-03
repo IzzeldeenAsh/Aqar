@@ -53,7 +53,7 @@ const HeroBanner = () => {
   const pathname = usePathname();
   const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
   const style = {
-    backgroundImage: 'url("https://res.cloudinary.com/dsiku9ipv/image/upload/v1723788240/bg-1_zufdyt.jpg")',
+    backgroundImage: 'url("https://res.cloudinary.com/dsiku9ipv/image/upload/v1725363606/bg-1_y07hbw.jpg")',
     backgroundPosition: "center",
     backgroundSize: "cover",
   }

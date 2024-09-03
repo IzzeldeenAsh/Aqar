@@ -61,7 +61,7 @@ const ProductArea = () => {
                <div className="tpproduct__arrow p-relative">
                <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center" style={activeLocale ==='ar' ? {direction:"rtl" } : {direction:"ltr"}}>
                       {products.map((product, index) => (
-                       <div className='mt-2 mb-2' style={{maxWidth:"200px", maxHeight:"300px"}} key={index}>
+                       <div className='mt-2 mb-2' style={{width:"350px"}} key={index}>
                              <ProductSingle  product={product}  />
                        </div>
                         ))}

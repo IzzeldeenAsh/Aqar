@@ -62,8 +62,8 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
           <Image
             src={image.original}
             alt="product-img"
-            width={217}
-            height={217}
+            width={1000}
+            height={1000}
             style={imgStyle}
           />
         </a>
@@ -72,8 +72,8 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
             <Image
               src={image.thumbnail}
               alt="product-img"
-              width={217}
-              height={217}
+              width={1000}
+              height={1000}
               style={imgStyle}
             />
           </a>

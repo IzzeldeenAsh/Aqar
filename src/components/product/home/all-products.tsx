@@ -67,7 +67,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
 
   return (
     <>
-    <section className={`weekly-product-area ${style_2 ? 'whight-product pt-75 pb-75' : style_3 ? 'whight-product tpproduct__padding pt-75 pb-75 pl-65 pr-65 fix' : 'grey-bg pb-70'}`}>
+    <section className={`weekly-product-area ${style_2 ? 'whight-product pt-100 pb-75' : style_3 ? 'whight-product tpproduct__padding pt-75 pb-75 pl-65 pr-65 fix' : 'grey-bg pb-70'}`}>
       <div className={`${style_3 ? 'container-fluid' : 'container'}`}>
           <div className="row">
             <div className="col-lg-12 ">
@@ -98,7 +98,7 @@ const AllProducts = ({style_2=false,style_3=false}:IProps) => {
                     <div className="tpproduct__arrow p-relative">
                     <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center" style={activeLocale ==='ar' ? {direction:"rtl" } : {direction:"ltr"}}>
                       {products.map((product, index) => (
-                       <div className='mt-2 mb-2' style={{maxWidth:"200px", maxHeight:"300px"}} key={index}>
+                       <div className='mt-2 mb-2' style={{maxWidth:"350px"}} key={index}>
                              <ProductSingle  product={product}  />
                        </div>
                         ))}

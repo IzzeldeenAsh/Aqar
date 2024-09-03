@@ -9,7 +9,7 @@ const product_data: IProductData[] = [
     sale_price: 18,
     image: {
       id: 1,
-      original: "/assets/img/product/others/other-img-1.jpg",
+      original:        "/assets/img/product/new/other-img-1.jpg",
       thumbnail: "/assets/img/product/others/other-img-1-thumb.jpg",
     },
     category: {
@@ -183,8 +183,8 @@ const product_data: IProductData[] = [
     sale_price: 22,
     image: {
       id: 1,
-      original: "/assets/img/product/others/other-img-2.jpg",
-      thumbnail: "/assets/img/product/others/other-img-2-thumb.jpg",
+      thumbnail:  "/assets/img/product/new/other-img-2.jpg",
+      original: "/assets/img/product/others/other-img-2-thumb.jpg",
     },
     category: {
       parent: '100 + 10 Softgels',
@@ -239,8 +239,8 @@ const product_data: IProductData[] = [
     sale_price: 24,
     image: {
       id: 1,
-      original: "/assets/img/product/others/other-img-3.jpg",
-      thumbnail: "/assets/img/product/others/other-img-3-thumb.jpg",
+      thumbnail:  "/assets/img/product/new/other-img-3-thumb-2.jpg",
+      original:    "/assets/img/product/new/other-img-3-thumb.jpg",
     },
     category: {
       parent: '30 Opadry red tablets',

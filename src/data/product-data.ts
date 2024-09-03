@@ -9,7 +9,7 @@ const product_data: IProductData[] = [
     sale_price: 18,
     image: {
       id: 1,
-      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-1_zzoam1.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824707/product-img-1-thumb-2_nnr8tg.jpg",
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824620/dehanso-img-1-thumb_lhpikd.jpg",
     },
     category: {
@@ -129,7 +129,7 @@ const product_data: IProductData[] = [
     sale_price: 22,
     image: {
       id: 1, 
-      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-2_bm9cam.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824615/dehanso-img-2-thumb_wz1tcw.jpg",
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824625/dehanso-img-2-thumb-2_bkyw5s.jpg",
     },
     category: {
@@ -233,8 +233,8 @@ const product_data: IProductData[] = [
     sale_price: 24,
     image: {
       id: 1,
-      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-3_fuayaj.jpg",
-      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
+      thumbnail:      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723880274/dehanso-img-3-thumb-2_kmwokf.jpg",
     },
     category: {
       parent: '40 ml serum',
@@ -347,8 +347,8 @@ const product_data: IProductData[] = [
     sale_price: 27,
     image: {
       id: 1,
-      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
-      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
     },
     category: {
       parent: '40 ml gel',
@@ -450,8 +450,8 @@ const product_data: IProductData[] = [
     sale_price: 30,
     image: {
       id: 1,
-      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-6_kb9dic.jpg",
-      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824626/dehanso-img-6-thumb-2_f4uagi.jpg",
+      thumbnail:  "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824618/dehanso-img-6-thumb_g0li06.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824626/dehanso-img-6-thumb-2_f4uagi.jpg",
     },
     category: {
       parent: '40 ml gel',
@@ -561,8 +561,8 @@ const product_data: IProductData[] = [
     sale_price: 30,
     image: {
       id: 1,
-      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-5_a6n8km.jpg",
-      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824902/dehanso-img-5-thumb_eifylc.jpg",
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824902/dehanso-img-5-thumb_eifylc.jpg",
+      thumbnail:  "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-5_a6n8km.jpg"
     },
     category: {
       parent: '40 ml cream',
@@ -672,8 +672,8 @@ const product_data: IProductData[] = [
     sale_price: 27,
     image: {
       id: 1,
-      original: "/assets/img/product/others/other-img-4.jpg",
-      thumbnail: "/assets/img/product/others/other-img-4-thumb.jpg",
+      thumbnail: "/assets/img/product/others/other-img-4.jpg",
+      original: "/assets/img/product/others/other-img-4-thumb.jpg",
     },
     category: {
       parent: '40 ml cream',

@@ -40,8 +40,11 @@ export default function HomePage() {
         </div> */}
         
         <ProductFeatureArea />
-      
         
+        <div id="dehanso" style={{overflow:"hidden" , maxWidth:"100%"}}>
+        <ProductArea   />
+        </div>
+      
         {/* weekly product end */}
         {/* product feature start */}
      
@@ -54,6 +57,9 @@ export default function HomePage() {
         {/* all products end */}
         {/* deal offer start */}
         <OfferCountdownBanner bgClr=""/>
+        <div id="suppliments" style={{overflow:"hidden" , maxWidth:"100%"}}>
+        <AllProducts />
+        </div>
         {/* deal offer end */}
         {/* blogs start */}
         {/* <BlogItems /> */}
