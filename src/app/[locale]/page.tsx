@@ -38,13 +38,7 @@ export default function HomePage() {
         <ProductArea />
         <AllProducts />
         </div> */}
-         <section className="category-area grey-bg pb-40">
-          <div className="container">
-          
-           
-            <CategoryArea cls="category-active"/>
-          </div>
-        </section>
+        
         <ProductFeatureArea />
       
         
