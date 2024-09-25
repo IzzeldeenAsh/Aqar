@@ -808,25 +808,40 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Key Features",
+          en: "Uses",
           ar: "الميزات",
         },
         infoArray: {
           en: [
-            "Korean Licensed ",
-            "with yeast solution technology for skin barrier and deep hydration",
-            "Vitamin-enriched, paraben-free",
-            "Long-lasting protection; reapply every 4 hours",
-            "Water & sweat resistant",
-            "Natural mica stone tint without foundation",
+            "All skin types tinted",
+            "Very Water-resistant",
+            "Natural tint to match all skin colors",
+            "Restore cell structure after Sun-induced DNA damage",
+          
           ],
           ar: [
             "الوحيد المرخص الكوري",
-         "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
-          "خالي من البرابين و مدعم بالفيتامينات لتغذية البشرة",
-           " على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
-          "مقاوم للماء و التعرق",
+            "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
+            "خالي من البرابين و مدعم بالفيتامينات لتغذية البشرة",
+            "على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
+            "مقاوم للماء و التعرق",
             "لا يحتوي على فاونديشين و يكتسب لونه من حجر الميكا الطبيعي",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Ingredients",
+          ar: "",
+        },
+        infoArray: {
+          en: [
+            "Ferment lysate",
+            "Mica mineral powder",
+            "Chemical and physical filters"
+          ],
+          ar: [
+          
           ],
         }
       },
@@ -840,7 +855,6 @@ const product_data: IProductData[] = [
             `<table  style="padding:10px 20px ; font-size:12px;border-collapse: collapse; width: 100%; text-align: left;">
               <thead>
                 <tr>
-                 
                   <th style="padding:0px 10px ;">UVA/PA+</th>
                   <th style="padding:0px 10px ;">UVB/SPF</th>
                   <th style="padding:0px 10px ;">Chemical</th>
@@ -850,7 +864,6 @@ const product_data: IProductData[] = [
               </thead>
               <tbody>
                 <tr>
-               
                   <td style="padding:0px 10px ;">Yes</td>
                   <td style="padding:0px 10px ;">Yes/ 50</td>
                   <td style="padding:0px 10px ;">Yes</td>
@@ -864,7 +877,6 @@ const product_data: IProductData[] = [
             `<table  style="padding:10px 20px ;border-collapse: collapse; width: 100%; text-align: left;">
               <thead>
                 <tr>
-                
                   <th style="padding:0px 10px ;">UVA/PA+</th>
                   <th style="padding:0px 10px ;">UVB/SPF</th>
                   <th style="padding:0px 10px ;">كيميائي</th>
@@ -874,7 +886,6 @@ const product_data: IProductData[] = [
               </thead>
               <tbody>
                 <tr>
-              
                   <td style="padding:0px 10px ;">نعم</td>
                   <td style="padding:0px 10px ;">نعم / 50</td>
                   <td style="padding:0px 10px ;">نعم</td>
@@ -888,18 +899,18 @@ const product_data: IProductData[] = [
       },
       {
         title: {
-          en: "How to Use",
+          en: "Directions of use",
           ar: "طريقة الاستعمال",
         },
         infoArray: {
           en: [
-            "Apply 15 to 30 minutes before sun exposure.",
+            "Before going out, put a layer on skin. Once daily.",
           ],
           ar: [
             "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
           ],
         }
-      },
+      }
     ],
     reviews: [],
     tags: [
@@ -1054,16 +1065,15 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Key Features",
+          en: "Uses",
           ar: "الميزات",
         },
         infoArray: {
           en: [
-            "Korean Licensed",
-            " with yeast solution technology for skin barrier and deep hydration",
-            "Vitamin-enriched, paraben-free",
-            "Long-lasting protection; reapply every 4 hours",
-            "Water & sweat resistant, lightweight texture",
+            "Oily skin sunscreen",
+            "Very Water-resistant",
+            "Supported with vitamins and minerals",
+            "Restore cell structure after Sun-induced DNA damage"
           ],
           ar: [
             "الوحيد المرخص الكوري",
@@ -1071,6 +1081,22 @@ const product_data: IProductData[] = [
             "مدعم بالفيتامينات  بالفيتامينات لتغذية البشرة وخالي من البرابين",
             "على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
             "مقاوم للماء والتعرق و ذو قوام خفيف",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Main Ingredients:",
+          ar: "",
+        },
+        infoArray: {
+          en: [
+            "Ferment lysate",
+          "Mica mineral powder",
+        "Chemical and physical filters",
+          ],
+          ar: [
+
           ],
         }
       },
@@ -1128,19 +1154,18 @@ const product_data: IProductData[] = [
       },
       {
         title: {
-          en: "How to Use",
+          en: "Directions of use",
           ar: "طريقة الاستعمال",
         },
         infoArray: {
           en: [
-            "Apply 15 to 30 minutes before sun exposure.",
+            "Before half an hour of going out, put a layer on skin. Repeated every 4 hours on sun exposure."
           ],
           ar: [
             "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
           ],
         }
       }
-  
     ],
     reviews: [],
     tags: [
@@ -1195,20 +1220,21 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Korean Licensed ",
-            "with yeast solution technology for skin barrier and deep hydration",
-            "Infused with crystals, gemstones, and diamond particles for radiant skin",
-            "Enriched with hyaluronic acid and shea butter, paraben-free",
-            "Only needs to be applied once daily for long-lasting protection",
-            "Contains both physical and chemical filters, water & sweat resistant",
+            "For dry skin sunscreen",
+            "Energize skin with gemstones vibrational energy",
+            "Restore cell structure after Sun DNA induced damage",
+            "Ferment lysate",
+            "Gemstones and diamond",
+            "Chemical and physical filters",
+            "Shea butter and hyaluronic acid"
           ],
           ar: [
-     "الوحيد المرخص الكوري",
-   "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
-          " الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و عالج العديد من مشاكل البشرة و إضفاء الوهج عليها",
+            "الوحيد المرخص الكوري",
+            "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
+            " الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و عالج العديد من مشاكل البشرة و إضفاء الوهج عليها",
             "خالي من البرابين و مزود بالهايالرونيك أسيد و زبدة الشيا",
             "على عكس واقيات الشمس المعتادة, ليس بحاجة لأن يجدد كل ساعتين. تكتفي البشرة بمرة واحدة يوميا لاحتواؤه على الفالتر الفيزيائية و خاصية مقاومة الماء و التعرق فيوفر حماية طويلة و لحماية قصوى تم إضافة فالتر كيميائية",
-        "مقاوم للماء و التعرق",
+            "مقاوم للماء و التعرق",
           ],
         }
       },
@@ -1219,7 +1245,7 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-           `<table style=" padding:10px 20px ; font-size:12px;border-collapse: collapse; width: 100%; text-align: left;">
+            `<table style=" padding:10px 20px ; font-size:12px;border-collapse: collapse; width: 100%; text-align: left;">
               <thead>
                 <tr>
                   <th  padding:0 10px ;>UVA/PA+</th>
@@ -1231,7 +1257,6 @@ const product_data: IProductData[] = [
               </thead>
               <tbody>
                 <tr>
-           
                   <td  padding:0 10px ;>Yes</td>
                   <td  padding:0 10px ;>Yes/ 50</td>
                   <td  padding:0 10px ;>Yes</td>
@@ -1242,7 +1267,7 @@ const product_data: IProductData[] = [
             </table>`
           ],
           ar: [
-         `<table style=" width: 100%; border-collapse: collapse; font-size:12px; direction="rtl";  text-align: left;">
+            `<table style=" width: 100%; border-collapse: collapse; font-size:12px; direction="rtl";  text-align: left;">
               <thead>
                 <tr>
                   <th  padding:0 10px ;>UVA/PA+</th>
@@ -1254,7 +1279,6 @@ const product_data: IProductData[] = [
               </thead>
               <tbody>
                 <tr>
-            
                   <td  padding:0 10px ;>نعم</td>
                   <td  padding:0 10px ;>نعم / 50</td>
                   <td  padding:0 10px ;>نعم</td>
@@ -1273,14 +1297,13 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Apply 15 to 30 minutes before sun exposure.",
+            "Before going out, put a layer on skin. Once daily.",
           ],
           ar: [
             "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
           ],
         }
       }
-     
     ],
     reviews: [],
     tags: [
@@ -1333,7 +1356,7 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            `<spaan style="font-size: 18px; color: #8faadc; font-weight:bold">Foaming cleanser with charcoal for oily and combination skin</spaan>`,
+            "Charcoal cleansing foam.",
           ],
           ar: [
             `<spaan style="direction: rtl; font-size: 18px; color: #8faadc;font-weight:bold">غسول رغوي للبشرة الدهنية و المختلطة بالفحم</spaan>`,
@@ -1347,10 +1370,10 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Cleanses the skin and removes excess sebum.",
-            "Provides hydration and a refreshed appearance.",
-            "Tightens enlarged pores.",
-            "Reduces acne.",
+            "Deep cleanser",
+            "Pore tightening",
+            "Lessen sebum secretion",
+            "Lessen hyperpigmentation",
           ],
           ar: [
             "ينظف البشرة ويخلصها من الإفرازات الدهنية.",
@@ -1367,12 +1390,12 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Activated Charcoal",
-            "Tea Tree Oil",
-            "Aloe Vera",
+            "Charcoal",
+            "Tea tree oil",
+            "Aloe vera gel",
           ],
           ar: [
-           "غني بالمكونات الفعالة مثل الفحم النشط و زيت شجرة الشاي و األلوفيرا",
+            "غني بالمكونات الفعالة مثل الفحم النشط و زيت شجرة الشاي و األلوفيرا",
           ],
         }
       },
@@ -1383,8 +1406,7 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Use daily.",
-            "Apply a small amount to damp skin, gently massage, and rinse well with water.",
+            "Use daily on wet skin and wash afterwards.",
           ],
           ar: [
             "يستخدم يوميًا.",
