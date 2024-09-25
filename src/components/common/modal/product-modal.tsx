@@ -21,7 +21,11 @@ const ProductModal = () => {
       <div className="shopdetails-area">
         <div className="tpdetails__area">
           {/* shop details upper */}
-          <ShopDetailsUpper product={product!} navStyle={true} />
+          <ShopDetailsUpper product={product!} navStyle={true}  onClose={() => {
+    // Add your logic to close the modal here
+    // For example, if you're using state to control the modal:
+    handleModalClose();
+  }}/>
           {/* shop details upper */}
         </div>
       </div>

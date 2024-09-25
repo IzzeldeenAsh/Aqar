@@ -43,7 +43,7 @@ const slider_setting = {
 
 
 const ProductArea = () => {
-   const products = [...product_data].slice(-10);
+   const products = [...product_data]
    const pathname = usePathname(); // Get the current locale
    const activeLocale = pathname.split('/')[1] || "en"; // Default to "en" if no locale is found
   return (
@@ -53,15 +53,15 @@ const ProductArea = () => {
                <div className="row">
                   <div className="col-lg-12">
                      <div className="tpsection mb-35 text-center">
-                        <h4  className='ibx-font' style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "23px"} : {direction:"ltr",fontSize: "23px"}}>{activeLocale ==='ar' ? "مستحضرات التجميل " : "Cosmetics"}</h4>
+                        <h4 className='ibx-font '  style={activeLocale ==='ar' ? {direction:"rtl" , fontSize: "30px",fontWeight:"700"} : {direction:"ltr",fontSize: "30px",fontWeight:"700"}}>{activeLocale ==='ar' ? "مستحضرات التجميل " : "Cosmetics"}</h4>
                         {/* <p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p> */}
                      </div>
                   </div>
                </div>
                <div className="tpproduct__arrow p-relative">
-               <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center" style={activeLocale ==='ar' ? {direction:"rtl" } : {direction:"ltr"}}>
+               <div className="d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center align-items-center align-items-sm-start" style={activeLocale ==='ar' ? {direction:"rtl" } : {direction:"ltr"}}>
                       {products.map((product, index) => (
-                       <div className='mt-2 mb-2' style={{width:"350px"}} key={index}>
+                       <div className='mt-2 mb-2' style={{width:"320px"}} key={index}>
                              <ProductSingle  product={product}  />
                        </div>
                         ))}

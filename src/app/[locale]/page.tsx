@@ -10,6 +10,7 @@ import AllProducts from "@/components/product/home/all-products";
 import FeatureArea from "@/components/feature/feature-area";
 import HeroSlider from "@/components/NewSliderForMe/HeroSlider";
 import AboutAreaFour from "@/components/about/about-area-4";
+import WorldWide from "@/components/world-wide-availalbe/worldwide";
 import ContactUs from "@/components/contactUs/ContactUs"
 import CategoryArea from "@/components/category/category-area"
 export const metadata: Metadata = {
@@ -39,7 +40,7 @@ export default function HomePage() {
         <AllProducts />
         </div> */}
         
-        <ProductFeatureArea />
+        {/* <ProductFeatureArea /> */}
         
         <div id="dehanso" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea   />
@@ -56,7 +57,7 @@ export default function HomePage() {
    
         {/* all products end */}
         {/* deal offer start */}
-        <OfferCountdownBanner bgClr=""/>
+        {/* <OfferCountdownBanner bgClr=""/> */}
         <div id="suppliments" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <AllProducts />
         </div>
@@ -72,7 +73,9 @@ export default function HomePage() {
       <div id="about" >
         <AboutAreaFour />
       </div>
-      
+          <WorldWide/>
+        
+
       <div id="contact">
       <ContactUs/>
         

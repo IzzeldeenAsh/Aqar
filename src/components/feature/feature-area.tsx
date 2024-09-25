@@ -34,7 +34,7 @@ const FeatureArea = ({style_2=false,bg_img=true}:IProps) => {
    
     <div className="container mt-20">
     <div className='d-flex justify-content-between flex-column flex-sm-row align-items-center' style={{maxWidth:"70%", margin:"auto"}}>
-    <h4 className="mainfeature__title">All rights reserved © 2024, Aqar Drugs Store.</h4>
+    <h4 className="mainfeature__title" style={{color:"#fff"}}>All rights reserved © 2024, Aqar Drugs Store.</h4>
 
     <div className='d-flex gap-10 '>
     <a  className='pt-1' href={"https://www.instagram.com/aqar_drugs_store_?igsh=MXNxMThidmdjdWoyMg=="} target='__blank'>
