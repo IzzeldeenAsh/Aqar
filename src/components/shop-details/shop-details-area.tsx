@@ -29,7 +29,7 @@ const ShopDetailsArea = ({ product,navStyle=false,topThumb=false }: IProps) => {
           <div className="col-lg-10 col-md-12">
             <div className="tpdetails__area mr-60 pb-30">
               {/* shop details upper */}
-              <ShopDetailsUpper product={product} navStyle={navStyle} topThumb={topThumb}/>
+              <ShopDetailsUpper product={product} navStyle={navStyle} topThumb={topThumb} onClose={() => {/* Your close logic here */}}/>
               {/* shop details upper */}
               <div className="tpdescription__box">
                 <div className="tpdescription__box-center d-flex align-items-center justify-content-center">
