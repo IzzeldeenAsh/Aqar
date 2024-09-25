@@ -114,7 +114,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }) => {
               </strong>
               <ul>
                 {(activeLocale === "ar" ? item.infoArray?.ar : item.infoArray?.en)?.map((info, idx) => (
-                  <li key={idx}> * {info}</li>
+        <li style={activeLocale ==='ar' ? {direction:"rtl"} : {direction:"ltr"}} key={idx} dangerouslySetInnerHTML={{ __html: `* ${info}` }}></li>
                 )) || <li>No information available</li>}
               </ul>
             </div>

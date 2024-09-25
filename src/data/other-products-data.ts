@@ -37,115 +37,58 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Features and Benefits",
-          ar: "المميزات والفوائد",
-        },
-        infoArray: {
-          en: [
-            "Liquid capsule technology and quick onset of relief",
-            "Antispasmodic: Relieves abdominal cramps by gastrointestinal smooth muscle relaxation through calcium channels blocking",
-            "Analgesic: Relieves abdominal cramps pain",
-            "Carminative: Relieves abdominal distension and flatulence"
-          ],
-          ar: [
-            "تقنية الكبسولات السائلة وبداية سريعة للتخفيف",
-            "مضاد للتشنج: يخفف من تقلصات البطن عن طريق استرخاء العضلات الملساء في الجهاز الهضمي من خلال حجب قنوات الكالسيوم",
-            "مسكن: يخفف من آلام تقلصات البطن",
-            "طارد للريح: يخفف من الانتفاخ والغازات"
-          ],
-        }
-      },
-      {
-        title: {
           en: "Indication",
-          ar: "المؤشرات",
+          ar: "المؤشرات"
         },
         infoArray: {
           en: [
-            "IBS patients",
-            "Bloating problems",
-            "Indigestion problems",
-            "Bad breath odor from the gastrointestinal system",
-            "Gassiness after a period of recovering from gastrointestinal surgeries"
+            "Helps to relieve symptoms of irritable bowel syndrome through:",
+            "1. Regulating bowel movements by aiding peristaltic movements of the intestine and facilitating bowel movements naturally, reducing the pain associated with constipation.",
+            "2. Acts as a powerful carminative, helping to expel gas."
           ],
           ar: [
-            "مرضى القولون العصبي",
-            "مشاكل الانتفاخ",
-            "مشاكل عسر الهضم",
-            "رائحة الفم الكريهة من الجهاز الهضمي",
-            "الغازات بعد فترة من التعافي من جراحات الجهاز الهضمي"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Dosage and Administration",
-          ar: "الجرعة وطريقة الاستعمال",
-        },
-        infoArray: {
-          en: [
-            "One liquid capsule for mild chronic cases",
-            "Two liquid capsules for severe chronic cases. Do not exceed 3 caps/day",
-            "Or one liquid capsule PRN in occasional cases"
-          ],
-          ar: [
-            "كبسولة سائلة واحدة لحالات الأمراض المزمنة الخفيفة",
-            "كبسولتان سائلتان للحالات المزمنة الشديدة. لا تتجاوز 3 كبسولات في اليوم",
-            "أو كبسولة سائلة واحدة حسب الحاجة في الحالات العرضية"
-          ],
+            "يعمل على تخفيف أعراض متلازمة القولون العصبي من خلال:",
+            "1. إرخاء العضلات المتحكمة بحركة الأمعاء الهضمية غير الطبيعية، و لهذا تحسن حركة الأمعاء بشكل طبيعي و تخفف الألم المصاحب للتقلصات.",
+            "2. طارد للغازات بشكل قوي."
+          ]
         }
       },
       {
         title: {
           en: "Contraindications",
-          ar: "موانع الاستعمال",
+          ar: "موانع الاستعمال"
         },
         infoArray: {
           en: [
-            "Patients with GI reflux",
-            "Patients with gastric ulcers",
-            "Use with caution when concomitantly taking one of the major CNS medicine groups, some Calcium channel blockers, and NSAIDs. Refer to the pharmacist to check for possible interactions.",
-            "Pregnant and lactating women"
+            "1. Pregnant and lactating women.",
+            "2. Patients with gastric ulcers."
           ],
           ar: [
-            "مرضى الارتجاع المعدي المريئي",
-            "مرضى القرحة المعدية",
-            "استخدام بحذر عند تناول أدوية الجهاز العصبي المركزي الرئيسية بالتزامن مع بعض حاصرات قنوات الكالسيوم ومضادات الالتهاب غير الستيرويدية. يرجى الرجوع إلى الصيدلي للتحقق من التفاعلات الممكنة.",
-            "النساء الحوامل والمرضعات"
-          ],
+            "1. الحوامل أو المرضعات.",
+            "2. مرضى القرحة المعوية."
+          ]
         }
       },
       {
         title: {
-          en: "Adverse reactions",
-          ar: "الآثار الجانبية",
+          en: "Dosage",
+          ar: "الجرعة"
         },
         infoArray: {
           en: [
-            "GI reflux",
-            "Burning sensation"
+            "For mild cases: One capsule when needed.",
+            "For moderate to severe cases: One capsule twice or thrice daily as needed.",
+            "Do not exceed three capsules daily."
           ],
           ar: [
-            "الارتجاع المعدي المريئي",
-            "إحساس بالحرقان"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Presentation",
-          ar: "التقديم",
-        },
-        infoArray: {
-          en: [
-            "30 liquid capsules in a bottle"
-          ],
-          ar: [
-            "30 كبسولة سائلة في زجاجة"
-          ],
+            "كبسولة واحدة عند اللزوم في الحالات الخفيفة.",
+            "كبسولة واحدة مرتين أو ثلاث مرات في اليوم في الحالات العصبية.",
+            "لا تتجاوز الثلاث كبسولات يومياً."
+          ]
         }
       }
-    ],
+    ]
+,    
     reviews: [
       {
         id: 1,
@@ -267,118 +210,28 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Key Messages",
-          ar: "الرسائل الرئيسية",
+          en: "Features",
+          ar: "الميزات"
         },
         infoArray: {
           en: [
-            "The first to introduce Choline and Boron to the prenatal formulas in the Jordanian market",
-            "Improves the mother and fetus's health, especially the hepatic and nervous system",
-            "From the second trimester to lactation",
-            "Choline is a safer choice for developing fetus's nervous system than Omega 3 due to:",
-            "* lowering the heavy metals exposure present in marine oils",
-            "* choline is synthesized endogenously in humans as well",
-            "Choline helps the fetus's brain and nervous system development as well as liver",
-            "Choline synergizes folic acid function",
-            "Boron helps better maintain the bone mass in pregnant women",
-            "Ferrochel® happens to provide the best form of iron with minimal GI SE and full DRI/30mg pure iron"
+            "PregyMom stands out from other prenatal supplements available in the market by:",
+            "Providing the complete pure dose of iron at a concentration of 30 mg per tablet, which is the recommended daily dose for pregnant women.",
+            "Providing folic acid at a concentration of 400 mcg, covering the daily need of a pregnant woman.",
+            "Contains boron to help pregnant women maintain bone mass and joint health during pregnancy.",
+            "Contains choline, which is very important for the development of the nervous system and brain in the fetus. It is recommended to continue PregyMom's daily doses even during lactation for the best results for the child.",
+            "Does not contain the heavy metals that accompany the use of Omega-3 supplements or the fishy odor.",
+            "Medium-sized tablet that is easy to swallow."
           ],
           ar: [
-            "الأولى في إدخال الكولين والبورون في تركيبات ما قبل الولادة في السوق الأردني",
-            "تحسن صحة الأم والجنين، وخاصة الكبد والجهاز العصبي",
-            "من الثلث الثاني من الحمل حتى الرضاعة",
-            "الكولين هو خيار أكثر أمانًا لتطوير الجهاز العصبي للجنين من أوميغا 3 بسبب:",
-            "* تقليل التعرض للمعادن الثقيلة الموجودة في الزيوت البحرية",
-            "* يتم تصنيع الكولين داخليًا في جسم الإنسان أيضًا",
-            "يساعد الكولين في تطوير دماغ وجهاز عصبي الجنين وكذلك الكبد",
-            "يتعاون الكولين مع وظيفة حمض الفوليك",
-            "يساعد البورون في الحفاظ على كتلة العظام بشكل أفضل عند النساء الحوامل",
-            "يوفر Ferrochel® أفضل شكل من أشكال الحديد مع تأثيرات جانبية معدية معوية ضئيلة وجرعة يومية كاملة/ 30 ملجم من الحديد النقي"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Indication",
-          ar: "المؤشرات",
-        },
-        infoArray: {
-          en: [
-            "PregyMom® is the supplement of choice in:",
-            "Obese pregnant women and poor liver functions",
-            "Iron-deprived pregnant women",
-            "Pregnant women with the risk of Gestational diabetes and Preeclampsia",
-            "Pregnant women with the risk of Osteoporosis",
-            "Best nervous and hepatic system of fetus's development"
-          ],
-          ar: [
-            "PregyMom® هو المكمل المفضل في:",
-            "النساء الحوامل البدينات وضعيفات وظائف الكبد",
-            "النساء الحوامل المحرومات من الحديد",
-            "النساء الحوامل المعرضات لخطر الإصابة بسكري الحمل وتسمم الحمل",
-            "النساء الحوامل المعرضات لخطر الإصابة بهشاشة العظام",
-            "أفضل جهاز عصبي وكبدي لتطوير الجنين"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Dosage and Administration",
-          ar: "الجرعة وطريقة الاستعمال",
-        },
-        infoArray: {
-          en: [
-            "Usual dosage is one tablet once daily. Starting from day 1 in the second trimester.",
-            "Continue supplementation during lactation as well"
-          ],
-          ar: [
-            "الجرعة المعتادة هي قرص واحد مرة يوميًا. تبدأ من اليوم الأول في الثلث الثاني من الحمل.",
-            "استمر في تناول المكملات الغذائية خلال فترة الرضاعة أيضًا"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Contraindications",
-          ar: "موانع الاستعمال",
-        },
-        infoArray: {
-          en: [
-            "If an antibiotic is to be prescribed: if Ciprofloxacin is to be prescribed, adjust dosing intervals, 4 hours before PregyMom or 6 hours after PregyMom."
-          ],
-          ar: [
-            "إذا كان من المقرر وصف مضاد حيوي: إذا كان من المقرر وصف سيبروفلوكساسين، فقم بتعديل فترات الجرعات، 4 ساعات قبل PregyMom أو 6 ساعات بعد PregyMom."
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Adverse Reactions",
-          ar: "الآثار الجانبية",
-        },
-        infoArray: {
-          en: [
-            "None",
-            "Caution: Iron parenteral preparations: oral iron preparations should not be taken concomitantly with parenteral preparations, stop PregyMom 5 days after parenteral iron preparation."
-          ],
-          ar: [
-            "لا شيء",
-            "تحذير: مستحضرات الحديد الوريدية: لا ينبغي تناول مستحضرات الحديد الفموية بالتزامن مع المستحضرات الوريدية، توقف عن تناول PregyMom بعد 5 أيام من تحضير الحديد الوريدي."
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Presentation",
-          ar: "التقديم",
-        },
-        infoArray: {
-          en: [
-            "30 Opadry red tablets in a bottle"
-          ],
-          ar: [
-            "30 قرص أحمر مغلف بـ Opadry في زجاجة"
-          ],
+            "يمتاز بريجي موم عن غيره من مكملات غذائية المتوفرة في السوق ب:",
+            "توفير الجرعة الكاملة الصافية من الحديد بنسبة 30 مع في الحبة الواحدة وهي الجرعة الموصى للحامل يوميا",
+            "توفير الفوليك أسيد بنسبة 400 ميكروغرام صافي ليغطي احتياج المرأة الحامل اليومي",
+            "يحتوي على البورون لمساعدة المرأة الحامل في الحفاظ على الكتلة العظمية وصحة المفاصل خلال الحمل",
+            "يحتوي على الكولين المهم جدا في نمو الجهاز العصبي والدماغ لدى الجنين وينصح باستكمال جرعات الحامل اليومية من بريجي موم حتى خلال فترة الرضاعة لأفضل نتائج للطفل",
+            "لا يحتوي على المعادن الثقيلة التي ترافق استخدام اوميجا و لا الرائحة السمكية",
+            "حبة متوسطة الحجم سهلة البلع"
+          ]
         }
       }
     ],
@@ -404,8 +257,215 @@ const product_data: IProductData[] = [
     created_at: "2023-11-08T07:18:25.000000Z",
     updated_at: "2023-12-26T15:23:32.000000Z",
   },
-  
+  {
+    id: 323,
+    sku: "007",
+    title: "Utitic 30 Sachets",
+    price: 45, // Set your price here
+    sale_price: 40, // Set your sale price here
+    image: {
+      id: 7,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/9_yw2pvp.webp",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/10_u2lahd.webp",
+    },
+    category: {
+      parent: '30 sachets',
+      child: '',
+    },
+    brand: "Utitic",
+    quantity: 60, // Set your available quantity
+    unit: '30 sachets',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/9_yw2pvp.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/10_u2lahd.webp",
+    ],
+    description: "Utitic 30 Sachets are designed to help relieve symptoms of urinary tract infections (UTIs), suitable for a wide range of individuals including diabetics, pregnant women, and more. Contains cranberry extract, probiotics, and mannose for optimal effectiveness.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Quantity", value: "30 Sachets" },
+      { key: "Ingredients", value: "Cranberry Extract (200mg), Probiotic Blend (70mg), Mannose (700mg)" },
+      { key: "Dosage", value: "Mild to Moderate Cases: 1 sachet morning & evening. Severe Cases: 2 sachets morning & evening" },
+      { key: "Suitable For", value: "Diabetics, pregnant women, menopausal women, post-urinary catheterization, children over 12 years" },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Usage",
+          ar: "يستخدم لحالات التهاب المسالك البولية: البكتيرية و الفطرية"
+        },
+        infoArray: {
+          en: [
+            "Helps relieve symptoms of urinary tract infections (UTIs) and pelvic pain caused by diabetes in diabetic women, menopausal women, women with weak liver functions, post-catheterization patients, and breastfeeding women.",
+            "Suitable for pregnant women, breastfeeding mothers, and children over 12 years old."
+          ],
+          ar: [
+            "يساعد في تخفيف أعراض التهاب المسالك البولية و آلام الجهاز البولي الذي قد تصيب مرضى السكري، النساء الحوامل، النساء في سن اليأس، الأشخاص بعد عملية القسطرة البولية، المرضعات، والحوامل.",
+            "مناسب للحامل والمرضع و للأطفال فوق سن ال 12 سنة"
+          ]
+        }
+      },
+      {
+        title: {
+          en: "Ingredients",
+          ar: "المكونات"
+        },
+        infoArray: {
+          en: [
+            "*Cranberry 200 mg: Acts as an antioxidant and prevents the adhesion of harmful bacteria to the milk and bladder walls, flushing it out of the body.",
+            "*Special Probiotic Blend 70 mg: Has the ability to prevent the adhesion and growth of harmful bacteria inside the urinary tract.",
+            "Probiotic also has the unique ability to resist harmful antibiotics.",
+            "*Mannose 700 mg"
+          ],
+          ar: [
+            "*التوت البري 200 مغ: التي لها تأثير كمضاد للأكسدة و يمنع التصاق البكتيريا الضارة في الحالب، وجدران المثانة ويخرجها إلى خارج الجسم",
+            "*خلطة بروبيوتيك خاصة 70 مغ: ات قدرة على منع التصاق ونمو البكتيريا الضارة داخل المسالك البولية.",
+            "أيضاً يتميز البروبيوتيك عن المضادات الحيوية الوقائية في أنه لا تحدث مقاومة له، على عكس المضادات الحيوية التي قد تظهل البكتيريا اساليب دفاعية تجاهه، و يصبح غير فعال في مكافحتها",
+            "*مانوز 700مغ"
+          ]
+        }
+      },
+      {
+        title: {
+          en: "Dosage",
+          ar: "الجرعة"
+        },
+        infoArray: {
+          en: [
+            "Mild to moderate cases: Take one sachet in the morning and one in the evening.",
+            "Advanced cases: Take two sachets in the morning and two in the evening.",
+            "Preferably taken before meals."
+          ],
+          ar: [
+            "يستخدم في الحالات الخفيفة او المتوسطة ظرف واحد صباحا و ظرف واحد مساءًا",
+            "للحالات المتقدمة ظرفين صباحا و ظرفين مساءًا",
+            "يفضل اخذها قبل الأكل"
+          ]
+        }
+      }
+    ]
+,    
+    reviews: [],
+    tags: [
+      "UTI",
+      "Probiotics",
+      "Cranberry",
+      "Mannose",
+    ],
+    color: ['Red'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
  
+  {
+    id: 12,
+    sku: "008",
+    title: "Proserec 30 Caps",
+    price: 50, // Set your price here
+    sale_price: 45, // Set your sale price here
+    image: {
+      id: 8,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241798/7_i222vp.webp",
+      thumbnail:  "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241798/8_rxbkkx.webp",
+    },
+    category: {
+      parent: '30 capsules',
+      child: '',
+    },
+    brand: "Proserec",
+    quantity: 50, // Set your available quantity
+    unit: '30 capsules',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241798/7_i222vp.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241798/8_rxbkkx.webp",
+    ],
+    description: "Proserec 30 Capsules are formulated to help with benign prostatic hyperplasia (BPH) and support bladder health. It contains pumpkin seed oil, saw palmetto extract, African plum, zinc, selenium, arginine, and quercetin for optimal benefits.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Quantity", value: "30 Capsules" },
+      { key: "Ingredients", value: "Pumpkin Seed Oil (300mg), Saw Palmetto Extract (250mg), African Plum (10mg), Zinc (15mcg), Selenium (50mcg), Arginine (200mg), Quercetin (10mg)" },
+      { key: "Dosage", value: "1-2 capsules daily or as directed by your healthcare provider" },
+      { key: "Suitable For", value: "Men with BPH and those experiencing urinary or bladder issues" },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Ingredients",
+          ar: "المكونات",
+        },
+        infoArray: {
+          en: [
+            "Pumpkin Seed Oil (300mg)",
+            "Saw Palmetto Extract (250mg)",
+            "African Plum (10mg)",
+            "Zinc (15mcg)",
+            "Selenium (50mcg)",
+            "Arginine (200mg)",
+            "Quercetin (10mg)",
+          ],
+          ar: [
+            "ملغ 300 زيت بذرة نبات القرع (اليقطين)",
+            "ملغ 250 بلميط منشاري مستخلص",
+            "ملغ 10 خوخ أفريقي",
+            "مكغ 15 زينك",
+            "مكغ 50 سيلينيوم",
+            "ملغ 200 ارجينين",
+            "ملغ 10 كويرسيتين",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Uses",
+          ar: "الاستخدامات",
+        },
+        infoArray: {
+          en: [
+            "Helps reduce the size of benign prostatic hyperplasia (BPH).",
+            "Alleviates symptoms of bladder inflammation and reduces the chance of infection.",
+            "Reduces urinary retention, burning sensation, and frequent urination.",
+            "Supports erectile dysfunction issues.",
+            "The fatty acids in saw palmetto help reduce smooth muscle contraction in the prostate, easing pain at the start of urination and reducing frequent urination in men with prostate enlargement.",
+          ],
+          ar: [
+            "يساهم في تقليل حجم مشاكل تضخم البروستات الحميد.",
+            "يساهم في الحد من أعراض التهاب المثانة ويقلل من فرصة حدوثها.",
+            "يقلل من احتباس البول والحرقة وتقطع البول.",
+            "له دور في حل مشاكل الانتصاب.",
+            "تعمل الأحماض الدهنية في البلميط المنشاري على تقليل انقباض العضلات الملساء في البروستات مما يساعد في تخفيف الألم في بداية التبول ويخفف من كثرة التبول عند الرجال الذين يعانون من تضخم البروستات.",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Dosage",
+          ar: "الجرعة",
+        },
+        infoArray: {
+          en: [
+            "Take 1-2 capsules daily or as directed by your healthcare provider.",
+            "Preferably taken before meals.",
+          ],
+          ar: [
+            " 2-1 كبسولات يوميًا أو حسب نصيحة مقدم الرعاية الصحية، يفضل أخذه قبل الأكل ",
+          ],
+        }
+      }
+    ],
+    reviews: [],
+    tags: [
+      "BPH",
+      "Prostate",
+      "Bladder Health",
+      "Saw Palmetto",
+    ],
+    color: ['Orange'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
 ]
 
 export default product_data;

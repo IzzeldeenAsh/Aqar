@@ -171,10 +171,10 @@
         }
     }
     &__title {
-        text-transform: uppercase;
-        font-weight: 700;
+        // text-transform: uppercase;
+        font-weight: 400;
         font-size: 12px;
-        color: var(--tp-common-white);
+        color: #2D2A6E;
         margin-bottom: 2px;
     }
     &__border {
@@ -183,10 +183,10 @@
 }
 .whight-feature {
     & .mainfeature__title {
-        color: var(--tp-heading-primary);
+        color: #fff;
     }
     & .mainfeature__content p {
-        color: var(--tp-text-body);
+        color: #fff;
     }
 }
 .feature-bg-round {

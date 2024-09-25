@@ -3,8 +3,8 @@ const menu_data = [
   {
     id: 1,
     name: {
-      ar: 'الرئيسية',
-      en: 'Home'
+      ar: 'المنتجات',
+      en: 'Products'
     },
     link: {
       ar: '/ar',
@@ -12,18 +12,7 @@ const menu_data = [
     },
     has_dropdown: false,
   },
-  {
-    id: 2,
-    name: {
-      ar: 'المنتجات',
-      en: 'Products'
-    },
-    link: {
-      ar: '/ar/products',
-      en: '/en/products'
-    },
-    has_dropdown: false,
-  },
+ 
   // {
   //   id: 2,
   //   name: {
@@ -110,8 +99,8 @@ export const mobile_menus = [
   {
     id: 1,
     name: {
-      ar: 'الرئيسية',
-      en: 'Home'
+      ar: 'المنتجات',
+      en: 'Products'
     },
     link: {
       ar: '/ar',
@@ -119,18 +108,7 @@ export const mobile_menus = [
     },
     has_dropdown: false,
   },
-  {
-    id: 2,
-    name: {
-      ar: 'المنتجات',
-      en: 'Products'
-    },
-    link: {
-      ar: '/ar/products',
-      en: '/en/products'
-    },
-    has_dropdown: false,
-  },
+  
   // {
   //   id: 2,
   //   name: {

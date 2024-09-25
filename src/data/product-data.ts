@@ -38,7 +38,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Use",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -78,7 +78,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Dosage and how to take",
-          ar: "طريقة الإستعمال",
+          ar: "طريقة الاستعمال",
         },
         infoArray: {
           en: [
@@ -158,7 +158,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Use",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -184,14 +184,14 @@ const product_data: IProductData[] = [
           ],
           ar: [
             "Hyaluronic acid - يجذب الماء للبشرة و يعمل على ترطيبها و امتلائها",
-            "Niacinamide (b3) و الأدينوسين - مضادات أكسدة و محفزة لصناعة الكولاجين في البشرة و بناء طبقة السيراميد وتحسين الدورة الدموية"
+            "Niacinamide (b3) و الأدينوسين - مضادات أكسدة و محفزة لصناعة الكولاجين في البشرة و بناء طبقة السيراميد "
           ],
         }
       },
       {
         title: {
           en: "Dosage and how to take",
-          ar: "طريقة الإستعمال",
+          ar: "طريقة الاستعمال",
         },
         infoArray: {
           en: [
@@ -262,7 +262,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Use",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -375,7 +375,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Use",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -479,7 +479,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Use",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -589,7 +589,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Use",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -663,9 +663,259 @@ const product_data: IProductData[] = [
       startDate: "2023-08-15T18:00:00.000Z",
       endDate: "2024-07-19T18:00:00.000Z",
     },
+  },  
+  {
+    id: 7,
+    sku: "003",
+    title: "DeHanso Retinol 5 in 1 Cream",
+    price: 30, // Set your price here
+    sale_price: 27, // Set your sale price here
+    image: {
+      id: 3,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727238694/12_gvqimw.jpg",
+      thumbnail:  "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727238987/12_1_rvqcud.webp",
+    },
+    category: {
+      parent: '40 ml cream',
+      child: '',
+    },
+    brand: "DeHanso",
+    quantity: 50, // Set your available quantity
+    unit: '40ml',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727238694/12_gvqimw.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727238987/12_1_rvqcud.webp",
+    ],
+    description: "DeHanso Retinol 5 in 1 Cream helps fight signs of aging, improves skin texture, reduces wrinkles, controls acne, and reduces pigmentation. Contains retinol, hydrolyzed collagen, hyaluronic acid, and witch hazel.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Material", value: "Plastic container" },
+      { key: "Volume", value: "40ml" },
+      { key: "Color", value: "White" },
+      { key: "Skin Type", value: "Suitable for all skin types except sensitive" },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Use",
+          ar: "الاستعمالات",
+        },
+        infoArray: {
+          en: [
+            "Anti-aging",
+            "Improves skin texture and reduces appearance of scars and pores",
+            "Reduces wrinkles by promoting skin cell renewal",
+            "Controls acne by reducing excess sebum and acts as an antioxidant",
+            "Reduces pigmentation by inhibiting melanin production",
+          ],
+          ar: [
+            "مضاد شيخوخة البشرة",
+            "يحسن ملمس البشرة ويقلل من مظهر الندب و المسامات",
+            "يقلل من التجاعيد من خلال تحفيز تجديد خلايا البشرة",
+"مضاد أكسدة و يقلل من االفراز الدهني ف يقلل من ظهورالحبوب",
+            "يقلل من التصبغات من خلال تثبيط عمل انزيم المصنع للميلانين",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Ingredients and concentrations",
+          ar: "المكونات",
+        },
+        infoArray: {
+          en: [
+            "Retinol 0.5%",
+            "Hydrolyzed Collagen 0.2%",
+            "Hyaluronic Acid 0.2%",
+            "Witch Hazel 0.2% - Acts as an astringent and antioxidant",
+          ],
+          ar: [
+            "Retinol 0.5%",
+            "Hydrolyzed Collagen 0.2%",
+            "Hyaluronic Acid 0.2%",
+            "Witch Hazel 0.2% - ",
+            "يعمل كقابض للمسامات ومضاد أكسدة"
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Dosage and how to take",
+          ar: "طريقة الاستعمال",
+        },
+        infoArray: {
+          en: [
+            "Use twice a week for the first two weeks, half an hour after cleansing, before sleeping.",
+            "After two weeks, increase to three times a week.",
+            "After a month, it can be used daily.",
+            "Adjust usage frequency based on your skin's tolerance to retinol and desired results.",
+            "** Not suitable for pregnant or breastfeeding women.",
+          ],
+          ar: [
+           "في أول اسبوعين ضرورة استخدامه بعد التغسيل بنصف ساعة قبل النوم مرتين اسبوعيا فقط",
+            "بعد الأسبوعين، يستخدم ثلاث مرات أسبوعياً.",
+            "عند انتهاء الشهر، يمكن استخدامه يومياً.",
+        "يمكن التدرج باالستخدام االقل او االكثر حسب تقبل البشرة للريتينول و النتيجة المرادة",
+            "** يمنع استخدامه من قبل الحوامل والمرضعات.",
+          ],
+        }
+      }
+    ],
+    reviews: [],
+    tags: [
+      "Retinol",
+      "Anti-aging",
+      "Skin Care",
+    ],
+    color: ['White'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
   },
   {
-    id: 4,
+    id: 8,
+    sku: "004",
+    title: "DeHanso Sunblock Tinted Cream 50ml",
+    price: 35, // Set your price here
+    sale_price: 32, // Set your sale price here
+    image: {
+      id: 4,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727239209/15_gsmh5p.webp",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240007/14_xndnq5.webp",
+    },
+    category: {
+      parent: '50 ml sunblock',
+      child: '',
+    },
+    brand: "DeHanso",
+    quantity: 40, // Set your available quantity
+    unit: '50ml',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727239209/15_gsmh5p.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240007/14_xndnq5.webp"
+    ],
+    description: "DeHanso Sunblock Tinted Cream offers Korean yeast solution technology, deep hydration, and long-lasting sun protection. Enriched with vitamins, paraben-free, water & sweat-resistant, with a natural mica stone tint.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Volume", value: "50ml" },
+      { key: "Sun Protection", value: "UVA/PA+ & UVB/SPF 50" },
+      { key: "Texture", value: "Creamy and tinted" },
+      { key: "Water Resistance", value: "Yes" },
+      { key: "Skin Type", value: "Oily" },
+      { key: "Color Source", value: "Natural mica stone" },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Key Features",
+          ar: "الميزات",
+        },
+        infoArray: {
+          en: [
+            "Korean Licensed ",
+            "with yeast solution technology for skin barrier and deep hydration",
+            "Vitamin-enriched, paraben-free",
+            "Long-lasting protection; reapply every 4 hours",
+            "Water & sweat resistant",
+            "Natural mica stone tint without foundation",
+          ],
+          ar: [
+            "الوحيد المرخص الكوري",
+         "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
+          "خالي من البرابين و مدعم بالفيتامينات لتغذية البشرة",
+           " على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
+          "مقاوم للماء و التعرق",
+            "لا يحتوي على فاونديشين و يكتسب لونه من حجر الميكا الطبيعي",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Product Details",
+          ar: "تفاصيل المنتج",
+        },
+        infoArray: {
+          en: [
+            `<table  style="padding:10px 20px ; font-size:12px;border-collapse: collapse; width: 100%; text-align: left;">
+              <thead>
+                <tr>
+                 
+                  <th style="padding:0px 10px ;">UVA/PA+</th>
+                  <th style="padding:0px 10px ;">UVB/SPF</th>
+                  <th style="padding:0px 10px ;">Chemical</th>
+                  <th style="padding:0px 10px ;">Physical</th>
+                  <th style="padding:0px 10px ;">Texture</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+               
+                  <td style="padding:0px 10px ;">Yes</td>
+                  <td style="padding:0px 10px ;">Yes/ 50</td>
+                  <td style="padding:0px 10px ;">Yes</td>
+                  <td style="padding:0px 10px ;">Yes</td>
+                  <td style="padding:0px 10px ;">Tinted cream</td>
+                </tr>
+              </tbody>
+            </table>`
+          ],
+          ar: [
+            `<table  style="padding:10px 20px ;border-collapse: collapse; width: 100%; text-align: left;">
+              <thead>
+                <tr>
+                
+                  <th style="padding:0px 10px ;">UVA/PA+</th>
+                  <th style="padding:0px 10px ;">UVB/SPF</th>
+                  <th style="padding:0px 10px ;">كيميائي</th>
+                  <th style="padding:0px 10px ;">فيزيائي</th>
+                  <th style="padding:0px 10px ;">الملمس</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+              
+                  <td style="padding:0px 10px ;">نعم</td>
+                  <td style="padding:0px 10px ;">نعم / 50</td>
+                  <td style="padding:0px 10px ;">نعم</td>
+                  <td style="padding:0px 10px ;">نعم</td>
+                  <td style="padding:0px 10px ;"> Tinted cream</td>
+                </tr>
+              </tbody>
+            </table>`
+          ],
+        }
+      },
+      {
+        title: {
+          en: "How to Use",
+          ar: "طريقة الاستعمال",
+        },
+        infoArray: {
+          en: [
+            "Apply 15 to 30 minutes before sun exposure.",
+          ],
+          ar: [
+            "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
+          ],
+        }
+      },
+    ],
+    reviews: [],
+    tags: [
+      "Sunblock",
+      "Tinted",
+      "Korean",
+      "SPF 50",
+    ],
+    color: ['Beige'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
+  {
+    id: 9,
     sku: "004",
     title: "Arbutex intimate cream ",
     price: 30,
@@ -700,7 +950,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Uses",
-          ar: "الإستعمالات",
+          ar: "الاستعمالات",
         },
         infoArray: {
           en: [
@@ -733,6 +983,7 @@ const product_data: IProductData[] = [
           ],
         }
       },
+      
       {
         title: {
           en: "Dosage and how to take",
@@ -769,7 +1020,393 @@ const product_data: IProductData[] = [
     created_at: "2023-09-08T07:18:25.000000Z",
     updated_at: "2023-12-26T15:23:32.000000Z",
   },
- 
+  {
+    id: 10,
+    sku: "005",
+    title: "DeHanso Sunblock Oily Skin 50ml",
+    price: 32, // Set your price here
+    sale_price: 29, // Set your sale price here
+    image: {
+      id: 5,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240108/2_p5wvu6.webp",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240107/3_eiwmwj.webp",
+    },
+    category: {
+      parent: '50 ml sunblock',
+      child: '',
+    },
+    brand: "DeHanso",
+    quantity: 45, // Set your available quantity
+    unit: '50ml',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240108/2_p5wvu6.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240107/3_eiwmwj.webp",
+    ],
+    description: "DeHanso Sunblock Oily Skin is a Korean licensed sunblock with yeast solution technology for deep hydration and long-lasting sun protection. Enriched with vitamins, paraben-free, and has a lightweight, water-resistant formula.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Volume", value: "50ml" },
+      { key: "Sun Protection", value: "UVA/PA+ & UVB/SPF 50" },
+      { key: "Texture", value: "Lightweight Gel-cream" },
+      { key: "Water Resistance", value: "Yes" },
+      { key: "Skin Type", value: "Oily" },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Key Features",
+          ar: "الميزات",
+        },
+        infoArray: {
+          en: [
+            "Korean Licensed",
+            " with yeast solution technology for skin barrier and deep hydration",
+            "Vitamin-enriched, paraben-free",
+            "Long-lasting protection; reapply every 4 hours",
+            "Water & sweat resistant, lightweight texture",
+          ],
+          ar: [
+            "الوحيد المرخص الكوري",
+            "   الوحيد في استخدام تكنولوجيا محاليل الخمائر لبناء جدار البشرة والترطيب العميق"  ,
+            "مدعم بالفيتامينات  بالفيتامينات لتغذية البشرة وخالي من البرابين",
+            "على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
+            "مقاوم للماء والتعرق و ذو قوام خفيف",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Product Details",
+          ar: "تفاصيل المنتج",
+        },
+        infoArray: {
+          en: [
+            `<table  style=" padding:10px 20px ; font-size:12px;border-collapse: collapse; width: 100%; text-align: left;">
+              <thead>
+                <tr>
+                  <th padding:0 10px ;>UVA/PA+</th>
+                  <th padding:0 10px ;>UVB/SPF</th>
+                  <th padding:0 10px ;>Chemical</th>
+                  <th padding:0 10px ;>Physical</th>
+                  <th padding:0 10px ;>Texture</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td padding:0 10px ;>Yes</td>
+                  <td padding:0 10px ;>Yes/ 50</td>
+                  <td padding:0 10px ;>Yes</td>
+                  <td padding:0 10px ;>No</td>
+                  <td padding:0 10px ;>Gel-cream</td>
+                </tr>
+              </tbody>
+            </table>`
+          ],
+          ar: [
+            `<table  style=" width: 100%; border-collapse: collapse; font-size:12px; direction="rtl";  text-align: left;">
+              <thead>
+                <tr>
+                  <th  padding:0 10px ;>UVA/PA+</th>
+                  <th  padding:0 10px ;>UVB/SPF</th>
+                  <th  padding:0 10px ;>كيميائي</th>
+                  <th  padding:0 10px ;>فيزيائي</th>
+                  <th  padding:0 10px ;>الملمس</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td  padding:0 10px ;>نعم</td>
+                  <td  padding:0 10px ;>نعم / 50</td>
+                  <td  padding:0 10px ;>نعم</td>
+                  <td  padding:0 10px ;>لا</td>
+                  <td  padding:0 10px ;>كريم جل</td>
+                </tr>
+              </tbody>
+            </table>`
+          ],
+        }
+      },
+      {
+        title: {
+          en: "How to Use",
+          ar: "طريقة الاستعمال",
+        },
+        infoArray: {
+          en: [
+            "Apply 15 to 30 minutes before sun exposure.",
+          ],
+          ar: [
+            "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
+          ],
+        }
+      }
+  
+    ],
+    reviews: [],
+    tags: [
+      "Sunblock",
+      "Gel-cream",
+      "Korean",
+      "SPF 50",
+    ],
+    color: ['Clear'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
+  {
+    id: 11,
+    sku: "006",
+    title: "DeHanso Sunblock Dry Skin 50ml",
+    price: 38, // Set your price here
+    sale_price: 35, // Set your sale price here
+    image: {
+      id: 6,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241328/16_tgro3h.webp",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241328/16_tgro3h.webp",
+    },
+    category: {
+      parent: '50 ml sunblock',
+      child: '',
+    },
+    brand: "DeHanso",
+    quantity: 35, // Set your available quantity
+    unit: '50ml',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241328/16_tgro3h.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241328/1_bwrdsv.webp",
+    ],
+    description: "DeHanso Sunblock Dry Skin offers Korean yeast solution technology, crystal and diamond infusion, and long-lasting protection. Enriched with hyaluronic acid and shea butter, it's water and sweat-resistant, providing all-day protection.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Volume", value: "50ml" },
+      { key: "Sun Protection", value: "UVA/PA+ & UVB/SPF 50" },
+      { key: "Texture", value: "Cream" },
+      { key: "Water Resistance", value: "Yes" },
+      { key: "Skin Type", value: "Dry" },
+      { key: "Special Ingredients", value: "Crystals, Gemstones, Diamond, Hyaluronic Acid, Shea Butter" },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Key Features",
+          ar: "الميزات",
+        },
+        infoArray: {
+          en: [
+            "Korean Licensed ",
+            "with yeast solution technology for skin barrier and deep hydration",
+            "Infused with crystals, gemstones, and diamond particles for radiant skin",
+            "Enriched with hyaluronic acid and shea butter, paraben-free",
+            "Only needs to be applied once daily for long-lasting protection",
+            "Contains both physical and chemical filters, water & sweat resistant",
+          ],
+          ar: [
+     "الوحيد المرخص الكوري",
+   "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
+          " الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و عالج العديد من مشاكل البشرة و إضفاء الوهج عليها",
+            "خالي من البرابين و مزود بالهايالرونيك أسيد و زبدة الشيا",
+            "على عكس واقيات الشمس المعتادة, ليس بحاجة لأن يجدد كل ساعتين. تكتفي البشرة بمرة واحدة يوميا لاحتواؤه على الفالتر الفيزيائية و خاصية مقاومة الماء و التعرق فيوفر حماية طويلة و لحماية قصوى تم إضافة فالتر كيميائية",
+        "مقاوم للماء و التعرق",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Product Details",
+          ar: "تفاصيل المنتج",
+        },
+        infoArray: {
+          en: [
+           `<table style=" padding:10px 20px ; font-size:12px;border-collapse: collapse; width: 100%; text-align: left;">
+              <thead>
+                <tr>
+                  <th  padding:0 10px ;>UVA/PA+</th>
+                  <th  padding:0 10px ;>UVB/SPF</th>
+                  <th  padding:0 10px ;>Chemical</th>
+                  <th  padding:0 10px ;>Physical</th>
+                  <th  padding:0 10px ;>Texture</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+           
+                  <td  padding:0 10px ;>Yes</td>
+                  <td  padding:0 10px ;>Yes/ 50</td>
+                  <td  padding:0 10px ;>Yes</td>
+                  <td  padding:0 10px ;>Yes</td>
+                  <td  padding:0 10px ;>Cream</td>
+                </tr>
+              </tbody>
+            </table>`
+          ],
+          ar: [
+         `<table style=" width: 100%; border-collapse: collapse; font-size:12px; direction="rtl";  text-align: left;">
+              <thead>
+                <tr>
+                  <th  padding:0 10px ;>UVA/PA+</th>
+                  <th  padding:0 10px ;>UVB/SPF</th>
+                  <th  padding:0 10px ;>كيميائي</th>
+                  <th  padding:0 10px ;>فيزيائي</th>
+                  <th  padding:0 10px ;>الملمس</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+            
+                  <td  padding:0 10px ;>نعم</td>
+                  <td  padding:0 10px ;>نعم / 50</td>
+                  <td  padding:0 10px ;>نعم</td>
+                  <td  padding:0 10px ;>نعم</td>
+                  <td  padding:0 10px ;>كريم</td>
+                </tr>
+              </tbody>
+            </table>`
+          ],
+        }
+      },
+      {
+        title: {
+          en: "How to Use",
+          ar: "طريقة الاستعمال",
+        },
+        infoArray: {
+          en: [
+            "Apply 15 to 30 minutes before sun exposure.",
+          ],
+          ar: [
+            "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
+          ],
+        }
+      }
+     
+    ],
+    reviews: [],
+    tags: [
+      "Sunblock",
+      "Cream",
+      "Korean",
+      "SPF 50",
+    ],
+    color: ['White'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
+  {
+    id: 13,
+    sku: "009",
+    title: "DeHanso Charcoal Cleansing Foam",
+    price: 20, // Set your price here
+    sale_price: 18, // Set your sale price here
+    image: {
+      id: 9,
+      original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/5_ryrpit.webp",
+      thumbnail:   "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/6_yjmahj.webp",
+    },
+    category: {
+      parent: '150 ml cleanser',
+      child: '',
+    },
+    brand: "DeHanso",
+    quantity: 80, // Set your available quantity
+    unit: '150ml',
+    gallery: [
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/5_ryrpit.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/6_yjmahj.webp",
+    ],
+    description: "DeHanso Charcoal Cleansing Foam is designed for oily and combination skin types. It cleanses, hydrates, tightens pores, and reduces acne using activated charcoal, tea tree oil, and aloe vera.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Volume", value: "150ml" },
+      { key: "Skin Type", value: "Oily and Combination" },
+      { key: "Active Ingredients", value: "Activated Charcoal, Tea Tree Oil, Aloe Vera" },
+      { key: "Usage Instructions", value: "Use daily. Apply a small amount to damp skin, gently massage, and rinse well with water." },
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Product",
+          ar: "المنتج",
+        },
+        infoArray: {
+          en: [
+            `<spaan style="font-size: 18px; color: #8faadc; font-weight:bold">Foaming cleanser with charcoal for oily and combination skin</spaan>`,
+          ],
+          ar: [
+            `<spaan style="direction: rtl; font-size: 18px; color: #8faadc;font-weight:bold">غسول رغوي للبشرة الدهنية و المختلطة بالفحم</spaan>`,
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Uses",
+          ar: "الاستخدامات",
+        },
+        infoArray: {
+          en: [
+            "Cleanses the skin and removes excess sebum.",
+            "Provides hydration and a refreshed appearance.",
+            "Tightens enlarged pores.",
+            "Reduces acne.",
+          ],
+          ar: [
+            "ينظف البشرة ويخلصها من الإفرازات الدهنية.",
+            "يكسب البشرة الترطيب والنضارة.",
+            "يضيق المسام الواسعة.",
+            "يقلل من الحبوب.",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Active ",
+          ar: "المكونات ",
+        },
+        infoArray: {
+          en: [
+            "Activated Charcoal",
+            "Tea Tree Oil",
+            "Aloe Vera",
+          ],
+          ar: [
+           "غني بالمكونات الفعالة مثل الفحم النشط و زيت شجرة الشاي و األلوفيرا",
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Usage Instructions",
+          ar: "تعليمات الاستخدام",
+        },
+        infoArray: {
+          en: [
+            "Use daily.",
+            "Apply a small amount to damp skin, gently massage, and rinse well with water.",
+          ],
+          ar: [
+            "يستخدم يوميًا.",
+            "يوضع القليل على بشرة مبللة ويدلك بلطف ثم يشطف جيدًا بالماء.",
+          ],
+        }
+      }
+    ],
+    reviews: [],
+    tags: [
+      "Charcoal",
+      "Cleansing Foam",
+      "Oily Skin",
+      "Tea Tree Oil",
+      "Aloe Vera",
+    ],
+    color: ['Black'],
+    status: "publish",
+    sold: 0,
+    created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+    updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
 ]
 
 export default product_data;
