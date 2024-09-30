@@ -6,6 +6,7 @@ const product_data: IProductData[] = [
     sku: "001",
     title: "Colon Soother",
     price: 20,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667022/Group_27_1_zn6lp6.png",
     sale_price: 18,
     image: {
       id: 1,
@@ -118,67 +119,13 @@ const product_data: IProductData[] = [
     created_at: "2023-11-08T07:18:25.000000Z",
     updated_at: "2023-12-26T15:23:32.000000Z",
   },
-  {
-    id: 2,
-    sku: "002",
-    title: "Omega 3",
-    price: 25,
-    sale_price: 22,
-    image: {
-      id: 1,
-      thumbnail:  "/assets/img/product/new/other-img-2.jpg",
-      original: "/assets/img/product/others/other-img-2-thumb.jpg",
-    },
-    category: {
-      parent: '100 + 10 Softgels',
-      child: '',
-    },
-    brand: "Super Market",
-    quantity: 30,
-    unit: '4pc(s)',
-    description: "Lemon Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
-    videoId: null,
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "4pc(s)" },
-      { key: "Color", value: "Lemon" },
-    ],
-    productInfoList: [
-   
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "John",
-        comment: "Good",
-        rating: 4,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "06 March, 2023",
-      }
-    ],
-    tags: [
-      "Lemon",
-      "Fresh",
-    ],
-    color: ['Red', 'Green'],
-    status: "publish",
-    sold: 10,
-    created_at: "2023-10-08T07:18:25.000000Z",
-    updated_at: "2023-12-26T15:23:32.000000Z",
-    gallery: [
-      "/assets/img/product/new/other-img-2.jpg",
-      "/assets/img/product/new/other-img-2-thumb.jpg",
-      "/assets/img/product/new/other-img-2-thumb-2.jpg",
-    ],
-  },
+ 
   {
     id: 3,
     sku: "003",
     title: "PregyMom®",
     price: 25,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668386/Group_34_5_wp675h.png",
     sale_price: 24,
     image: {
       id: 1,
@@ -263,6 +210,7 @@ const product_data: IProductData[] = [
     title: "Utitic 30 Sachets",
     price: 45, // Set your price here
     sale_price: 40, // Set your sale price here
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668221/Group_27_3_r9ue63.png",
     image: {
       id: 7,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/9_yw2pvp.webp",
@@ -364,6 +312,7 @@ const product_data: IProductData[] = [
     title: "Proserec 30 Caps",
     price: 50, // Set your price here
     sale_price: 45, // Set your sale price here
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668145/Group_34_4_jdbfni.png",
     image: {
       id: 8,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241798/7_i222vp.webp",

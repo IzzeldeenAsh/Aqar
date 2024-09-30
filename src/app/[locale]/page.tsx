@@ -24,56 +24,22 @@ export default function HomePage() {
       {/* header end */}
 
       <main>
-        {/* hero start */}
-        <SimpleSlider />
-        {/* hero end */}
-        {/* category start */}
-        {/* <section className="category-area grey-bg pb-40">
-          <div className="container">
-            <CategoryArea cls="category-active"/>
-          </div>
-        </section> */}
-        {/* category end */}
-        {/* weekly product start */}
-        {/* <div id="products" style={{overflow:"hidden" , maxWidth:"100%"}}>
-        <ProductArea />
-        <AllProducts />
-        </div> */}
-        
-        {/* <ProductFeatureArea /> */}
+      
         
         <div id="dehanso" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea   />
         </div>
       
-        {/* weekly product end */}
-        {/* product feature start */}
-     
-        {/* product feature end */}
-        {/* product banner start */}
-        {/* <ProductBannerArea /> */}
-        {/* product banner end */}
-        {/* all products start */}
-   
-        {/* all products end */}
-        {/* deal offer start */}
-        {/* <OfferCountdownBanner bgClr=""/> */}
+      
         <div id="suppliments" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <AllProducts />
         </div>
-        {/* deal offer end */}
-        {/* blogs start */}
-        {/* <BlogItems /> */}
-        {/* blogs end */}
-        {/* feature area start */}
-        {/* <FeatureArea /> */}
-        {/* feature area end */}
+       
       </main>
 
       <div id="about" >
         <AboutAreaFour />
       </div>
-          <WorldWide/>
         
 
       <div id="contact">
