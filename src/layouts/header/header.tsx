@@ -8,8 +8,6 @@ import logo from '@/assets/img/logo/logoSVG.svg';
 import cart_icon from '@/assets/img/icon/cart-1.svg';
 import useSticky from '@/hooks/use-sticky';
 import HeaderTop from './header-top';
-import SearchPopup from '@/components/common/modal/search-popup';
-import CartSidebar from '@/components/sidebar/cart-sidebar';
 import useCartInfo from '@/hooks/use-cart-info';
 import MobileSidebar from '@/components/sidebar/mobile-sidebar';
 import { usePathname } from 'next/navigation'
@@ -114,13 +112,8 @@ const Header = () => {
          </div>
          {/* mobile-menu-area-end */}
 
-         {/* search popup start */}
-         <SearchPopup isSearchOpen={isSearchOpen} setIsSearchOpen={setIsSearchOpen}/>
-         {/* search popup end */}
-
-         {/* cart sidebar start */}
-         <CartSidebar isCartSidebarOpen={isCartOpen} setIsCartSidebarOpen={setIsCartOpen}/>
-         {/* cart sidebar end */}
+       
+      
 
          {/* mobile-menu start */}
          <MobileSidebar isSidebarOpen={isMobileSidebarOpen} setIsSidebarOpen={setIsMobileSidebarOpen} />

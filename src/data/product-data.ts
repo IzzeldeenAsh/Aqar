@@ -7,6 +7,7 @@ const product_data: IProductData[] = [
     title: "DeHanso B tox cream",
     price: 20,
     sale_price: 18,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667403/Group_35_fyyqlb.png",
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824707/product-img-1-thumb-2_nnr8tg.jpg",
@@ -127,6 +128,7 @@ const product_data: IProductData[] = [
     title: "DeHanso Ultra hyaluron 8% eye cream",
     price: 25,
     sale_price: 22,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667466/Group_35_1_brwxhb.png",
     image: {
       id: 1, 
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824615/dehanso-img-2-thumb_wz1tcw.jpg",
@@ -231,6 +233,7 @@ const product_data: IProductData[] = [
     title: "DeHanso Collagen gel",
     price: 25,
     sale_price: 24,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667516/Group_34_ynl3za.png",
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824619/dehanso-img-3-thumb_pgdqhk.jpg",
@@ -345,6 +348,7 @@ const product_data: IProductData[] = [
     title: "DeHanso Glycolic acid gel ",
     price: 30,
     sale_price: 27,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667583/Group_34_1_nejum6.png",
     image: {
       id: 1,
       thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
@@ -448,6 +452,7 @@ const product_data: IProductData[] = [
     title: "DeHanso Hyaluronic acid gel",
     price: 35,
     sale_price: 30,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667654/Group_35_2_mhgxbl.png",
     image: {
       id: 1,
       thumbnail:  "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824618/dehanso-img-6-thumb_g0li06.jpg",
@@ -559,6 +564,7 @@ const product_data: IProductData[] = [
     title: "DeHanso 1 minute white cream",
     price: 35,
     sale_price: 30,
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667726/Group_34_2_meo5fm.png",
     image: {
       id: 1,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824902/dehanso-img-5-thumb_eifylc.jpg",
@@ -682,6 +688,7 @@ const product_data: IProductData[] = [
     brand: "DeHanso",
     quantity: 50, // Set your available quantity
     unit: '40ml',
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667915/Group_35_3_y7ah6y.png",
     gallery: [
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727238694/12_gvqimw.jpg",
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727238987/12_1_rvqcud.webp",
@@ -790,6 +797,7 @@ const product_data: IProductData[] = [
     },
     brand: "DeHanso",
     quantity: 40, // Set your available quantity
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667970/Group_34_3_p5jxqb.png",
     unit: '50ml',
     gallery: [
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727239209/15_gsmh5p.webp",
@@ -925,118 +933,14 @@ const product_data: IProductData[] = [
     created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
     updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
   },
-  {
-    id: 9,
-    sku: "004",
-    title: "Arbutex intimate cream ",
-    price: 30,
-    sale_price: 27,
-    image: {
-      id: 1,
-      thumbnail: "/assets/img/product/others/other-img-4.jpg",
-      original: "/assets/img/product/others/other-img-4-thumb.jpg",
-    },
-    category: {
-      parent: '40 ml cream',
-      child: '',
-    },
-    brand: "Super Market",
-    quantity: 30,
-    unit: '250gm',
-    description: "Ginger Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
-    videoId: null,
-    additionalInfo: [
-      { key: "Material", value: "Plastic, Wood" },
-      { key: "Legs", value: "Lacquered oak and black painted oak" },
-      { key: "Length", value: "48cm" },
-      { key: "Depth", value: "52cm" },
-      { key: "Weight", value: "250gm" },
-      { key: "Color", value: "Yellow" },
-    ],
-    gallery:[
-      "/assets/img/product/new/other-img-4.jpg",
-      "/assets/img/product/new/other-img-4-thumb.jpg",
-    ],
-    productInfoList: [
-      {
-        title: {
-          en: "Uses",
-          ar: "الاستعمالات",
-        },
-        infoArray: {
-          en: [
-            "Get fairer skin in the intimate areas safely",
-            "Improve skin texture and a moisturizer"
-          ],
-          ar: [
-            "تفتيح سواد بشرة المناطق الحساسة",
-            "ترطيب و تحسين نوعية الجلد في المناطق الحساسة"
-          ],
-        }
-      },
-      {
-        title: {
-          en: "Ingredients and concentrations",
-          ar: "المكونات",
-        },
-        infoArray: {
-          en: [
-            "Beta Arbutin ........ 0.1% - Whitening",
-            "Niacinamide (b3) ...... 1% - Promotes skin regeneration and fades pigmentation",
-            "Rosemary Extract",
-            "Vitamin C and Vitamin E"
-          ],
-          ar: [
-            "B-Arbutin - وقف عملية التصبغ و العمل على تفتيح البشرة",
-            "Niacinamide (b3) - مضاد أكسدة و المساعدة على تجديد خلايا البشرة و تفتيحها",
-            "خلاصة اكليل الجبل - و يعمل كمضاد للالتهابات و لبشرة ناعمة",
-            "Vitamin C and E - ترطيب البشرة و إشراقها و تفتيحها و مضادات أكسدة"
-          ],
-        }
-      },
-      
-      {
-        title: {
-          en: "Dosage and how to take",
-          ar: "طريقة الاستعمال",
-        },
-        infoArray: {
-          en: [
-            "Apply two to three drops on the desired area"
-          ],
-          ar: [
-            "ضعي كمية مناسبة و دلكيها على البشرة",
-            "مناسب للمناطق الحساسة جميعها و الأكواع و الركب"
-          ],
-        }
-      }
-    ],
-    reviews: [
-      {
-        id: 1,
-        name: "John",
-        comment: "Good",
-        rating: 4,
-        user: "/assets/img/testimonial/test-avata-1.png",
-        date: "06 March, 2023",
-      }
-    ],
-    tags: [
-      "Ginger",
-      "Vegetables",
-    ],
-    color: ['Yellow'],
-    status: "publish",
-    sold: 25,
-    created_at: "2023-09-08T07:18:25.000000Z",
-    updated_at: "2023-12-26T15:23:32.000000Z",
-  },
+
   {
     id: 10,
     sku: "005",
     title: "DeHanso Sunblock Oily Skin 50ml",
     price: 32, // Set your price here
     sale_price: 29, // Set your sale price here
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667970/Group_34_3_p5jxqb.png",
     image: {
       id: 5,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727240108/2_p5wvu6.webp",
@@ -1186,6 +1090,7 @@ const product_data: IProductData[] = [
     title: "DeHanso Sunblock Dry Skin 50ml",
     price: 38, // Set your price here
     sale_price: 35, // Set your sale price here
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667970/Group_34_3_p5jxqb.png",
     image: {
       id: 6,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241328/16_tgro3h.webp",
@@ -1324,6 +1229,7 @@ const product_data: IProductData[] = [
     title: "DeHanso Charcoal Cleansing Foam",
     price: 20, // Set your price here
     sale_price: 18, // Set your sale price here
+    icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668053/Group_27_2_v6nzjz.png",
     image: {
       id: 9,
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/5_ryrpit.webp",
@@ -1428,6 +1334,112 @@ const product_data: IProductData[] = [
     sold: 0,
     created_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
     updated_at: "2023-12-26T15:23:32.000000Z", // Adjust as needed
+  },
+  {
+    id: 9,
+    sku: "004",
+    title: "Arbutex intimate cream ",
+    price: 30,
+    sale_price: 27,
+    image: {
+      id: 1,
+      thumbnail: "/assets/img/product/others/other-img-4.jpg",
+      original: "/assets/img/product/others/other-img-4-thumb.jpg",
+    },
+    category: {
+      parent: '40 ml cream',
+      child: '',
+    },
+    brand: "Super Market",
+    quantity: 30,
+    unit: '250gm',
+    description: "Ginger Form is an armless modern chair with a minimalistic expression. With a simple and contemporary design Form Chair has a soft and welcoming ilhouette and a distinctly residential look. The legs appear almost as if they are growing out of the shell. This gives the design flexibility and makes it possible to vary the frame. Unika is a mouth blown series of small, glass pendant lamps, originally designed for the Restaurant Gronbech. Est eum itaque maiores qui blanditiis architecto. Eligendi saepe rem ut. Cumque quia earum eligendi.",
+    videoId: null,
+    additionalInfo: [
+      { key: "Material", value: "Plastic, Wood" },
+      { key: "Legs", value: "Lacquered oak and black painted oak" },
+      { key: "Length", value: "48cm" },
+      { key: "Depth", value: "52cm" },
+      { key: "Weight", value: "250gm" },
+      { key: "Color", value: "Yellow" },
+    ],
+    gallery:[
+      "/assets/img/product/new/other-img-4.jpg",
+      "/assets/img/product/new/other-img-4-thumb.jpg",
+    ],
+    productInfoList: [
+      {
+        title: {
+          en: "Uses",
+          ar: "الاستعمالات",
+        },
+        infoArray: {
+          en: [
+            "Get fairer skin in the intimate areas safely",
+            "Improve skin texture and a moisturizer"
+          ],
+          ar: [
+            "تفتيح سواد بشرة المناطق الحساسة",
+            "ترطيب و تحسين نوعية الجلد في المناطق الحساسة"
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Ingredients and concentrations",
+          ar: "المكونات",
+        },
+        infoArray: {
+          en: [
+            "Beta Arbutin ........ 0.1% - Whitening",
+            "Niacinamide (b3) ...... 1% - Promotes skin regeneration and fades pigmentation",
+            "Rosemary Extract",
+            "Vitamin C and Vitamin E"
+          ],
+          ar: [
+            "B-Arbutin - وقف عملية التصبغ و العمل على تفتيح البشرة",
+            "Niacinamide (b3) - مضاد أكسدة و المساعدة على تجديد خلايا البشرة و تفتيحها",
+            "خلاصة اكليل الجبل - و يعمل كمضاد للالتهابات و لبشرة ناعمة",
+            "Vitamin C and E - ترطيب البشرة و إشراقها و تفتيحها و مضادات أكسدة"
+          ],
+        }
+      },
+      
+      {
+        title: {
+          en: "Dosage and how to take",
+          ar: "طريقة الاستعمال",
+        },
+        infoArray: {
+          en: [
+            "Apply two to three drops on the desired area"
+          ],
+          ar: [
+            "ضعي كمية مناسبة و دلكيها على البشرة",
+            "مناسب للمناطق الحساسة جميعها و الأكواع و الركب"
+          ],
+        }
+      }
+    ],
+    reviews: [
+      {
+        id: 1,
+        name: "John",
+        comment: "Good",
+        rating: 4,
+        user: "/assets/img/testimonial/test-avata-1.png",
+        date: "06 March, 2023",
+      }
+    ],
+    tags: [
+      "Ginger",
+      "Vegetables",
+    ],
+    color: ['Yellow'],
+    status: "publish",
+    sold: 25,
+    created_at: "2023-09-08T07:18:25.000000Z",
+    updated_at: "2023-12-26T15:23:32.000000Z",
   },
 ]
 
