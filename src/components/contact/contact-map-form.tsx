@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from '../form/contact-form';
 
 const ContactMapForm = () => {
   return (
@@ -17,7 +16,6 @@ const ContactMapForm = () => {
                     <p>Your email address will not be published. Required fields are marked *</p>
                     <div className="tpform__box">
                        {/* contact form */}
-                       <ContactForm/>
                        {/* contact form */}
                     </div>
                   </div>

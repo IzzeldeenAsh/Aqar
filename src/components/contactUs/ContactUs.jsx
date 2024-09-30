@@ -28,7 +28,8 @@ const fieldStyle = {
   border: "none",
   background: "none",
   backgroundColor: "none",
-  borderBottom: "1px solid #00344c"
+  borderBottom: "1px solid #00344c",
+  width:"300px"
 };
 
 const TextAreastyle = {
