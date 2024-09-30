@@ -10,6 +10,8 @@ export type IReview = {
 export interface IProductData {
   id: number;
   sku: string;
+
+icon?:string;
   title: string;
   price: number;
   sale_price?: number;

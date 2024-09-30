@@ -57,8 +57,11 @@
     }
     &__content {
         // background-color: var(--tp-grey-8);
-        padding: 11px 22px 20px 18px;
+        padding: 20px 22px 20px 18px;
         border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
         @media #{$xl} {
             padding: 11px 13px 20px 13px;
         }

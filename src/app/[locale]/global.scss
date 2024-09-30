@@ -45,3 +45,14 @@ html[lang="ar"] .tpslider__sub-title {
 .pointer{
   cursor: pointer !important;
 }
+
+.tpproduct__content{
+  background-color: #ffffff;
+box-shadow: -1px 4px 6px #bababa22;
+border-radius: 0px !important;
+}
+textarea::placeholder {
+  color: #78819C;        /* Change the color */
+  font-size: 12px;    /* Adjust font size */
+ 
+}

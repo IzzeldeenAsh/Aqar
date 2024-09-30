@@ -1,21 +1,15 @@
 "use client";
 import React,{ useState , useEffect} from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { Rating } from "react-simple-star-rating";
 import { IProductData } from "@/types/product-d-t";
 import { averageRating, discountPercentage, isHot } from "@/utils/utils";
-import CountdownTimer from "@/components/common/countdown-timer";
 import { useAppDispatch, useAppSelector } from "@/redux/hook";
 import { handleModalProduct, handleOpenModal } from "@/redux/features/utility";
-import { add_cart_product } from "@/redux/features/cart";
-import { add_to_compare } from "@/redux/features/compare";
-import { add_to_wishlist } from "@/redux/features/wishlist";
 
 // image style
 const imgStyle = {
-  width: "100%",
-  height: "100%",
+  width: "300px",
+  height: "300px",
 };
 
 // prop type
@@ -58,7 +52,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
       className={`tpproduct p-relative ${cls ? cls : ""} ${progress ? "tpprogress__hover" : ""}`}
     >
       <div className="tpproduct__thumb p-relative text-center">
-        <a onClick={() =>handleProductModal(product)}>
+        <a onClick={() =>handleProductModal(product)} >
           <Image
             src={image.original}
             alt="product-img"
@@ -68,7 +62,7 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
           />
         </a>
         {image.thumbnail && (
-          <a onClick={() =>handleProductModal(product)} className="tpproduct__thumb-img">
+          <a onClick={() =>handleProductModal(product)} className="tpproduct__thumb-img" >
             <Image
               src={image.thumbnail}
               alt="product-img"
@@ -102,51 +96,23 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
           </a>
         </div>
       </div>
-      <div className="tpproduct__content">
-      <h4 className="tpproduct__title fw-bold text-center">
+      <div className="tpproduct__content align-items-center">
+      {product.icon && <div>
+      <Image src={product.icon} alt="product" width={62} height={62} />
+    </div>}
+    <div className="d-flex flex-column justify-content-start">
+    <h4 className="tpproduct__title fw-bold ">
           <a onClick={() =>handleProductModal(product)}>{title}</a>
         </h4>
         <span
           className={`tpproduct__content-weight ${offer_style ? "mb-10" : ""}`}
         >
-        {category.parent &&  <div className="text-center" >{category.parent}</div> } 
+        {category.parent &&  <div  >{category.parent}</div> } 
           {/* <div className="text-center">{category.child}</div> */}
         </span>
       
-        {/* <div className="tpproduct__rating mb-5">
-          <Rating allowFraction size={16} initialValue={averageRating(reviews)} readonly={true} />
-        </div> */}
-        {/* <div
-          className={`tpproduct__price ${offer_style ? "tpproduct__big-price" : ""} ${price_space}`}
-        >
-          <span>${sale_price ? sale_price.toFixed(2) : price.toFixed(2)} </span>
-          {sale_price && <del>${price.toFixed(2)}</del>}
-        </div> */}
-        {offer_style && (
-          <>
-            <div className="deals-label">Harry Up! Offer end in:</div>
-            <CountdownTimer
-              expiryTimestamp={new Date(offerDate?.endDate!)}
-              cls="tpcoundown__themebg"
-            />
-          </>
-        )}
-        {progress && (
-          <div className="tpproduct__progress">
-            <div className="progress mb-5">
-              <div
-                className="progress-bar"
-                style={{ width: `${(sold / quantity) * 100}%` }}
-              ></div>
-            </div>
-            <span>
-              Sold:{" "}
-              <b>
-                {sold}/{quantity}
-              </b>
-            </span>
-          </div>
-        )}
+    </div>
+   
       </div>
       {/* <div className="tpproduct__hover-text">
         <div className="tpproduct__hover-btn d-flex justify-content-center mb-10">
@@ -176,3 +142,4 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
 };
 
 export default ProductSingle;
+
