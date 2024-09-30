@@ -5,9 +5,6 @@ import { Rating } from "react-simple-star-rating";
 import { IProductData } from "@/types/product-d-t";
 import product_data from "@/data/product-data";
 import { averageRating, isHot } from "@/utils/utils";
-import ReviewForm from "../form/review-form";
-import { Video } from "../svg";
-import VideoPopup from "../common/modal/video-popup";
 import ShopDetailsUpper from "./shop-details-upper";
 import Link from "next/link";
 
@@ -94,7 +91,6 @@ const ShopDetailsArea = ({ product,navStyle=false,topThumb=false }: IProps) => {
                           <div className="tpvideo__video-btn">
                             <a className="tpvideo__video-icon pointer popup-video" onClick={()=> setIsVideoOpen(true)}>
                                 <i>
-                                  <Video/>
                                 </i>
                             </a>
                           </div>
@@ -188,7 +184,6 @@ const ShopDetailsArea = ({ product,navStyle=false,topThumb=false }: IProps) => {
                           Add a review{" "}
                         </h4>
                         {/* review form */}
-                        <ReviewForm />
                         {/* review form */}
                       </div>
                     </div>
@@ -298,11 +293,7 @@ const ShopDetailsArea = ({ product,navStyle=false,topThumb=false }: IProps) => {
     </section>
 
        {/* video modal start */}
-       {videoId && <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={videoId}
-      />}
+     
       {/* video modal end */}
     </>
   );
