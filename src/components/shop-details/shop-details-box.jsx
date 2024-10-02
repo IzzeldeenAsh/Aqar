@@ -48,11 +48,12 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }) => {
             {navStyle && (
               <div className="tpproduct-details__nab p-relative">
                 {!topThumb && (
-                  <div className="w-img">
+                  <div className="w-img mb-2">
                     <Image
                       src={activeImg}
                       alt="prd-image"
                       width={500}
+                      className="mb-2"
                       height={500}
                       style={{ height: "auto" }}
                     />
@@ -90,6 +91,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }) => {
                       src={activeImg}
                       alt="prd-image"
                       width={500}
+                      className=" mb-2"
                       height={500}
                       style={{ height: "auto" }}
                     />

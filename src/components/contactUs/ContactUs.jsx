@@ -15,7 +15,7 @@ export function FeatureItem({ img, title, subtitle, spacing = '30' }) {
           {/* <Image src={`/assets/img/icon/feature-icon-${img}.svg`} alt="icon" width={40} height={40}/> */}
         </div>
         <div className="mainfeature__content">
-          <h4 className="mainfeature__title" style={{ fontSize: "30px", textDecoration: "Capitalize" }}>{title}</h4>
+          <h4 className="mainfeature__title ibx-font" style={{ fontSize: "30px", textDecoration: "Capitalize" }}>{title}</h4>
           <p className='text-muted fw-bold' dangerouslySetInnerHTML={{ __html: subtitle }} />
         </div>
       </div>
@@ -166,7 +166,7 @@ const ContactUs = () => {
                 />
               </div>
             </div>
-            <div className='tArea'>
+            <div className='tArea mb-4'>
               <textarea
                 id="message"
                 name="message"

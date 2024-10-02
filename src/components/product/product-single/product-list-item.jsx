@@ -84,7 +84,7 @@ const ProductListItem = ({ product }) => {
         {productInfoList && (
         <ul className="tplist__content-info">
           {productInfoList.map((info,i) => (
-            <li key={i}>{info}</li>
+            <li className="ibx-font" key={i}>{info}</li>
           ))}
         </ul>
         )}
