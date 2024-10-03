@@ -1355,8 +1355,8 @@ const product_data: IProductData[] = [
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727883412/Group_37_rh35ly.png",
     image: {
       id: 1,
-      thumbnail: "/assets/img/product/others/other-img-4.jpg",
-      original: "/assets/img/product/others/other-img-4-thumb.jpg",
+      thumbnail:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727934823/9_oey9y0.png", 
+      original:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727934797/7_1_en2oth.webp",
     },
     category: {
       parent: '40 ml cream',
@@ -1376,8 +1376,8 @@ const product_data: IProductData[] = [
       { key: "Color", value: "Yellow" },
     ],
     gallery:[
-      "/assets/img/product/new/other-img-4.jpg",
-      "/assets/img/product/new/other-img-4-thumb.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727934797/7_1_en2oth.webp",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727934823/9_oey9y0.png",
     ],
     productInfoList: [
       {
