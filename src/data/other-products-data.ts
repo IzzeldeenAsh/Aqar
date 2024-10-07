@@ -79,19 +79,21 @@ const product_data: IProductData[] = [
           en: [
             "For mild cases: One capsule when needed.",
             "For moderate to severe cases: One capsule twice or thrice daily as needed.",
-            "Do not exceed three capsules daily."
+            "Do not exceed three capsules daily.",
+            "Take the capsule with a full glass of water.", // Added this line
+            "Avoid laying down immediately after the dose." // Added this line
           ],
           ar: [
             "كبسولة واحدة عند اللزوم في الحالات الخفيفة.",
             "كبسولة واحدة مرتين أو ثلاث مرات في اليوم في الحالات العصبية.",
             "لا تتجاوز الثلاث كبسولات يومياً.",
-            "مع كأس ماء كبير كامل",
-            "قبل الاكل بساعة او بعد الاكل بساعتين"
+            "مع كأس ماء كبير كامل", // Added this line
+            "قبل الاكل بساعة او بعد الاكل بساعتين",
+            "تجنب الاستلقاء مباشرة بعد أخذ الكبسولة." // Added this line
           ]
         }
       }
-    ]
-,    
+    ], 
     reviews: [
       {
         id: 1,
@@ -279,18 +281,20 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Dosage",
-          ar: ""
+          ar: "الجرعة"
         },
         infoArray: {
           en: [
             "Mild to moderate cases: Take one sachet in the morning and one in the evening.",
             "Advanced cases: Take two sachets in the morning and two in the evening.",
-            "Preferably taken before meals."
+            "Preferably taken before meals.",
+            "In case of concomitant use of antibiotics, separate the dose of the antibiotic by four hours from the UtiTic dose." // Added this line in English
           ],
           ar: [
             "يستخدم في الحالات الخفيفة او المتوسطة ظرف واحد صباحا و ظرف واحد مساءًا",
             "للحالات المتقدمة ظرفين صباحا و ظرفين مساءًا",
-            "يفضل اخذها قبل الأكل"
+            "يفضل اخذها قبل الأكل",
+            "في حال الاستخدام المتوازي للمضاد الحيوي في نفس فترة استخدام يوتيتك، يرجى فصل اربع ساعات بين جرعة المضاد الحيوي و جرعة يوتيتك." // Added this line in Arabic
           ]
         }
       }

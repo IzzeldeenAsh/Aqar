@@ -39,7 +39,7 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Uses",
+          en: "Features", // Changed from "Uses" to "Features"
           ar: "الميزات",
         },
         infoArray: {
@@ -48,12 +48,12 @@ const product_data: IProductData[] = [
             "Very Water-resistant",
             "Natural tint to match all skin colors",
             "Restore cell structure after Sun-induced DNA damage",
-          
+            "Paraben-free", // Added "Paraben-free"
           ],
           ar: [
             "الوحيد المرخص الكوري",
             "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
-            "خالي من البرابين و مدعم بالفيتامينات لتغذية البشرة",
+            "خالي من البرابين مزود بالهيالورونيك اسيد و زبدة الشيا", // Updated point 3 and 4
             "على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
             "مقاوم للماء و التعرق",
             "لا يحتوي على فاونديشين و يكتسب لونه من حجر الميكا الطبيعي",
@@ -69,11 +69,11 @@ const product_data: IProductData[] = [
           en: [
             "Ferment lysate",
             "Mica mineral powder",
-            "Chemical and physical filters"
+            "Chemical and physical filters",
+            "Hyaluronic acid", // Added hyaluronic acid
+            "Shea butter" // Added shea butter
           ],
-          ar: [
-          
-          ],
+          ar: [],
         }
       },
       {
@@ -138,7 +138,8 @@ const product_data: IProductData[] = [
             "Before going out, put a layer on skin. Once daily.",
           ],
           ar: [
-            "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
+            "يوضع قبل التعرض للشمس", // Removed "بربع ساعة إلى نصف ساعة"
+            "ليس بحاجة للتجديد خلال النهار", // Updated instruction
           ],
         }
       }
@@ -192,7 +193,7 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Uses",
+          en: "Features", // Changed from "Uses" to "Features"
           ar: "الميزات",
         },
         infoArray: {
@@ -200,31 +201,30 @@ const product_data: IProductData[] = [
             "Oily skin sunscreen",
             "Very Water-resistant",
             "Supported with vitamins and minerals",
-            "Restore cell structure after Sun-induced DNA damage"
+            "Restore cell structure after Sun-induced DNA damage",
+            "Light texture" // Added "Light texture"
           ],
           ar: [
             "الوحيد المرخص الكوري",
-            "   الوحيد في استخدام تكنولوجيا محاليل الخمائر لبناء جدار البشرة والترطيب العميق"  ,
-            "مدعم بالفيتامينات  بالفيتامينات لتغذية البشرة وخالي من البرابين",
+            "الوحيد في استخدام تكنولوجيا محاليل الخمائر لبناء جدار البشرة والترطيب العميق",
+            "مدعم بنياسيناميد و بانثينول لتغذية البشرة وخالي من البرابين", // Replaced vitamins with "نياسيناميد و بانثينول"
             "على عكس واقيات الشمس المعتادة, يجدد كل 4 ساعات و ليس كل ساعتين.",
-            "مقاوم للماء والتعرق و ذو قوام خفيف",
+            "مقاوم للماء والتعرق و ذو قوام خفيف", // Already mentions light texture in Arabic
           ],
         }
       },
       {
         title: {
-          en: "Main Ingredients:",
+          en: "Main Ingredients",
           ar: "",
         },
         infoArray: {
           en: [
             "Ferment lysate",
-          "Mica mineral powder",
-        "Chemical and physical filters",
+            "Niacinamide", // Replaced Mica with "Niacinamide"
+            "Panthenol", // Replaced chemical filters with "Panthenol"
           ],
-          ar: [
-
-          ],
+          ar: [],
         }
       },
       {
@@ -289,7 +289,8 @@ const product_data: IProductData[] = [
             "Before half an hour of going out, put a layer on skin. Repeated every 4 hours on sun exposure."
           ],
           ar: [
-            "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
+            "يوضع قبل التعرض للشمس", // Removed "بربع إلى نصف ساعة"
+            "يتم تكرار التجديد كل 4 ساعات عند التعرض للشمس", // Updated to match the English version
           ],
         }
       }
@@ -343,7 +344,7 @@ const product_data: IProductData[] = [
     productInfoList: [
       {
         title: {
-          en: "Key Features",
+          en: "Key Features", // Changed from "Features" to "Key Features"
           ar: "الميزات",
         },
         infoArray: {
@@ -354,15 +355,17 @@ const product_data: IProductData[] = [
             "Ferment lysate",
             "Gemstones and diamond",
             "Chemical and physical filters",
-            "Shea butter and hyaluronic acid"
+            "Shea butter and hyaluronic acid",
+            "Silky smooth finish to the skin" // Added "silky smooth finish"
           ],
           ar: [
             "الوحيد المرخص الكوري",
             "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
-            " الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و عالج العديد من مشاكل البشرة و إضفاء الوهج عليها",
-            "خالي من البرابين و مزود بالهايالرونيك أسيد و زبدة الشيا",
+            "الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و علاج العديد من مشاكل البشرة و إضفاء الوهج عليها", // Changed from "عالج" to "علاج"
+            "خالي من البرابين و مزود بزبدة الشيا", // Removed "الهايالرونيك أسيد"
             "على عكس واقيات الشمس المعتادة, ليس بحاجة لأن يجدد كل ساعتين. تكتفي البشرة بمرة واحدة يوميا لاحتواؤه على الفالتر الفيزيائية و خاصية مقاومة الماء و التعرق فيوفر حماية طويلة و لحماية قصوى تم إضافة فالتر كيميائية",
             "مقاوم للماء و التعرق",
+            "يضفي ملمس حريري ناعم للبشرة" // Added this point in Arabic
           ],
         }
       },
@@ -425,10 +428,10 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Before going out, put a layer on skin. Once daily.",
+            "Before going out, put a layer on skin. Once daily.", // Kept "Once daily"
           ],
           ar: [
-            "يوضع قبل التعرض للشمس بربع إلى نصف ساعة",
+            "يوضع قبل التعرض للشمس", // Removed "بربع إلى نصف ساعة"
           ],
         }
       }
@@ -503,19 +506,21 @@ const product_data: IProductData[] = [
             "Pore tightening",
             "Lessen sebum secretion",
             "Lessen hyperpigmentation",
+            "Brightens and moisturizes skin" // Added "Brightens and moisturizes skin"
           ],
           ar: [
             "ينظف البشرة ويخلصها من الإفرازات الدهنية.",
             "يكسب البشرة الترطيب والنضارة.",
             "يضيق المسام الواسعة.",
             "يقلل من الحبوب.",
+            "يقلل من تصبغات البشرة" // Added "يقلل من تصبغات البشرة"
           ],
         }
       },
       {
         title: {
-          en: "Active ",
-          ar: "المكونات ",
+          en: "Active",
+          ar: "المكونات",
         },
         infoArray: {
           en: [
@@ -608,7 +613,7 @@ const product_data: IProductData[] = [
             "مضاد شيخوخة البشرة",
             "يحسن ملمس البشرة ويقلل من مظهر الندب و المسامات",
             "يقلل من التجاعيد من خلال تحفيز تجديد خلايا البشرة",
-"مضاد أكسدة و يقلل من االفراز الدهني ف يقلل من ظهورالحبوب",
+            "مضاد أكسدة و يقلل من الإفراز الدهني فيقلل من ظهور الحبوب", // Corrected spelling of "الإفراز"
             "يقلل من التصبغات من خلال تثبيط عمل انزيم المصنع للميلانين",
           ],
         }
@@ -630,7 +635,7 @@ const product_data: IProductData[] = [
             "Hydrolyzed Collagen 0.2%",
             "Hyaluronic Acid 0.2%",
             "Witch Hazel 0.2% - ",
-            "يعمل كقابض للمسامات ومضاد أكسدة"
+            "يعمل كقابض للمسامات ومضاد أكسدة",
           ],
         }
       },
@@ -645,14 +650,18 @@ const product_data: IProductData[] = [
             "After two weeks, increase to three times a week.",
             "After a month, it can be used daily.",
             "Adjust usage frequency based on your skin's tolerance to retinol and desired results.",
-            "** Not suitable for pregnant or breastfeeding women.",
+            "Not suitable for pregnant or breastfeeding women.",
+            "Wash well before exposure to sunlight.", // Added this line in English
+            "Expect results after the first month of use." // Added this line in English
           ],
           ar: [
-           "في أول اسبوعين ضرورة استخدامه بعد التغسيل بنصف ساعة قبل النوم مرتين اسبوعيا فقط",
+            "في أول اسبوعين ضرورة استخدامه بعد التغسيل بنصف ساعة قبل النوم مرتين اسبوعيا فقط",
             "بعد الأسبوعين، يستخدم ثلاث مرات أسبوعياً.",
             "عند انتهاء مدة الشهر، يمكن استخدامه يومياً.",
-        "يمكن التدرج بالاستخدام الأقل أو الأكثر حسب تقبل البشرة للريتينول و النتيجة المرادة",
-            "** يمنع استخدامه من قبل الحوامل والمرضعات.",
+            "يمكن التدرج بالاستخدام الأقل أو الأكثر حسب تقبل البشرة للريتينول و النتيجة المرادة",
+            " يمنع استخدامه من قبل الحوامل والمرضعات.",
+            "يجب غسله جيدًا قبل التعرض لأشعة الشمس.", // Added this line in Arabic
+            "يتوقع ظهور النتائج بعد الشهر الأول من الاستخدام." // Added this line in Arabic
           ],
         }
       }
@@ -1388,11 +1397,11 @@ const product_data: IProductData[] = [
         infoArray: {
           en: [
             "Get fairer skin in the intimate areas safely",
-            "Improve skin texture and a moisturizer"
+            "Improve skin texture and a moisturizer",
           ],
           ar: [
             "تفتيح سواد بشرة المناطق الحساسة",
-            "ترطيب و تحسين نوعية الجلد في المناطق الحساسة"
+            "ترطيب و تحسين نوعية الجلد في المناطق الحساسة",
           ],
         }
       },
@@ -1406,17 +1415,16 @@ const product_data: IProductData[] = [
             "Beta Arbutin ........ 0.1% - Whitening",
             "Niacinamide (b3) ...... 1% - Promotes skin regeneration and fades pigmentation",
             "Rosemary Extract",
-            "Vitamin C and Vitamin E"
+            "Vitamin C and Vitamin E",
           ],
           ar: [
             "B-Arbutin - وقف عملية التصبغ و العمل على تفتيح البشرة",
             "Niacinamide (b3) - مضاد أكسدة و المساعدة على تجديد خلايا البشرة و تفتيحها",
             "خلاصة اكليل الجبل - و يعمل كمضاد للالتهابات و لبشرة ناعمة",
-            "Vitamin C and E - ترطيب البشرة و إشراقها و تفتيحها و مضادات أكسدة"
+            "Vitamin C and E - ترطيب البشرة و إشراقها و تفتيحها و مضادات أكسدة",
           ],
         }
       },
-      
       {
         title: {
           en: "Dosage and how to take",
@@ -1424,11 +1432,13 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Apply two to three drops on the desired area"
+            "Apply two to three drops on the desired area",
+            "Expected results after one month of daily use." // Added the expected results line in English
           ],
           ar: [
             "ضعي كمية مناسبة و دلكيها على البشرة",
-            "مناسب للمناطق الحساسة جميعها و الأكواع و الركب"
+            "مناسب للمناطق الحساسة جميعها و الأكواع و الركب",
+            "يتوقع الحصول على النتائج بعد الشهر الأول من الاستخدام المنتظم اليومي" // Added the expected results line in Arabic
           ],
         }
       }
