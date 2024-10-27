@@ -125,7 +125,7 @@ const ShopDetailsBox = ({ product, navStyle, topThumb }) => {
       )}
     </div>
     <div className="product__details-payment text-center">
-    <span className="text-primary">Order Now!</span>
+    <span className="text-primary">{activeLocale ==='en' ? "For further information" : "للمزيد من المعلومات"}</span>
                <div>
                +962 77 523 00 11
                </div>

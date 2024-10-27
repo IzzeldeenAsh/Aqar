@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { El_Messiri, Poppins, Readex_Pro, Tajawal } from "next/font/google";
 import { IBM_Plex_Sans_Arabic } from "next/font/google";
 import { Providers } from "@/redux/provider";
 import "./global.scss";
@@ -27,6 +27,11 @@ const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
   subsets: ["arabic"],
   variable: "--tp-ff-ibm-arabic",
 });
+const tajawal = Tajawal({ // Define Tajawal
+  weight: ["400", "500", "800", "700"],
+  subsets: ["arabic"],
+  variable: "--tp-ff-tajawal",
+});
 
 export const metadata: Metadata = {
   title: "Aqar - Drugs Store",
@@ -40,12 +45,11 @@ export default function RootLayout({
 }) {
   const lang = "ar"; // Dynamically set this as needed
 
+  
   return (
     <html lang={lang}>
       <body
-        className={`${lang === "ar" ? ibmPlexSansArabic.variable : ""} ${
-          body.variable
-        } ${poppins_p.variable} ${poppins_ff.variable}`}
+        className={`${lang === "ar" ? ibmPlexSansArabic.variable : ""} ${body.variable} ${tajawal.variable} ${tajawal.variable}`}
       >
         <Providers>{children}</Providers>
       </body>

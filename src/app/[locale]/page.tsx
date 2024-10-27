@@ -6,6 +6,7 @@ import AllProducts from "@/components/product/home/all-products";
 import FeatureArea from "@/components/feature/feature-area";
 import AboutAreaFour from "@/components/about/about-area-4";
 import ContactUs from "@/components/contactUs/ContactUs"
+import HeroAqar from "@/components/hero/hero-aqar"
 export const metadata: Metadata = {
   title: "Aqar - Drugs Store"
 };
@@ -17,7 +18,7 @@ export default function HomePage() {
       {/* header end */}
 
       <main>
-      
+      <HeroAqar/>
         
         <div id="dehanso" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea   />
@@ -30,10 +31,7 @@ export default function HomePage() {
        
       </main>
 
-      <div id="about" >
-        <AboutAreaFour />
-      </div>
-        
+
 
       <div id="contact">
       <ContactUs/>

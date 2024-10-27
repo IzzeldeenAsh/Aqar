@@ -112,7 +112,7 @@ const ContactUs = () => {
       },
       email: {
         title: "Email",
-        subtitle: "gm@aqardrug.com"
+        subtitle: "Info@aqardrug.com"
       }
     },
     ar: {
@@ -128,7 +128,7 @@ const ContactUs = () => {
       },
       email: {
         title: "البريد الإلكتروني",
-        subtitle: "gm@aqardrug.com"
+        subtitle: "Info@aqardrug.com"
       }
     }
   };
