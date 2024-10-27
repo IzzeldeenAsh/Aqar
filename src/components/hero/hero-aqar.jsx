@@ -61,11 +61,11 @@ const HeroAqar = () => {
 <path d="M136.294 139.081L75.9106 242.529H192.652L136.294 139.081Z" fill="url(#paint1_linear_51_4)"/>
 <defs>
 <linearGradient id="paint0_linear_51_4" x1="53.0166" y1="-22.2603" x2="308.462" y2="141.767" gradientUnits="userSpaceOnUse">
-<stop stop-color="#CAE9FB" stop-opacity="0"/>
+<stop stop-color="#CAE9FB" stopOpacity="0"/>
 <stop offset="1" stop-color="#6ACBF3"/>
 </linearGradient>
 <linearGradient id="paint1_linear_51_4" x1="134.295" y1="279.618" x2="134.295" y2="161.83" gradientUnits="userSpaceOnUse">
-<stop stop-color="#CAE9FB" stop-opacity="0"/>
+<stop stop-color="#CAE9FB" stopOpacity="0"/>
 <stop offset="1" stop-color="#6ACBF3"/>
 </linearGradient>
 </defs>
@@ -77,11 +77,11 @@ const HeroAqar = () => {
 <path d="M96.9201 101.852L51.4189 179.749H139.388L96.9201 101.852Z" fill="url(#paint1_linear_52_3)"/>
 <defs>
 <linearGradient id="paint0_linear_52_3" x1="34.1678" y1="-19.6381" x2="226.576" y2="103.999" gradientUnits="userSpaceOnUse">
-<stop stop-color="#CAE9FB" stop-opacity="0"/>
+<stop stop-color="#CAE9FB" stopOpacity="0"/>
 <stop offset="1" stop-color="#6ACBF3"/>
 </linearGradient>
 <linearGradient id="paint1_linear_52_3" x1="95.4138" y1="207.677" x2="95.4138" y2="118.982" gradientUnits="userSpaceOnUse">
-<stop stop-color="#CAE9FB" stop-opacity="0"/>
+<stop stop-color="#CAE9FB" stopOpacity="0"/>
 <stop offset="1" stop-color="#6ACBF3"/>
 </linearGradient>
 </defs>
