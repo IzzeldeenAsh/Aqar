@@ -15,7 +15,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: 'aqardrug@zohomail.com',
-      to: 'gm@aqardrug.com',
+      to: 'Info@aqardrug.com',
       subject: `New Contact Us Message from ${name}`,
       html: `
         <h3>Contact Details</h3>
