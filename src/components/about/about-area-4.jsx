@@ -1,9 +1,6 @@
 'use client'
 import React from 'react';
-import Image from 'next/image';
-import about_inner from '@/assets/img/banner/about-inner-bg.png';
-import shape_1 from '@/assets/img/shape/tree-leaf-6.png';
-import shape_2 from '@/assets/img/shape/tree-leaf-7.png';
+
 import { usePathname } from 'next/navigation';
 
 const AboutAreaFour = () => {

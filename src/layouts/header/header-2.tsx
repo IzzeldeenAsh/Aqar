@@ -8,7 +8,6 @@ import logo from '@/assets/img/logo/logoSVG.svg';
 import cart_icon from '@/assets/img/icon/cart-1.svg';
 import useSticky from '@/hooks/use-sticky';
 import SearchPopup from '@/components/common/modal/search-popup';
-import CartSidebar from '@/components/sidebar/cart-sidebar';
 import useCartInfo from '@/hooks/use-cart-info';
 import MobileSidebar from '@/components/sidebar/mobile-sidebar';
 import { usePathname } from 'next/navigation';
@@ -124,7 +123,7 @@ const HeaderTwo = () => {
          {/*  mobile-menu-area-end  */}
 
          {/* cart sidebar start */}
-         <CartSidebar isCartSidebarOpen={isCartOpen} setIsCartSidebarOpen={setIsCartOpen}/>
+        
          {/* cart sidebar end */}
 
          {/* mobile-menu start */}
