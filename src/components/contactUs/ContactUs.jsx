@@ -101,7 +101,7 @@ const ContactUs = () => {
   const contactDetails = {
     en: {
       title: "Contact Us",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      description: "Contact us to find the nearest sales point to you.",
       address: {
         title: "Address",
         subtitle: "Amman Shafa Badran"
@@ -117,7 +117,7 @@ const ContactUs = () => {
     },
     ar: {
       title: "اتصل بنا",
-      description: "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى.",
+      description: "تواصل معنا لتعرف اقرب نقطة مبيعات قريبة منك",
       address: {
         title: "العنوان",
         subtitle: "عمان , شفا بدران"
@@ -140,6 +140,7 @@ const ContactUs = () => {
       <Notifications />
       <section className="contact-us-section text-center pt-70 pb-70" style={{ backgroundColor: "#F2F2F6" }}>
         <h1 className='ibx-font' style={{ fontSize: "50px", fontWeight: "900" }}>{currentContent.title}</h1>
+        <h4 className='ibx-font pb-10'>{currentContent.description}</h4>
         <Container size="md" className="my-4">
           <form onSubmit={handleSubmit} className='contactForm'>
             <div className="d-flex flex-column flex-md-row gap-5 mb-4 justify-content-between ">
