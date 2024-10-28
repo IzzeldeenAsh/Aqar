@@ -93,14 +93,14 @@ const HeroAqar = () => {
         <div className="d-flex flex-wrap">
   <div className=" img-container position-relative img-container-1">
 
-    <Link href={"/#dehanso"}><div className="overlay-button"  style={{backgroundColor:"#308fca6c"}}> {activeLocale =='ar' ? "مستحضرات التجميل" : "COSMETICS"}</div></Link>
+    <Link href={activeLocale ==='ar' ? "/ar/#dehanso" : "/en/#dehanso"}><div className="overlay-button"  style={{backgroundColor:"#308fca6c"}}> {activeLocale =='ar' ? "مستحضرات التجميل" : "COSMETICS"}</div></Link>
   </div>
   <div className=" img-container img-container-2">
   
-  <Link href={"/#suppliments"}><div className="overlay-button"  style={{backgroundColor:"#2377ac6c"}}> {activeLocale =='ar' ? " المكملات الغذائية" : "SUPPLEMENTS"}</div></Link> 
+  <Link href={activeLocale ==='ar' ? "/ar/#suppliments" : "/en/#suppliments"}><div className="overlay-button"  style={{backgroundColor:"#2377ac6c"}}> {activeLocale =='ar' ? " المكملات الغذائية" : "SUPPLEMENTS"}</div></Link> 
   </div>
   <div className=" img-container  img-container-3">
-  <Link href={"/#contact"}>  <div className="overlay-button"  style={{backgroundColor:"#165eb757"}}> {activeLocale =='ar' ? " تواصل معنا" : "CONTACT US"}</div></Link>
+  <Link href={activeLocale ==='ar' ? "/ar/#contact" : "/en/#contact"}>  <div className="overlay-button"  style={{backgroundColor:"#165eb757"}}> {activeLocale =='ar' ? " تواصل معنا" : "CONTACT US"}</div></Link>
   
   </div>
 </div>
