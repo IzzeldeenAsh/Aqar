@@ -12,20 +12,18 @@ const HeroAqar = () => {
     en: {
       h3: "Aqar Drugs Store",
       li: [
-        "Exclusive Agents Distributors of Health care products and Cosmeceuticals since 2021.",
+        "Exclusive Agents And Distributors of Health care products and Cosmeceuticals since 2021.",
         "We truly care about your health and we make beauty easy.",
         "Our mission is to bring unique healthcare products.",
-        "You will find our products at most of the sales points; pharmacies and cosmetics shops.",
         "Located in Jordan."
       ]
     },
     ar: {
       h3: "مستودع أدويه العقار",
       li: [
-        "وكلاء حصريون وموزعو منتجات الرعاية الصحية ومستحضرات التجميل منذ عام 2021.",
+        "وكلاء حصريون وموزعون منتجات الرعاية الصحية ومستحضرات التجميل منذ عام 2021.",
         "نحن نهتم حقًا بصحتك ونجعل الجمال سهلًا.",
         "مهمتنا هي تقديم منتجات رعاية صحية فريدة.",
-        "ستجد منتجاتنا في معظم نقاط البيع؛ الصيدليات ومحلات التجميل.",
         "متواجدون في الاردن."
       ]
     }

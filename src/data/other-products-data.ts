@@ -11,7 +11,7 @@ const product_data: IProductData[] = [
     image: {
       id: 1,
       original:        "/assets/img/product/new/other-img-1.jpg",
-      thumbnail: "/assets/img/product/others/other-img-1-thumb.jpg",
+      thumbnail: "/assets/img/product/new/other-img-1-thumb.jpg",
     },
     category: {
       parent: '30 liquid capsules',
@@ -62,11 +62,11 @@ const product_data: IProductData[] = [
         infoArray: {
           en: [
             "1. Pregnant and lactating women.",
-            "2. Patients with gastric ulcers."
+            "2. Patients with gastric ulcers and GERD."
           ],
           ar: [
             "1. الحوامل أو المرضعات.",
-            "2. مرضى القرحة المعوية."
+            "2. مرضى القرحة المعوية و الارتجاع المريئي."
           ]
         }
       },
@@ -80,7 +80,7 @@ const product_data: IProductData[] = [
             "For mild cases: One capsule when needed.",
             "For moderate to severe cases: One capsule twice or thrice daily as needed.",
             "Do not exceed three capsules daily.",
-            "Take the capsule with a full glass of water.", // Added this line
+            "Take the capsule with a full glass of water on empty stomach.", // Added this line
             "Avoid laying down immediately after the dose." // Added this line
           ],
           ar: [
@@ -137,7 +137,7 @@ const product_data: IProductData[] = [
       original:    "/assets/img/product/new/other-img-3-thumb.jpg",
     },
     category: {
-      parent: '30 Opadry red tablets',
+      parent: '30  tablets',
       child: '',
     },
     brand: "Super Market",
@@ -211,7 +211,7 @@ const product_data: IProductData[] = [
   {
     id: 323,
     sku: "007",
-    title: "Utitic 30 Sachets",
+    title: "Utitic® 30 Sachets",
     price: 45, // Set your price here
     sale_price: 40, // Set your sale price here
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668221/Group_27_3_r9ue63.png",
@@ -317,7 +317,7 @@ const product_data: IProductData[] = [
   {
     id: 12,
     sku: "008",
-    title: "Proserec 30 Caps",
+    title: "Proserec® 30 Caps",
     price: 50, // Set your price here
     sale_price: 45, // Set your sale price here
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668145/Group_34_4_jdbfni.png",
