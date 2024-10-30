@@ -96,11 +96,11 @@ const ProductSingle = ({product,progress,cls,offer_style,price_space}:IProps) =>
           </a>
         </div>
       </div>
-      <div className="tpproduct__content align-items-center">
+      <div className="tpproduct__content align-items-center"  style={{direction:"ltr"}}>
       {product.icon && <div>
       <Image src={product.icon} alt="product" width={62} height={62} />
     </div>}
-    <div className="d-flex flex-column justify-content-start">
+    <div className="d-flex flex-column justify-content-start" >
     <h4 className="tpproduct__title fw-bold ">
           <a onClick={() =>handleProductModal(product)}>{title}</a>
         </h4>

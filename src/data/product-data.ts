@@ -6,7 +6,7 @@ const product_data: IProductData[] = [
   {
     id: 8,
     sku: "004",
-    title: "DeHanso Sunblock Tinted Cream 50ml",
+    title: "DeHanso® Sunblock Tinted Cream 50ml",
     price: 35, // Set your price here
     sale_price: 32, // Set your sale price here
     image: {
@@ -62,7 +62,7 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Ingredients",
-          ar: "",
+          ar: "المكونات",
         },
         infoArray: {
           en: [
@@ -160,7 +160,7 @@ const product_data: IProductData[] = [
   {
     id: 10,
     sku: "005",
-    title: "DeHanso Sunblock Oily Skin 50ml",
+    title: "DeHanso® Sunblock Oily Skin 50ml",
     price: 32, // Set your price here
     sale_price: 29, // Set your sale price here
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667970/Group_34_3_p5jxqb.png",
@@ -310,7 +310,7 @@ const product_data: IProductData[] = [
   {
     id: 11,
     sku: "006",
-    title: "DeHanso Sunblock Dry Skin 50ml",
+    title: "DeHanso® Sunblock Dry Skin 50ml",
     price: 38, // Set your price here
     sale_price: 35, // Set your sale price here
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667970/Group_34_3_p5jxqb.png",
@@ -351,6 +351,23 @@ const product_data: IProductData[] = [
             "For dry skin sunscreen",
             "Energize skin with gemstones vibrational energy",
             "Restore cell structure after Sun DNA induced damage",
+          ],
+          ar: [
+            "الوحيد المرخص الكوري",
+            "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
+            "الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و علاج العديد من مشاكل البشرة و إضفاء الوهج عليها", // Changed from "عالج" to "علاج"
+           
+          ],
+        }
+      },
+      {
+        title: {
+          en: "Main Ingredients", // Changed from "Features" to "Key Features"
+          ar: "المكونات الرئيسية",
+        },
+        infoArray: {
+          en: [
+          
             "Ferment lysate",
             "Gemstones and diamond",
             "Chemical and physical filters",
@@ -358,9 +375,6 @@ const product_data: IProductData[] = [
             "Silky smooth finish to the skin" // Added "silky smooth finish"
           ],
           ar: [
-            "الوحيد المرخص الكوري",
-            "الوحيد في استخدام تكنولوجيا محاليل الخمائر التي تساعد في بناء جدار البشرة و الترطيب العميق",
-            "الوحيد في استخدام كريستالات الأحجار الكريمة و الألماس لتعطي خصائص طاقتها الذبذبية للبشرة و علاج العديد من مشاكل البشرة و إضفاء الوهج عليها", // Changed from "عالج" to "علاج"
             "خالي من البرابين و مزود بزبدة الشيا", // Removed "الهايالرونيك أسيد"
             "على عكس واقيات الشمس المعتادة, ليس بحاجة لأن يجدد كل ساعتين. تكتفي البشرة بمرة واحدة يوميا لاحتواؤه على الفالتر الفيزيائية و خاصية مقاومة الماء و التعرق فيوفر حماية طويلة و لحماية قصوى تم إضافة فالتر كيميائية",
             "مقاوم للماء و التعرق",
@@ -451,7 +465,7 @@ const product_data: IProductData[] = [
   {
     id: 13,
     sku: "009",
-    title: "DeHanso Charcoal Cleansing Foam",
+    title: "DeHanso® Charcoal Cleansing Foam",
     price: 20, // Set your price here
     sale_price: 18, // Set your sale price here
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668053/Group_27_2_v6nzjz.png",
@@ -566,7 +580,7 @@ const product_data: IProductData[] = [
   {
     id: 7,
     sku: "003",
-    title: "DeHanso Retinol 5 in 1 Cream",
+    title: "DeHanso® Retinol 5 in 1 Cream",
     price: 30, // Set your price here
     sale_price: 27, // Set your sale price here
     image: {
@@ -680,7 +694,7 @@ const product_data: IProductData[] = [
   {
     id: 6,
     sku: "006",
-    title: "DeHanso 1 minute white cream",
+    title: "DeHanso® 1 minute white cream",
     price: 35,
     sale_price: 30,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667726/Group_34_2_meo5fm.png",
@@ -793,7 +807,7 @@ const product_data: IProductData[] = [
   {
     id: 5,
     sku: "005",
-    title: "DeHanso Hyaluronic acid gel",
+    title: "DeHanso® Hyaluronic acid gel",
     price: 35,
     sale_price: 30,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667654/Group_35_2_mhgxbl.png",
@@ -905,22 +919,23 @@ const product_data: IProductData[] = [
   {
     id: 4,
     sku: "004",
-    title: "DeHanso Glycolic acid gel ",
+    title: "DeHanso® Glycolic acid gel ",
     price: 30,
     sale_price: 27,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667583/Group_34_1_nejum6.png",
     image: {
       id: 1,
-      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
+      thumbnail: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1730294661/dd16933a-bce5-40e6-8e44-933b245a1f47_tij8h5.jpg",
       original: "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
     },
     category: {
-      parent: '40 ml gel',
+      parent: '40 ml cream',
       child: '',
     },
     brand: "Super Market",
     gallery:[
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723823251/dehanso-img-4_akvgih.jpg",
+      "https://res.cloudinary.com/dsiku9ipv/image/upload/v1730294661/dd16933a-bce5-40e6-8e44-933b245a1f47_tij8h5.jpg",
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1723824830/dehanso-img-4-thumb_fizeio.jpg",
     ],
     quantity: 30,
@@ -973,15 +988,18 @@ const product_data: IProductData[] = [
       {
         title: {
           en: "Dosage and how to take",
-          ar: "طريقة الاستعمال",
+          ar: "الجرعة وكيفية الاستخدام",
         },
         infoArray: {
           en: [
-            "Apply two to three drops on your face and rub your face gently, keep for half an hour or the whole night depending on how your skin reacts to it. Then rinse thoroughly."
+          `The first week, use two times only for half an hour then rinse.
+          The second week apply two times at night and don't rinse.
+          After the first two weeks you can increase application until desirable results are seen.`
           ],
           ar: [
-            "ضعي كمية مناسبة و دلكيها على البشرة في المساء مرتان اسبوعيًا",
-            "غير مناسب للتعرض للشمس خلال وضعه"
+           `اول اسبوع من الاستخدام فقط يوضع نصف ساعة ثم يغسل.`,
+           ` الاسبوع الثاني يوضع يومين اسبوعيا ثم يغسل في الصباح.`,
+           " بعد الاسبوع الثاني تزيد ايام الاستخدام حسب النتائج المرجوة"
           ],
         }
       }
@@ -1009,7 +1027,7 @@ const product_data: IProductData[] = [
   {
     id: 3,
     sku: "003",
-    title: "DeHanso Collagen gel",
+    title: "DeHanso® Collagen gel",
     price: 25,
     sale_price: 24,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667516/Group_34_ynl3za.png",
@@ -1093,7 +1111,6 @@ const product_data: IProductData[] = [
         infoArray: {
           en: [
             "Apply two to three drops on your face, use circular movement",
-            "Apply an appropriate amount on the face"
           ],
           ar: [
             "ضعي كمية مناسبة ودلكيها بحركات دائرية على البشرة"
@@ -1125,7 +1142,7 @@ const product_data: IProductData[] = [
   {
     id: 1,
     sku: "001",
-    title: "DeHanso B tox cream",
+    title: "DeHanso® B tox cream",
     price: 20,
     sale_price: 18,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667403/Group_35_fyyqlb.png",
@@ -1208,7 +1225,7 @@ const product_data: IProductData[] = [
             "Apply sunscreen if you will be exposed to sun"
           ],
           ar: [
-            "ضعي قطرات قليلة ودلكيها على البشرة بحركات دائرية",
+            "ضعي كمية قليلة ودلكيها على البشرة بحركات دائرية",
             "استخدمي واقي الشمس إذا كنت ستتعرضين لأشعة الشمس"
           ],
         }
@@ -1246,7 +1263,7 @@ const product_data: IProductData[] = [
   {
     id: 2,
     sku: "002",
-    title: "DeHanso Ultra hyaluron 8% eye cream",
+    title: "DeHanso® Ultra hyaluron 8% eye cream",
     price: 25,
     sale_price: 22,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667466/Group_35_1_brwxhb.png",
@@ -1319,7 +1336,7 @@ const product_data: IProductData[] = [
         },
         infoArray: {
           en: [
-            "Apply two to three drops on your face",
+            "Apply under and around eyes",
             "Apply sunscreen if you will be exposed to the sun"
           ],
           ar: [

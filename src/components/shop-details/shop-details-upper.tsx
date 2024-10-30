@@ -29,7 +29,7 @@ const ShopDetailsUpper = ({ product, navStyle, topThumb, onClose }: IProps) => {
       </button>
 
       <div className="tpdetails__title-box">
-        <h3 className="tpdetails__title">{product.title}</h3>
+        <h3 className="tpdetails__title" >{product.title}</h3>
         <span className="tpproduct__content-weight">
           {product.category.parent && <div>{product.category.parent}</div>}
         </span>
