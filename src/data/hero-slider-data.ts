@@ -74,7 +74,7 @@ export const hero_slider_two_data = [
       "ar": "DeHanso"
     },
     sm_desc: {
-       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+       "en": "DeHanso Glycolic acid cream <br>40 ml gel",
       "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
     bg_img: '/assets/img/slider/slider-bg-2.png',
@@ -128,7 +128,7 @@ export const hero_slider_three_data = [
       "ar": "DeHanso"
     },
     sm_desc: {
-       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+       "en": "DeHanso Glycolic acid cream <br>40 ml gel",
       "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
     bg_img: '/assets/img/slider/slider-bg-2.png',
@@ -182,7 +182,7 @@ export const hero_slider_five_data = [
       "ar": "DeHanso"
     },
     sm_desc: {
-       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+       "en": "DeHanso Glycolic acid cream <br>40 ml gel",
       "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
     bg_img: '/assets/img/slider/slider-bg-2.png',
@@ -236,7 +236,7 @@ export const hero_slider_six_data = [
       "ar": "DeHanso"
     },
     sm_desc: {
-       "en": "DeHanso Glycolic acid gel <br>40 ml gel",
+       "en": "DeHanso Glycolic acid cream <br>40 ml gel",
       "ar": "جل حمض الجليكوليك من دي هانسو <br>40 ml gel"
     },
     bg_img: '/assets/img/slider/slider-bg-2.png',
