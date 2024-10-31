@@ -376,7 +376,7 @@ const product_data: IProductData[] = [
           ],
           ar: [
             "خالي من البرابين و مزود بزبدة الشيا", // Removed "الهايالرونيك أسيد"
-            "على عكس واقيات الشمس المعتادة, ليس بحاجة لأن يجدد كل ساعتين. تكتفي البشرة بمرة واحدة يوميا لاحتواؤه على الفالتر الفيزيائية و خاصية مقاومة الماء و التعرق فيوفر حماية طويلة و لحماية قصوى تم إضافة فالتر كيميائية",
+            "على عكس واقيات الشمس المعتادة, ليس بحاجة لأن يجدد كل ساعتين. تكتفي البشرة بمرة واحدة يوميا لاحتواؤه على الفلاتر الفيزيائية و خاصية مقاومة الماء و التعرق فيوفر حماية طويلة و لحماية قصوى تم إضافة فلاتر كيميائية",
             "مقاوم للماء و التعرق",
             "يضفي ملمس حريري ناعم للبشرة" // Added this point in Arabic
           ],
@@ -475,12 +475,12 @@ const product_data: IProductData[] = [
       thumbnail:   "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/6_yjmahj.webp",
     },
     category: {
-      parent: '150 ml cleanser',
+      parent: '180 ml cleanser',
       child: '',
     },
     brand: "DeHanso",
     quantity: 80, // Set your available quantity
-    unit: '150ml',
+    unit: '180ml',
     gallery: [
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/5_ryrpit.webp",
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727242471/6_yjmahj.webp",
@@ -488,7 +488,7 @@ const product_data: IProductData[] = [
     description: "DeHanso Charcoal Cleansing Foam is designed for oily and combination skin types. It cleanses, hydrates, tightens pores, and reduces acne using activated charcoal, tea tree oil, and aloe vera.",
     videoId: null,
     additionalInfo: [
-      { key: "Volume", value: "150ml" },
+      { key: "Volume", value: "180ml" },
       { key: "Skin Type", value: "Oily and Combination" },
       { key: "Active Ingredients", value: "Activated Charcoal, Tea Tree Oil, Aloe Vera" },
       { key: "Usage Instructions", value: "Use daily. Apply a small amount to damp skin, gently massage, and rinse well with water." },
@@ -919,7 +919,7 @@ const product_data: IProductData[] = [
   {
     id: 4,
     sku: "004",
-    title: "DeHanso® Glycolic acid gel ",
+    title: "DeHanso® Glycolic acid cream ",
     price: 30,
     sale_price: 27,
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727667583/Group_34_1_nejum6.png",

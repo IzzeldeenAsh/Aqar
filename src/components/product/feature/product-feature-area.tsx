@@ -63,7 +63,7 @@ const ProductFeatureArea = ({style_2=false}: IProps) => {
                               <span className="tpfeature__product-info">{activeLocale === 'ar' ?  "تهدئة وترطيب البشرة" : "Skin soothing and moisturizing"}</span>
                             </div>
                             <div className="tpfeature__product-item mb-25">
-                              <h4 className="tpfeature__product-title">DeHanso Glycolic acid gel:</h4>
+                              <h4 className="tpfeature__product-title">DeHanso Glycolic acid cream:</h4>
                               <span className="tpfeature__product-info">{activeLocale==='ar' ? "تقشير البشرة وإعادة تجديدها" : "Improve skin regeneration"}</span>
                             </div>
                            

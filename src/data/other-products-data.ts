@@ -211,7 +211,7 @@ const product_data: IProductData[] = [
   {
     id: 323,
     sku: "007",
-    title: "Utitic® 30 Sachets",
+    title: "UtiTic® 30 Sachets",
     price: 45, // Set your price here
     sale_price: 40, // Set your sale price here
     icon:"https://res.cloudinary.com/dsiku9ipv/image/upload/v1727668221/Group_27_3_r9ue63.png",
@@ -224,14 +224,14 @@ const product_data: IProductData[] = [
       parent: '30 sachets',
       child: '',
     },
-    brand: "Utitic",
+    brand: "UtiTic",
     quantity: 60, // Set your available quantity
     unit: '30 sachets',
     gallery: [
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/9_yw2pvp.webp",
       "https://res.cloudinary.com/dsiku9ipv/image/upload/v1727241646/10_u2lahd.webp",
     ],
-    description: "Utitic 30 Sachets are designed to help relieve symptoms of urinary tract infections (UTIs), suitable for a wide range of individuals including diabetics, pregnant women, and more. Contains cranberry extract, probiotics, and mannose for optimal effectiveness.",
+    description: "UtiTic 30 Sachets are designed to help relieve symptoms of urinary tract infections (UTIs), suitable for a wide range of individuals including diabetics, pregnant women, and more. Contains cranberry extract, probiotics, and mannose for optimal effectiveness.",
     videoId: null,
     additionalInfo: [
       { key: "Quantity", value: "30 Sachets" },
