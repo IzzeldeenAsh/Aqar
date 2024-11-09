@@ -34,7 +34,7 @@ const HeroAqar = () => {
     <>
       <section style={activeLocale ==='ar' ? {direction:"rtl"} : {direction:"ltr"}}>
         <div className="hero-aqar pt-50 pb-20">
-        <div className=" container d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center  justify-content-md-between align-items-center align-items-sm-center">
+        <div  className=" container d-flex flex-sm-row flex-column flex-wrap gap-3 justify-content-center  justify-content-md-between align-items-center align-items-sm-center">
                   <div className="about-info">
                     <div className="title">
                       {activeLocale =='ar' ? "مستودع أدوية عقار " : " Aqar Drug Store"}
@@ -45,7 +45,7 @@ const HeroAqar = () => {
                     <div className="pt-20 tpabout__inner-list">
                         <ul >
                            {localeContent.li.map((item, index) => (
-                              <li key={index}><i  style={activeLocale ==='ar' ? {right:"0"} : {left:"0"}} className="icon-check"></i> <span className=' ibx-font'>{item}</span></li>
+                              <li className="py-2 fs-5" key={index}><i  style={activeLocale ==='ar' ? {right:"0"} : {left:"0"}} className="icon-check"></i> <span className=' ibx-font'>{item}</span></li>
                            ))}
                         </ul>
                      </div>
@@ -88,7 +88,8 @@ const HeroAqar = () => {
                     </div>
               </div>
         </div>
-        <div className="d-flex flex-wrap">
+        <div id="sections" className="w-100 empty" style={{padding:"20px 5px", minHeight:"120px" , width:"100%"}}></div>
+        <div className="d-flex flex-wrap" >
   <div className=" img-container position-relative img-container-1">
 
     <Link href={activeLocale ==='ar' ? "/ar/#dehanso" : "/en/#dehanso"}><div className="overlay-button"  style={{backgroundColor:"#308fca6c"}}> {activeLocale =='ar' ? "مستحضرات التجميل" : "COSMETICS"}</div></Link>

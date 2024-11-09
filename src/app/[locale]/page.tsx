@@ -7,10 +7,13 @@ import FeatureArea from "@/components/feature/feature-area";
 import AboutAreaFour from "@/components/about/about-area-4";
 import ContactUs from "@/components/contactUs/ContactUs"
 import HeroAqar from "@/components/hero/hero-aqar"
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 export const metadata: Metadata = {
   title: "Aqar - Drugs Store"
 };
 export default function HomePage() {
+
   return (
     <Wrapper>
       {/* header start */}
@@ -19,7 +22,7 @@ export default function HomePage() {
 
       <main>
       <HeroAqar/>
-        
+    
         <div id="dehanso" style={{overflow:"hidden" , maxWidth:"100%"}}>
         <ProductArea   />
         </div>
