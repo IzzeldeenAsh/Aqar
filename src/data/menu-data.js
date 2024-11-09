@@ -7,8 +7,8 @@ const menu_data = [
       en: 'Products'
     },
     link: {
-      ar: '/ar',
-      en: '/'
+      ar: '/ar/#sections',
+      en: '/#sections'
     },
     has_dropdown: false,
   },
